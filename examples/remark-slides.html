@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How To: remark – Shane's Example Slides</title>
+    <meta name="description" property="og:description" content="Comparative review of slide deck tools using markdown/basic text sources.">
+    <meta name="author" content="Shane Curcuru">
+    <meta property="og:url" content="https://shanecurcuru.github.io/slides/">
+    <meta property="og:image" content="../img/bio-photo.jpg">
+    <meta property="og:type" content="article">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <!-- Global presentation styles by Shane -->
+    <link rel="stylesheet" href="remark-styles.css">
+    <!-- Font choices per presentation file -->
+    <!-- Google Font Pairings Ideas
+    Bree+Serif Open+Sans
+    Bevan Pontano+Sans
+    Abril+Fatface Average
+    Istok+Web Lora
+    Pacifico Arimo
+    Nixie+One Ledger
+    Rancho Gudea
+    Lobster Cabin
+    Lobster Arimo
+    Playfair+Display Fauna+One
+    Bree+Serif Lora
+    Nixie+One Libre+Baskerville
+    Pacifico Arimo
+    Signika Open+Sans
+    Oswald Droid+Sans
+    Francois+One Open+Sans
+    Montserrat Istok+Web
+    Ovo Muli
+    monospace: Ubuntu+Mono
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Istok+Web" >
+    <style type="text/css">
+      body {
+        font-family: 'Istok+Web', sans-serif;
+        line-height: 1.2; /* 1.2 for Istok+Web */
+      }
+      h1, h2, h3 {
+        font-family: 'Montserrat', monospace;
+        font-weight: bold;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+      layout: true
+      name: conflogo
+      class: inverse
+      background-image: url(logo-corner.png)
+      background-repeat: no-repeat
+      background-position: right top
+      background-size: 20%
+      background-origin: padding-box
+      ---
+      template: conflogo
+      ## Coming Up Next
+
+      .pull-left[
+        Shane Curcuru
+      ]
+      .pull-right[
+       Example Slides Title
+      ]
+      ---
+      class: center, middle, inverse
+      # How To: remark
+      ## Shane's Example Slides
+      Created by <a href="https://github.com/ShaneCurcuru/">Shane Curcuru</a> / <a href="https://twitter.com/shanecurcuru">@shanecurcuru</a>
+      ---
+      layout: true
+      name: logort
+      class: left
+      background-image: url(logo-corner.png)
+      background-repeat: no-repeat
+      background-position: right top
+      background-size: 20%
+      background-origin: padding-box
+      ---
+      layout: true
+      name: logorb
+      class: left
+      background-image: url(logo-corner.png)
+      background-repeat: no-repeat
+      background-position: right bottom
+      background-size: 20%
+      background-origin: padding-box
+      ---
+      template: logort
+      ## Review Objectives
+
+      With the number of related presentations I'm giving these days, I want a simple way to edit and re-purpose content without being tied down to a single OS or application.
+
+      So here is my review of some simple slideshow JS tools using markdown for content!
+
+      .footnote[Footnote: I'm using the same core content to test out several common slide tools.]
+      ---
+      variable: This is a variable from Markdown
+      template: logorb
+      ## Authoring Requirements
+
+      * Write in a well-supported Markdown flavor:
+        * For easy re-purposing of content bits
+        * Use my own favorite editors
+        * Checkin slides to github to share easily at perma-URLs
+        * Allow quick outlining and versioning of content
+      * Provide easy programmable settings for common features
+      * Simple conference branding (update deck to add corner logo, etc.)
+      * Basic formatting/image support
+      * Non-cryptic syntax that won't break for un-obvious reasons
+
+      ???
+      Rich **speaker notes support**, both *during slideshows* and for export.
+      Preferably formatted in markdown.
+      ---
+      ## FEATURE: Slide Builds
+
+      * Basic images and themeable formatting
+      * Step thru content within slides
+      --
+
+      * remark has a template feature...
+      --
+
+      * ... that allows incremental builds...
+      --
+
+      * of simple slides line by line
+      ---
+      name: Basic Slideshow Requirementz
+      template: logorb
+      ## Basic Slideshow Requirements
+
+      * Runs in any browser - not tied to machine, OS, settings
+      * Quick local play for practice &amp; editing cycles
+      * Simple to run offline with single (smallish) directory of content
+      * Minimze dependencies to avoid maintenance of old decks
+      * Bonus: basic variables like this slide name: {{ name }}
+      ---
+      template: logorb
+      variable: This should work in speaker notes too!
+      ## Presentation Slideshow Requirements
+
+      * Strong presenter mode
+        * Readable speaker notes
+        * Slide preview
+        * Timer
+        * Help for navigation
+      * Runs purely offline at conference with minimal setup
+        * All dependencies can be easily stored locally
+      * Strong PDF export feature for standalone handouts
+        * Reasonable quality and pagination
+        * Include speaker notes
+        * To present slides: press `C` then `P`
+
+      ???
+      Robust speaker notes that have a strong appearance in presenter mode, as well as on export.
+      Speaker notes support variables: {{ variable }}
+      ---
+      template: logorb
+      ## Other Review Notes
+
+      * Is the project's README helpful and friendly?
+      * Is there a super-simple "Do 1,2,3 to get setup"?
+      * Is the software going to be maintained? Active community?
+      * Ease, power, and documentation of theming and customizations
+      * License (Apache, MIT, BSD, etc.) and cost
+      ---
+      template: logorb
+      ## FEATURE: Slide Columns
+      .left-column[
+        ## Left-Column Head
+        ### - Left Item 1
+        ### - Left Item 2
+      ]
+      .right-column[
+      Text in the right-column.
+
+      More examples in the right-column:
+
+      .pull-left[
+
+      - This is a mini list .red[*]
+      - In a pull-left section
+      ]
+      .pull-right[
+
+      ```
+      <p>Hello, World!
+        HTML code sample
+          .pull-right is here</p>
+      ```
+      ]
+
+      The right-column has a trailing paragraph after the pull-* elements.
+
+      ]
+
+      .footnote[.red[*] This is a .foodnote with a .red asterisk]
+      ---
+      template: logorb
+      ## FEATURE: Quotes
+
+      This slide has simple paragraph to start with.
+
+      - List Item 1
+      - List Item 2
+
+      > &ldquo;Every slide deck should include a URL where session attendees can go run the deck at home, with any connected browser - or PDF.&rdquo; .bqcite[Author unknown]
+
+      - List Item 3
+
+      .aside.red[This is an .aside element with .red turned on.]
+      ---
+      ## FEATURE: Images
+
+      I tend to limit images in my slides.  But here's my photo:
+
+      <img src="../img/bio-photo.jpg" alt="Shane's picture by Julian Cash"> .bqcite[Julian Cash Photography]
+      ---
+      name: last-page
+      template: inverse
+
+      ## Thank You &amp; Questions!
+
+      .footnote[By: [@ShaneCurcuru](https://twitter.com/shanecurcuru) |
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache v2.0</a> |
+      https://shanecurcuru.github.io/slides/]
+    </textarea>
+    <script src="../ext/remark.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create({
+        // Slideshow display ratio, default '4:3'
+        ratio: '16:9',
+        navigation: {
+          // Enable (default) or disable navigating using scroll
+          scroll: true,
+          // Enable (default) or disable navigation using touch
+          touch: true,
+          // Enable or disable (default) navigation using click
+          click: false
+        },
+        // Customize slide number label
+        slideNumberFormat: '%current% / %total%',
+        // Enable or disable (default) counting of incremental slides in the slide counting
+        countIncrementalSlides: false
+      });
+    </script>
+  </body>
+</html>
