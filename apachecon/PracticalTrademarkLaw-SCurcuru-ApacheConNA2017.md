@@ -1,12 +1,12 @@
 layout: true
 name: fullheader
-background-image: url(img/david-lezcano-120708-sm.jpg)
+background-image: url(img/david-lezcano-120708-sml.jpg)
 background-size: cover
 
 ---
 layout: true
 name: separator
-background-image: url(img/david-lezcano-120708-sm.jpg)
+background-image: url(img/david-lezcano-120708-sml.jpg)
 background-size: cover
 
 ---
