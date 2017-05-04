@@ -124,7 +124,9 @@ template: separator
 template: logorb
 # Committed To Apache
 
-TODO-Sharan
+This talk will cover the concepts of community, commitment and merit
+and how being involved in an Apache project is not only about 
+contributing code. 
 
 ---
 name: last-page
