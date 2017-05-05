@@ -118,7 +118,7 @@ Nick / Shane to write, Nick speaking (Shane at board meeting)
 template: separator
 # Committed To Apache
 ## Sharan Foga
-## 2:30PM
+## 3:30PM
 
 ---
 template: logorb
@@ -127,6 +127,28 @@ template: logorb
 This talk will cover the concepts of community, commitment and merit
 and how being involved in an Apache project is not only about 
 contributing code. 
+
+Theme will be linked to institution and use terminology:
+
+Entering the Facility (i.e first look at Apache, & getting involved)
+
+Imates in Charge (i.e. No one in charge and everyone in charge concept)
+
+Invisible Friends (i.e collaborating with people you cant see, virtual 
+community)
+
+Possible catch phrases:
+
+1.Don't let words or titles fool you - you don't have to be a committer
+to be committed to a Apache
+2.It's not a hierachy, it's a community
+3.Think we, not me
+4.No-one in charge and everyone in charge
+
+From Shane's Apache Way
+
+5.Merit is not just for code
+6.You gain merit by doing things the community values
 
 ---
 name: last-page
