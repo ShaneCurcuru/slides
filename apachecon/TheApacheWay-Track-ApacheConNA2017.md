@@ -60,7 +60,12 @@ template: logorb
 
 This will introduce the track, and briefly cover some of the ways 
 we practice the Apache Way (community, consensus, async communication, 
-three +1s, etc.) along with some of the reasons/rationale behind it. 
+three +1s, etc.) along with some of the reasons/rationale behind it.
+
+This will likely be somewhat high concept, and I want to spend a little
+time explaining some of the terms and concepts that others will be 
+using later.  I will not be going into history or how we started; what 
+people want to know is how to get involved with projects efficiently now.
 
 ---
 template: separator
@@ -72,10 +77,10 @@ template: separator
 template: logorb
 # A Tale Of Two Developers
 
-TODO-Alex
-Can you provide a one sentence description?
+Planning to cover "Apache FAQ for new developers", which should be good overall intro material.
 
-Also: any characters or themes others can refer to?
+TODO-Alex any characters or themes others can refer to?  In particular, 
+are you focusing on technical, social, or "why we do X" issues?
 
 ---
 template: separator
@@ -88,6 +93,7 @@ template: logorb
 # From dev@ to user@
 
 TODO-Steve
+(Telling story of Apache Streams community and how they changed thru incubation-project-improvements)
 
 ---
 template: separator
@@ -99,7 +105,7 @@ template: separator
 template: logorb
 # Software is Easy; People are Hard
 
-TODO-Benjamin
+TODO-Benjamin - panel discussion - do you have some sample questions yet?
 
 ---
 template: separator
@@ -109,7 +115,8 @@ template: separator
 
 ---
 template: logorb
-# Apache Way For Businesses
+# How to bring your project to the Apache Incubator (or)
+# Companies and Apache, the Good and the Bad
 
 Nick / Shane to write, Nick speaking (Shane at board meeting)
 
