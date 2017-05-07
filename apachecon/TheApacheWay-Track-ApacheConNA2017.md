@@ -92,8 +92,11 @@ template: separator
 template: logorb
 # From dev@ to user@
 
-TODO-Steve
-(Telling story of Apache Streams community and how they changed thru incubation-project-improvements)
+This talk will be a survey of challenges faced when establishing an ASF project and the many dimensions of project maturity.
+
+We'll examine the ways that project code, community, documentation, and vision must evolve in order to decrease the degree of familiarity necessary to benefit from (and contribute to) the project.
+
+Examples drawn from the journey of Podling Streams, color commentary from everyone in the room will be very welcome.
 
 ---
 template: separator
