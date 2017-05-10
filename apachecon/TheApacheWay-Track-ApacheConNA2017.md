@@ -41,7 +41,7 @@ template: logorb
 * 11:15 [From dev@ to user@](https://apachecon2017.sched.com/event/9zvM/from-dev-to-user-steve-blackmon-people-pattern), Steve Blackmon
 * 12:15 [Software is Easy; People are Hard](https://apachecon2017.sched.com/event/9zvb/software-is-easy-people-are-hard-benjamin-young-john-wiley-sons-inc), Benjamin Young
 * 1:05pm Lunch (on own)
-* 2:30pm Apache Way For Businesses, Nick Burch
+* `2:30pm Apache Way For Businesses, Nick Burch
 * 3:30pm [Committed To Apache](https://apachecon2017.sched.com/event/9zvb/software-is-easy-people-are-hard-benjamin-young-john-wiley-sons-inc), Sharan Foga
 * 4:20pm Break
 * 4:40pm Keynotes
@@ -98,6 +98,11 @@ We'll examine the ways that project code, community, documentation, and vision m
 
 Examples drawn from the journey of Podling Streams, color commentary from everyone in the room will be very welcome.
 
+Quotable:
+- The Quadrants of Project Maturity: Vision, Community, Code, Documentation
+  - Community: engage,d organized, aware
+  - Documentation: helpful, engaging, current
+
 ---
 template: separator
 # Software is Easy; People are Hard
@@ -112,17 +117,20 @@ TODO-Benjamin - panel discussion - do you have some sample questions yet?
 
 ---
 template: separator
-# Apache Way For Businesses
+# The Apache Way To Bring Your Project To The Incubator
 ## Nick Burch
 ## 2:30PM
 
 ---
 template: logorb
 # How to bring your project to the Apache Incubator (or)
-# Companies and Apache, the Good and the Bad
 
-Nick / Shane to write, Nick speaking (Shane at board meeting)
+Everything to consider when bringing your (corporate?) project to the 
+ASF and the Apache Incubator.
 
+Case studies of how companies have successfully updated their projects 
+and changed working habits to be more successful as an Apache project 
+- and to get through the incubator efficiently!
 
 ---
 template: separator
@@ -159,6 +167,11 @@ From Shane's Apache Way
 
 5.Merit is not just for code
 6.You gain merit by doing things the community values
+
+Other concepts:
+7. Your own passkey - you have visibility into all project code, 
+   documentation, website, process: you can fix anything yourself.
+8. Only know fellow committers by what they write (in mails or code)
 
 ---
 name: last-page
