@@ -111,7 +111,7 @@ template: separator
 
 ---
 template: logorb
-# Software is Easy; People are Hard
+# Software is Easy; People are Hard #1/3
 
 A lively panel discussion with several long-time ASF contributors.
 
@@ -123,6 +123,10 @@ A lively panel discussion with several long-time ASF contributors.
 - Leaders vs. managers. Discuss. ;)
 - What about outside influence/constraints (businesses) in a collaborative community?
 
+---
+template: logorb
+# Software is Easy; People are Hard #2/3
+
 ## Engagement With The Community
 
 - So I've got this project...how do I get volunteers?
@@ -130,6 +134,10 @@ A lively panel discussion with several long-time ASF contributors.
 - What if they *want* a BDFL or (worse) to *be* the BDFL?
 - How do you handle failed volunteer promises?
 - What about "trouble makers" or "poisonous people"?
+
+---
+template: logorb
+# Software is Easy; People are Hard #3/3
 
 ## ASF Process -- Who do I turn to? What do I do?
 
