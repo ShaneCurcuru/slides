@@ -100,8 +100,8 @@ Examples drawn from the journey of Podling Streams, color commentary from everyo
 
 Quotable:
 - The Quadrants of Project Maturity: Vision, Community, Code, Documentation
-  - Community: engage,d organized, aware
-  - Documentation: helpful, engaging, current
+ - Community: engage,d organized, aware
+ - Documentation: helpful, engaging, current
 
 ---
 template: separator
@@ -113,7 +113,36 @@ template: separator
 template: logorb
 # Software is Easy; People are Hard
 
-TODO-Benjamin - panel discussion - do you have some sample questions yet?
+A lively panel discussion with several long-time ASF contributors.
+
+## Organizing Organizations Organically
+
+- What is it that makes dealing with people harder than dealing with software?
+- "Managing" people takes many forms...what makes "Community Over Code" (i.e. the Apache Way) suited to this task?
+- What are the trade offs between community focused vs. command-and-control (i.e. most businesses) management models?
+- Leaders vs. managers. Discuss. ;)
+- What about outside influence/constraints (businesses) in a collaborative community?
+
+## Engagement With The Community
+
+- So I've got this project...how do I get volunteers?
+- How do I keep them?
+- What if they *want* a BDFL or (worse) to *be* the BDFL?
+- How do you handle failed volunteer promises?
+- What about "trouble makers" or "poisonous people"?
+
+## ASF Process -- Who do I turn to? What do I do?
+
+- Scenario: "I feel trapped in my project. Everyone's depending on me to do the work. Everyone needs something. No bodies helping out... Help?!"
+- Scenario: "I feel ganged up on by the other contributors...I don't want to be *that* person in the project...but everyone else is wrong?!"
+- Scenario: "I've built a project on GitHub. I'm the BDFL. I *want* to transition to the ASF because community over code. What can I do now to make that happen?"
+- Scenario:  "I have a project in incubation. It's like pulling teeth to get people to care about it...but I care! What can I do to graduate short of becoming a traveling spokesman?"
+- Scenario: "I'm burnt out...I've been at Apache for N number of years... Can/should I just disappear? Won't everyone hate me? How do I bow out gracefully...at least for now...?"
+
+## Wrapping Up and Audience Q&A
+
+- One piece of advice from each panelist on what **someone new** to the "Community Over Code" model should/could hold on to while diving into an ASF (or similarly structured) project.
+
 
 ---
 template: separator
@@ -157,7 +186,7 @@ community)
 
 Possible catch phrases:
 
-1.Don't let words or titles fool you - you don't have to be a committer
+1.Don't let words or titles fool you- you don't have to be a committer
 to be committed to a Apache
 2.It's not a hierachy, it's a community
 3.Think we, not me
@@ -169,7 +198,7 @@ From Shane's Apache Way
 6.You gain merit by doing things the community values
 
 Other concepts:
-7. Your own passkey - you have visibility into all project code, 
+7. Your own passkey- you have visibility into all project code, 
    documentation, website, process: you can fix anything yourself.
 8. Only know fellow committers by what they write (in mails or code)
 
