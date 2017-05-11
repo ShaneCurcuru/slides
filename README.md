@@ -3,6 +3,13 @@
 A better place to write and store slide decks for the various open source
 conferences that I speak at. Be sure to look for speaker notes!
 
+Also published at http://ShaneSlides.com
+
+See me and many other Apache experts at [ApacheCon Miami, 16-18 May](http://events.linuxfoundation.org/events/apachecon-north-america).
+
+Wednesday will be a full day of expert [Apache Way talks - with a preview](shaneslides.com/apachecon/TheApacheWay-Track-ApacheConNA2017.html)!
+Each speaker has their own slides; [pull requests welcome](https://github.com/ShaneCurcuru/slides/tree/master/apachecon).
+
 ## Technology
 
 After years of using an office suite to craft slides using a custom template
