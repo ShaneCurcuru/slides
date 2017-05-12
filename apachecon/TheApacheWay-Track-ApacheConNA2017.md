@@ -77,10 +77,18 @@ template: separator
 template: logorb
 # A Tale Of Two Developers
 
-Planning to cover "Apache FAQ for new developers", which should be good overall intro material.
+Our talk contextualizes the Apache Way for developers who are paid to work on open-source full-time, drawn from our real-world experience working at Cloudera. This is presented through a series of short vignettes accompanied by intervening discussion and review slides. Tenets of the Apache Way like meritocracy, community, and hats are introduced and referred to throughout as the backbone to building strong open-source communities. We examine the tension between corporate pressures and open-source, emphasizing the underlying value that companies gain from open-source software.
 
-TODO-Alex any characters or themes others can refer to?  In particular, 
-are you focusing on technical, social, or "why we do X" issues?
+Our two main characters are:
+
+* Alex, an energetic young developer who is new to open source but not to development. Excited to get stuff done on this new project.
+* Andrew, a long-time Apache committer who takes Alex under his wing and teaches him the importance of open-source.
+
+The outline for our skits are:
+
+* Act 1: Introduction to Apache and the Apache Way, FAQs from Alex as someone getting started as a new contributor
+* Act 2: How to build consensus when there's conflict (e.g. someone -1's your patch), public communication, demonstrating merit and the path to committership
+* Act 3: No jerks allowed. Andrew does a heel turn and is ruling the project with an iron fist, Alex intervenes in a come-to-jesus/student-becomes-the-teacher moment. Re-emphasize the importance of community, and how dictators are bad for projects.
 
 ---
 template: separator
