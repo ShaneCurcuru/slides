@@ -35,14 +35,14 @@ template: logorb
 ## Wednesday Schedule
 
 * 8:00am Breakfast
-* 9:00am [Apache Way: Concepts in Practice](https://apachecon2017.sched.com/event/9zyI/the-apache-way-concepts-in-practice-shane-curcuru-the-apache-software-foundation), Shane Curcuru
+* 9:00am [Apache Way: Effective Open Source Project Management](https://apachecon2017.sched.com/event/9zyI/the-apache-way-concepts-in-practice-shane-curcuru-the-apache-software-foundation), Shane Curcuru
 * Coffee Break
-* 10:15 [A Tale Of Two Developers](https://apachecon2017.sched.com/event/9zv3/a-tale-of-two-developers-finding-harmony-between-commercial-software-development-and-the-apache-way-andrew-wang-alex-leblang-cloudera), Andrew Wang & Alex Leblang
-* 11:15 [From dev@ to user@](https://apachecon2017.sched.com/event/9zvM/from-dev-to-user-steve-blackmon-people-pattern), Steve Blackmon
-* 12:15 [Software is Easy; People are Hard](https://apachecon2017.sched.com/event/9zvb/software-is-easy-people-are-hard-benjamin-young-john-wiley-sons-inc), Benjamin Young
+* 10:15 [A Tale Of Two Developers In The Apache Way](https://apachecon2017.sched.com/event/9zv3/a-tale-of-two-developers-finding-harmony-between-commercial-software-development-and-the-apache-way-andrew-wang-alex-leblang-cloudera), Andrew Wang & Alex Leblang
+* 11:15 [From dev@ to user@ to The Apache Way](https://apachecon2017.sched.com/event/9zvM/from-dev-to-user-steve-blackmon-people-pattern), Steve Blackmon
+* 12:15 [Apache Way: Software is Easy; People are Hard](https://apachecon2017.sched.com/event/9zvb/software-is-easy-people-are-hard-benjamin-young-john-wiley-sons-inc), Benjamin Young
 * 1:05pm Lunch (on own)
-* `2:30pm Apache Way For Businesses, Nick Burch
-* 3:30pm [Committed To Apache](https://apachecon2017.sched.com/event/9zvb/software-is-easy-people-are-hard-benjamin-young-john-wiley-sons-inc), Sharan Foga
+* 2:30pm The Apache Way To Bring Your Project To The Incubator, Nick Burch
+* 3:30pm [Committed To The Apache Way](https://apachecon2017.sched.com/event/9zvb/software-is-easy-people-are-hard-benjamin-young-john-wiley-sons-inc), Sharan Foga
 * 4:20pm Break
 * 4:40pm Keynotes
 * 5:50pm Lightning Talks
@@ -159,7 +159,6 @@ template: logorb
 
 - One piece of advice from each panelist on what **someone new** to the "Community Over Code" model should/could hold on to while diving into an ASF (or similarly structured) project.
 
-
 ---
 template: separator
 # The Apache Way To Bring Your Project To The Incubator
@@ -176,6 +175,20 @@ ASF and the Apache Incubator.
 Case studies of how companies have successfully updated their projects 
 and changed working habits to be more successful as an Apache project 
 - and to get through the incubator efficiently!
+
+Blurb for program:
+
+We want to  Open Source our project - that's just a tick box, right? No?
+OK, so what is the Apache Way,  and how can we bring our great new
+project to the Apache Incubator and  sitll be successful as a business?
+
+Join us as we look at several real world examples of where companies
+have chosen to contribute their existing open source projects to the
+Apache Software Foundation and the Incubator project. We'll see the
+advantages  the companies and projects got from it, the problems faced
+along the way, why they did it, and how it helped their business and the
+project alike. We'll also look briefly at where it may not be the right
+fit.
 
 ---
 template: separator
