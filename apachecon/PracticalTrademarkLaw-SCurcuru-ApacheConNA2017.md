@@ -6,7 +6,19 @@ background-size: cover
 ---
 layout: true
 name: separator
-background-image: url(img/david-lezcano-120708-sml.jpg)
+background-image: url(img/alexandre-perotto-46114-sml.jpg)
+background-size: cover
+
+---
+layout: true
+name: separator2
+background-image: url(img/lance-asper-153777-sm.jpg)
+background-size: cover
+
+---
+layout: true
+name: closing
+background-image: url(img/stuart-guest-smith-150560-sm.jpg)
 background-size: cover
 
 ---
@@ -265,7 +277,7 @@ This point is obvious to every lawyer, and often comes as a surprise to most non
 
 
 ---
-template: separator
+template: separator2
 # How Trademarks Work With Open Source Software
 
 
@@ -506,7 +518,7 @@ But be sure to give credit back to the project that creates that open source. In
 
 
 ---
-template: separator
+template: closing
 # Q&A / FOSS Law Resources
 
 ---
@@ -531,7 +543,7 @@ TBD - Apache policies and help from press, ComDev, Conferences/events
 
 ---
 name: last-page
-template: logorb
+template: closing
 
 ## Thank You &amp; Questions!
 
