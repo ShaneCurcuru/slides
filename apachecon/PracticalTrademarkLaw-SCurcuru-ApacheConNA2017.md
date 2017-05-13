@@ -5,20 +5,50 @@ background-size: cover
 
 ---
 layout: true
-name: separator
+name: flockbottom
+background-image: url(img/shwetha-shankar-137724-smb.jpg)
+background-size: cover
+
+---
+layout: true
+name: palmsbottom
+background-image: url(img/jeremy-bishop-257105-sm.jpg)
+background-size: cover
+
+---
+layout: true
+name: treeright
+background-image: url(img/meduana-178155-sm.jpg)
+background-size: cover
+
+---
+layout: true
+name: beachbottom
 background-image: url(img/alexandre-perotto-46114-sml.jpg)
 background-size: cover
 
 ---
 layout: true
-name: separator2
-background-image: url(img/lance-asper-153777-sm.jpg)
+name: pineapple
+background-image: url(img/pineapple-supply-co-64690-sm.jpg)
 background-size: cover
 
 ---
 layout: true
 name: closing
+background-image: url(img/deborah-kunzie-49758-sm.jpg)
+background-size: cover
+
+---
+layout: true
+name: thanks
 background-image: url(img/stuart-guest-smith-150560-sm.jpg)
+background-size: cover
+
+---
+layout: true
+name: beachright-split
+background-image: url(img/lance-asper-153777-sm.jpg)
 background-size: cover
 
 ---
@@ -160,9 +190,8 @@ The people, the motivations, the governance, and the way they respond to challen
 
 
 ---
-template: separator
+template: treeright
 # What Are Trademarks?
-
 
 ---
 template: logorb
@@ -176,7 +205,7 @@ template: logorb
 - But we often skip proper usage of trademarks
  - We’re running Hadoop jobs in Docker/Moby
 
-https://www.apache.org/foundation/marks/guide
+.footnote.code[https://www.apache.org/foundation/marks/guide]
 
 ???
 While this may seem obvious, it’s important to understand that legally, trademarks are the specific and consistent name of the goods you’re providing. While the overall effect of your brand has some bearing on how consumers perceive your products, only the actual trademarks are protectable by law, and only within the limits of trademark law in each country you work in.
@@ -277,9 +306,8 @@ This point is obvious to every lawyer, and often comes as a surprise to most non
 
 
 ---
-template: separator2
+template: flockbottom
 # How Trademarks Work With Open Source Software
-
 
 ---
 template: logorb
@@ -320,7 +348,7 @@ template: logorb
 - Other parties providing their products/services using a similar sounding or looking name/logo to yours
 - Infringement is a legal tort, and can be stopped
 
-https://www.apache.org/foundation/marks/reporting
+.footnote.code[https://www.apache.org/foundation/marks/reporting]
 
 ???
 **USPTO:** “Trademark infringement is the unauthorized use of a trademark or service mark on or in connection with goods and/or services in a manner that is likely to cause confusion, deception, or mistake about the source of the goods and/or services.” - USPTO overview
@@ -338,7 +366,7 @@ template: logorb
   - Software integrates with other software
   - Software is used as part of a service  
 
-* "It depends."
+* **"It depends."**
 
 ???
 Deciding if someone else’s use of your trademark is a problem is a tricky one - both with software made of components, and when working with open source projects with their wide variety of drivers and personalities. 
@@ -348,16 +376,45 @@ More importantly: what really matters here is: does this use truly harm your bus
 
 
 ---
-template: logorb
+template: pineapple
+name: game
 # Spot The Lawyers
 
-Trademarks are just like...
-  **copyrights!**
-When you register either one, you can win more compensation in an infringement lawsuit
+--
 
+.left-column[
 Trademarks are just like...
-  **patents!**
+]
+
+--
+
+.right-column[
+**copyrights!**
+]
+
+--
+
+.right-column[
+When you register either one, you can win more compensation in an infringement lawsuit
+]
+
+--
+
+.left-column[
+Trademarks are also just like...
+]
+
+--
+
+.right-column[
+**patents!**
+]
+
+--
+
+.right-column[
 They both have to have a function: patents do things, trademarks have value only when used in commerce
+]
 
 ???
 Let’s play a game - I call it spot the lawyers. 
@@ -368,15 +425,19 @@ But non-laywers often get confused with the concepts, especially between tradema
 
 
 ---
+template: palmsbottom
+# Registered ® Trademarks ™
+
+---
 template: logorb
-# Trademark Registration
+# Trademark ™ Registration ®
 
 - Successful application improves your rights
 - Trademark registration fairly simple - in the US
 - Trademark laws and registries vary significantly by country - US is first-to-use; most others are first-to-file
 - Trademark search is different than registration, but often done before registering
 
-https://www.apache.org/foundation/marks/register
+.footnote.code[https://www.apache.org/foundation/marks/register]
 
 ???
 Registering trademarks is a way to strengthen your ability to defend your trademark. You apply to register your trademark in any country’s trademark registrar. The registration process includes an examination to see if your mark conflicts with any pre-existing marks, as well as a public notice period that allows others to object to your registration.
@@ -428,7 +489,7 @@ template: logorb
 - In real life: not a big issue for open source
 - Using your own trademarks consistently is just as important as policing activities
 
-https://www.apache.org/foundation/marks/pmcs
+.footnote.code[https://www.apache.org/foundation/marks/pmcs]
 
 ???
 If you talk to your lawyers, they’ll warn you in dire tones about all the risks you take of abandonment unless you vigorously shoot down any and all infringers of your marks.
@@ -438,7 +499,7 @@ In most cases, the **reputation behind a project as a whole is more important th
 
 
 ---
-template: separator
+template: beachbottom
 # Take Action
 
 ---
@@ -449,7 +510,7 @@ template: logorb
   - Even if it’s legal boilerplate, having a clear policy helps to show your intention
 - Have a policy of how you will use FOSS trademarks - just like developer contributor policy!
 
-https://www.apache.org/foundation/marks/resources
+.footnote.code[https://www.apache.org/foundation/marks/resources]
 
 ???
 In the proprietary world, trademarks are strictly assets to be protected. In the open source world, where sharing and collaborating regularly is the watchword, a more nuanced approach to sharing or policing your marks is needed. MAybe a company wants to promote a community-friendly brand for themselves - you need to let people know that!
@@ -518,6 +579,7 @@ But be sure to give credit back to the project that creates that open source. In
 
 
 ---
+name: closing
 template: closing
 # Q&A / FOSS Law Resources
 
@@ -543,7 +605,7 @@ TBD - Apache policies and help from press, ComDev, Conferences/events
 
 ---
 name: last-page
-template: closing
+template: thanks
 
 ## Thank You &amp; Questions!
 
