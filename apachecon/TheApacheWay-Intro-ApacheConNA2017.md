@@ -1,12 +1,54 @@
 layout: true
 name: fullheader
-background-image: url(img/ApacheCon-HG.png)
+background-image: url(img/david-lezcano-120708-sml.jpg)
 background-size: cover
 
 ---
 layout: true
-name: separator
-background-image: url(img/ApacheCon-BG.jpg)
+name: flockbottom
+background-image: url(img/shwetha-shankar-137724-smb.jpg)
+background-size: cover
+
+---
+layout: true
+name: palmsbottom
+background-image: url(img/jeremy-bishop-257105-sm.jpg)
+background-size: cover
+
+---
+layout: true
+name: treeright
+background-image: url(img/meduana-178155-sm.jpg)
+background-size: cover
+
+---
+layout: true
+name: beachbottom
+background-image: url(img/alexandre-perotto-46114-sml.jpg)
+background-size: cover
+
+---
+layout: true
+name: pineapple
+background-image: url(img/pineapple-supply-co-64690-sm.jpg)
+background-size: cover
+
+---
+layout: true
+name: closing
+background-image: url(img/deborah-kunzie-49758-sm.jpg)
+background-size: cover
+
+---
+layout: true
+name: thanks
+background-image: url(img/stuart-guest-smith-150560-sm.jpg)
+background-size: cover
+
+---
+layout: true
+name: menu
+background-image: url(img/lance-asper-153777-sm.jpg)
 background-size: cover
 
 ---
@@ -47,6 +89,7 @@ template: fullheader
 ## Effective Open Source Project Management
 
 Your introduction to the Apache Way of participating in projects.
+
 
 ---
 template: logorb
@@ -124,6 +167,36 @@ or the rationale to the policy - is a key way to ensure the community
 can understand it, know it's proven value, and then have an intelligent 
 and focused way that we could work on changes.
 
+
+---
+template: menu
+name: menu
+# Apache Way: Menu
+
+**What should we talk about next?**
+
+- [Community](#community)
+- [Merit](#merit)
+- [Open Development](#open)
+- [Decision Making](#decision)
+- [Communication](#communication)
+- 
+- [Questions We Answer](#closing)
+
+.footnote[The Apache Way is participatory! **You** are part of the community!]
+
+???
+This is a slide in case we want to change the order with the audience.
+
+---
+template: flockbottom
+name: community
+# Community
+
+.footnote[
+[Take a different way?](#menu)
+]
+
 ---
 template: logorb
 # Community
@@ -135,9 +208,57 @@ template: logorb
 - We don't know each other
 - Except through the project
 
+"It's not a hierachy, it's a community"
+
 ---
 template: logorb
-# Meritocracy
+# Community - No Jerks Allowed
+
+- "No jerks allowed" - a key early message
+  - FOSS communities value group contributors, not lone wolves
+  - Diverse communities that can attract new contributors over time
+
+**Be Excellent To Each Other**
+
+---
+template: logorb
+# Community - Wear Your Hats
+
+- Hats - individuals, not affiliations (or employers)
+- No corporate participation
+- Individuals get recognition
+  - Side effect for corporate teams: all team members must participate for value
+
+---
+template: logorb
+# Community - Affiliations At The Door
+
+- Not talking about hierarchy
+- Because we have one - each project separate
+- each volunteer with same powers (and superpowers in PMC)
+
+---
+template: logorb
+# Community - Independent Governance
+
+- Community owns the brand
+- ASF owns the trademarks
+- ASF ensures neutrality, open development
+- PMCs are required to behave independently
+
+
+---
+template: pineapple
+name: merit
+# Merit
+
+.footnote[
+[Take a different way?](#menu)
+]
+
+---
+template: logorb
+# Merit - What YOU Can Do
 
 - Not talking about meritocracy
 - Do-ocracy
@@ -151,13 +272,24 @@ ASF Member
 Corporate VP
 Director
 
---
-template: logorb
-# Affiliations At The Door
+"You gain merit by doing things the community values"
 
-- Not talking about hierarchy
-- Because we have one - each project separate
-- each volunteer with same powers (and superpowers in PMC)
+Problem areas: Umbrella projects: who is responsible / who can evaluate the work or new contributors?  Merit is within each separate community.
+
+"Merit does not buy you authority (community must still agree)"
+"Merit gets you privileges: commit access, voting on committers"
+
+"- Leaders vs. managers."
+
+
+---
+template: palmsbottom
+name: open
+# Open Development
+
+.footnote[
+[Take a different way?](#menu)
+]
 
 ---
 template: logorb
@@ -182,7 +314,7 @@ template: logorb
 
 ---
 template: logorb
-# Transparency In Decisions
+# Open Development - Transparent Decisions
 
 - Not talking about transparency
 - Your motives aren't transparent to the community
@@ -198,16 +330,17 @@ template: logorb
 - Trust in ASF as corporation to maintain open development using it
 
 ---
-template: logorb
-# Decision Making - Only When Needed
+template: beachbottom
+name: decision
+# Decision Making
 
-- Not talking about voting
-  - Because it's really consensus we're looking for
-- Voting just a shortcut to help move consensus forward in a timely manner
+.footnote[
+[Take a different way?](#menu)
+]
 
 ---
 template: logorb
-# Decision Making - Preferred Method
+# Decision Making - Consensus Preferred
 
 - Consensus within community
 - Choose best path forward
@@ -216,52 +349,55 @@ template: logorb
 
 ---
 template: logorb
+# Decision Making - Votes When Needed
+
+- Not talking about voting
+  - Because it's really consensus we're looking for
+- Voting just a shortcut to help move consensus forward in a timely manner
+
+
+---
+template: logorb
 # Decision Making - Timeline
 
 - **Minimum** time to make a decision: 72 hours
 - Allows timeshifted input from community
 
---
+---
 template: logorb
-# Deadlines - Only Yours
+# Decision Making - No Deadlines
 
 - Not talking about deadlines
 - Because **we** don't have any - besides those **we** agree on together
 - Because our deadlines are "earliest date" something can happen
 
---
-template: logorb
-# Affiliations At The Door
 
-- Hats - individuals, not affiliations (or employers)
-- No corporate participation
-- Individuals get recognition
-  - Side effect for corporate teams: all team members must participate for value
+---
+template: treeright
+name: communication
+# Communication
 
---
+.footnote[
+[Take a different way?](#menu)
+]
+
+---
 template: logorb
 # Community-Wide Communication
 
 - Not talking about english
 - Because... translation software isn't social
 
---
-template: logorb
-# Project Independence
 
-- Community owns the brand
-- ASF owns the trademarks
-- ASF ensures neutrality, open development
-- PMCs are required to behave independently
 
 ---
-template: separator
+template: closing
 # The Apache Way
 # Incldues Your Input!
 
 ---
 name: last-page
-template: logorb
+template: thanks
 
 ## Thank You &amp; Questions!
 
