@@ -63,30 +63,28 @@ background-origin: padding-box
 
 ---
 template: fullheader
-## Coming Up Next
+# Coming Up Next
 
-.left[
+.left-column[
 ## Shane Curcuru
 ]
-.right[
+.right-column[
 ## Practical Trademark Law For FOSS Projects
 ]
 
 ---
 template: fullheader
 # Practical Trademark Law For FOSS Projects
-## How To Keep Your Project's Good Name
 
-.pull-right[
-[Shane Curcuru](https://github.com/ShaneCurcuru/)
-
-Vice President, Brand Management
-
-The Apache Software Foundation
-
-[@ShaneCurcuru](https://twitter.com/shanecurcuru)
+.left-column[
+## Shane Curcuru
 ]
-.right[ ![ApacheCon logo](Apache_NA_Logo-b.png) ]
+
+.right-column[
+### Vice President, Brand Management
+### The Apache Software Foundation
+### [@ShaneCurcuru](https://twitter.com/shanecurcuru)
+]
 
 
 ---
@@ -99,13 +97,15 @@ template: logorb
   * Provide trademark support for projects 
   * Involved at Apache since 1999
  
-  * Not a lawyer
+???
+Been involved at the Apache Software Foundation since shortly after they were founded. SPACEBAR
+
+--
+* **Not a lawyer**
 * Questions? `<trademarks@apache.org>`
 
 ???
-Been involved at the Apache Software Foundation since shortly after they were founded.
-Not your lawyer - this isn’t legal advice... (SPACEBAR)
-since I’m not a lawyer at all.
+Not your lawyer - this isn’t legal advice... since I’m not a lawyer at all.
 Oh - I get really excited talking about open source trademarks, so just wave or throw something at me if I start talking waaay too fast.
 
 
@@ -114,10 +114,12 @@ background-image: url(img/david-lezcano-120708-sm.jpg)
 background-size: contain
 # Topics
 
-- Trademarks And Software Products
-- What Trademarks Mean For Open Source
-- Take Action: What You Can Do
-- Q&A / Resources
+- [Trademarks And Software Products](#products)
+- [What Trademarks Mean For Open Source](#whatmean)
+- [How Trademarks Work With Open Source Software](#howwork)
+- [Registered ® Trademarks](#registered)
+- [Take Action: What You Can Do](#action)
+- [Q & A / Resources](#closing)
 
 ???
 There is a lot of misunderstanding about how trademark law
@@ -125,27 +127,36 @@ truly intersects with the real life of an open source software
 project - or a software vendor or other company’s business. So
 first let’s work on defining the terms around trademarks in a way
 that’s applicable to software products - and then some practical
-lessons for how the law is actually used when it comes to open
+lessons for how the law is **actually** used when it comes to open
 source projects - and how open source projects differ from
 traditional software vendors. We’ll wrap up with some actions for
-you to do back at your company, and questions.
+you to do either in your Apache project or in your company that 
+uses Apache projects, and questions.
 
 
 ---
 template: logorb
+name: products
 # Open Source Runs The World
 
-- Do you use open source in your organization?
+- Do you use open source in your organization?*
 - Do you contribute to any open source projects?
 - Do you lead any open source projects?
 - Do you use open source in your branding?
 
-- Open source projects work differently
+???
+Open source is eating the world - and everyone here uses it, and most of us contribute to it. 
 
-* Yes, you do, even if you aren't aware!
+--
+- Open source projects **work differently**
+
+
+.footnote[
+*Yes, you do, even if you aren't aware!
+]
 
 ???
-Open source is eating the world - and everyone here uses it, and most of us contribute to it. But the ways that groups building open source work differently than the traditional proprietary software industry. You can’t treat open source brands and trademarks the same way you treat competitive vendor trademarks.
+But the ways that groups building open source work differently than the traditional proprietary software industry. You can’t treat open source brands and trademarks the same way you treat competitive vendor trademarks.
 There are two ways trademarks are used differently in open source...
 
 Do you build OSS? (i.e. you create an OSS software product)
@@ -191,6 +202,7 @@ The people, the motivations, the governance, and the way they respond to challen
 
 ---
 template: treeright
+name: whatmean
 # What Are Trademarks?
 
 ---
@@ -277,7 +289,8 @@ template: logorb
 
 - Open source names are trademarks: Respect them!
 - Enforcement methods vary widely given open source community structure
-- For open source talent, respect is king! _(We hate it when users report **your** bugs to us!)_
+- For open source talent, respect is king! 
+  - _(We hate it when users report **your** bugs to us!)_
 
 ???
 This means that the names and logos of virtually all open source projects are their trademarks!
@@ -307,6 +320,7 @@ This point is obvious to every lawyer, and often comes as a surprise to most non
 
 ---
 template: flockbottom
+name: howwork
 # How Trademarks Work With Open Source Software
 
 ---
@@ -366,11 +380,16 @@ template: logorb
   - Software integrates with other software
   - Software is used as part of a service  
 
-* **"It depends."**
-
 ???
 Deciding if someone else’s use of your trademark is a problem is a tricky one - both with software made of components, and when working with open source projects with their wide variety of drivers and personalities. 
 There is no simple rule to say if a trademark use is legally infringing or not. That doesn’t mean you can’t **ask** some other party to use your brands properly! It just means that your lawyers won’t be able to ensure the other party changes behavior.
+SPACEBAR
+
+--
+
+* **"It depends."**
+
+???
 More importantly: what really matters here is: does this use truly harm your business? Lawyers may say that allowing any potential misuse by others is a risk - which is true, to a degree. But the business risk - is there actual confusion? Is the other party harming our sales? - is far more important. Similarly, if you’re dealing with open source projects, be aware of your larger reputation in the community.
 **Anytime someone asks** me if some use is infringing or not, I can say “it depends”.
 
@@ -426,6 +445,7 @@ But non-laywers often get confused with the concepts, especially between tradema
 
 ---
 template: palmsbottom
+name: registered
 # Registered ® Trademarks ™
 
 ---
@@ -500,6 +520,7 @@ In most cases, the **reputation behind a project as a whole is more important th
 
 ---
 template: beachbottom
+name: action
 # Take Action
 
 ---
@@ -588,11 +609,14 @@ template: logorb
 # FOSS Trademark Resources
 
 - Example trademark policy for open source projects
-- http://modeltrademarkguidelines.org/ 
+  .code[http://modeltrademarkguidelines.org/]
+
 - Legal overview of trademarks and open source
-- http://fossmarks.org/
+  .code[http://fossmarks.org/]
+
 - Trademark policy & resources for all Apache projects
-- http://www.apache.org/foundation/marks/resources
+  .code[http://www.apache.org/foundation/marks/resources]
+
 - Your favorite FOSS Foundation: Apache, Eclipse, Linux, SFLC, SPI
 
 
@@ -600,7 +624,11 @@ template: logorb
 template: logorb
 # Brand / Social Resources
 
-TBD - Apache policies and help from press, ComDev, Conferences/events
+- Apache Trademark Info Site Map
+  .code[https://www.apache.org/foundation/marks/resources]
+
+**Everything** you need to know about Apache trademarks is 
+linked from here: https://www.apache.org/foundation/marks/resources
 
 
 ---

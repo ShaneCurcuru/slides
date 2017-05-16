@@ -27,7 +27,11 @@ blockquote > p{
   position: absolute;
   bottom: 3em;
 }
-li p { line-height: 1.25em; }
+/* Fix too small body fonts -sv */
+li, p { 
+  line-height: 1.25em;
+  font-size: 28px;
+}
 .red { color: #fa0000; }
 .large { font-size: 2em; }
 a, a > code {
