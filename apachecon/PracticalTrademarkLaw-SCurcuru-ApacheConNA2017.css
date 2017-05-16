@@ -30,7 +30,7 @@ blockquote > p{
 /* Fix too small body fonts -sv */
 li, p { 
   line-height: 1.25em;
-  font-size: 28px;
+  font-size: 32px;
 }
 /* Change font sizing just for presenter notes */
 
