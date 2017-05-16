@@ -396,6 +396,8 @@ template: logorb
 ???
 **USPTO:** “Trademark infringement is the unauthorized use of a trademark or service mark on or in connection with goods and/or services in a manner that is likely to cause confusion, deception, or mistake about the source of the goods and/or services.”
 
+If you see an Apache project brand being infringed - REPORT IT! (link above)
+
 “To prevail on a claim of trademark infringement, a plaintiff must establish that it has a valid mark entitled to protection; and that the defendant used the same or a similar mark in commerce in connection with the sale or advertising of goods or services without the plaintiff's consent. The plaintiff must also show that defendant's use of the mark is likely to cause confusion as to the affiliation, connection or association of defendant with plaintiff, or as to the origin, sponsorship, or approval of defendant's goods, services or commercial activities by plaintiff. See 1-800 Contacts, Inc. v. WhenU.com, Inc., 414 F.3d 400 (2d Cir. 2005). Thus, "use," "in commerce," and "likelihood of confusion" are three distinct elements necessary to establish a trademark infringement claim.”
 .bqcite[- https://www.law.cornell.edu/wex/trademark_infringement]
 
@@ -496,6 +498,7 @@ template: logorb
 - Trademark registration fairly simple - in the US
 - Trademark laws and registries vary significantly by country - US is first-to-use; most others are first-to-file
 - Trademark search is different than registration, but often done before registering
+- Registration process takes many months
 
 .footnote.code[https://www.apache.org/foundation/marks/register]
 
