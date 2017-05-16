@@ -110,8 +110,8 @@ Oh - I get really excited talking about open source trademarks, so just wave or 
 
 
 ---
-background-image: url(img/david-lezcano-120708-sm.jpg)
-background-size: contain
+template: fullheader
+name: menu
 # Topics
 
 - [Trademarks And Software Products](#products)
@@ -399,6 +399,12 @@ template: pineapple
 name: game
 # Spot The Lawyers
 
+???
+Let's play a game - I call it Spot the Laywers.  This game lets us see 
+who in the room is a lawyer, because they will visibly twitch when I 
+reveal the next slides with all-too-common misconceptions about trademarks!
+
+
 --
 
 .left-column[
@@ -416,6 +422,10 @@ Trademarks are just like...
 .right-column[
 When you register either one, you can win more compensation in an infringement lawsuit
 ]
+
+---
+template: pineapple
+# Spot The Lawyers, Round 2
 
 --
 
@@ -436,9 +446,6 @@ They both have to have a function: patents do things, trademarks have value only
 ]
 
 ???
-Let’s play a game - I call it spot the lawyers. 
-Anyone who flinches at the bullets on this slide is either a lawyer or has some actual experience with real life trademark issues.
-
 No - not really - trademarks are *really* not like copyright or patents! 
 But non-laywers often get confused with the concepts, especially between trademarks and copyrights.
 
@@ -630,6 +637,9 @@ template: logorb
 **Everything** you need to know about Apache trademarks is 
 linked from here: https://www.apache.org/foundation/marks/resources
 
+**Everything.** Seriously.  Go check it out.
+
+Still have questions? `<trademarks@apache.org>`
 
 ---
 name: last-page
