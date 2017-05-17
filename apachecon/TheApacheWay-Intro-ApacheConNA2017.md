@@ -92,9 +92,11 @@ template: fullheader
 template: logorb
 # Apache Way: Introduction
 
-The Apache Way is a set or behaviors and practices developed at the ASF
+> The Apache Way is a set or behaviors and practices developed at the ASF
 and designed to promote long-lived successful projects by
 focusing on stable governance and encouraging new contributors.
+
+> These behaviors are required of Apache projects.
 
 ???
 Very high level intro, mention concepts: openness, merit, consensus.
@@ -126,11 +128,11 @@ template: logorb
 ## Wednesday Schedule
 
 * 1:05pm Lunch (on own)
-* 2:30pm The Apache Way For Business, Nick Burch
+* 2:30pm [The Apache Way For Business](http://sched.co/AghD), Nick Burch
 * 3:30pm [Committed To The Apache Way](https://apachecon2017.sched.com/event/9zvb/software-is-easy-people-are-hard-benjamin-young-john-wiley-sons-inc), Sharan Foga
 * 4:20pm Coffee Break
-* 4:40pm Keynotes
-* 5:50pm Lightning Talks
+* 4:40pm **Keynotes**
+* 5:50pm **Lightning Talks**
 
 ???
 **The Apache Way For Business** with Nick Burch and an expert panel of Apacheites, 
@@ -188,12 +190,11 @@ name: menu
 
 **What behaviors should we talk about next?**
 
-- [Community](#community) - over Code
-- [Merit](#merit) - recognizing your work
-- [Open Development](#open) - for **everything**
-- [Decision Making](#decision) - voting, only if necessary
-- [Communication](#communication) - how we write
-
+- **[Community](#community)** - over Code
+- **[Merit](#merit)** - recognizing your work
+- **[Open Development](#open)** - for **everything**
+- **[Decision Making](#decision)** - consensus & votes
+- **[Communication](#communication)** - how we write
 - [Questions To Answer](#closingslide)
 
 .footnote[The Apache Way is participatory! **You** are part of the community!]
@@ -231,7 +232,8 @@ no other ties between people widely distributed in location, in time,
 in experience, and in jobs besides the project itself.  **SPACEBAR**
 
 --
-Community includes developers, writers, testers, sysadmins, 
+
+- Community includes developers, writers, testers, sysadmins, 
 devops,... **and users**.
 
 
@@ -245,8 +247,9 @@ template: logorb
 # Community - No Jerks Allowed
 
 - "No jerks allowed" - a key early message
-  - FOSS communities value group contributors, not lone wolves
-  - Diverse communities that can attract new contributors over time
+  - Apache communities value group contributors, not lone wolves
+  - Diverse communities attract more new contributors over time
+  - BDFL not allowed in Apache PMCs
 
 ???
 There are many ways to say this - No Jerks Allowed, Avoid Poisonous 
@@ -262,9 +265,12 @@ template: logorb
 - "No jerks allowed" - a key early message
   - FOSS communities value group contributors, not lone wolves
   - Diverse communities that can attract new contributors over time
-- **Be Excellent To Each Other**
+
+### Be Excellent To Each Other
 
 ???
+In the immortal words of Bill and Ted: Be Excellent To Each Other.
+
 This is important for any community, and doubly so for Apache projects, 
 since we're all also part of the larger ASF community.  We have a code 
 of conduct - not because we want to use it, but because we don't want 
@@ -279,7 +285,8 @@ template: logorb
 - You are an individual - not an employee
 - No corporate participation in Apache
 - Individuals get recognition
-  - Side effect for corporate teams: all team members must participate ately
+  - Side effect for corporate teams: all team members must participate separately
+  - Side effect for **you**: your merit stays with **you**
 
 ???
 The ASF does not allow direct corporate participation in projects.  
@@ -302,6 +309,7 @@ template: logorb
 - Not talking about hierarchy
 - Because we have one - each project is separate
 - We each volunteer with same powers (and superpowers in a PMC)
+- Your PMC doesn't care what your dayjob role is
 
 ???
 Wearing your project hat means you're acting on behalf of the project as 
@@ -315,7 +323,7 @@ template: logorb
 # Community - Independent Governance
 
 - ASF owns the trademarks
-- ASF ensures neutrality, lopment
+- ASF ensures neutrality, development
 - PMC owns the brand
 - PMCs govern independently
 
@@ -340,9 +348,8 @@ template: pineapple
 name: merit
 # Merit
 
-.footnote[
 [Take a different way?](#menu) | Continue Onward?
-]
+
 
 ---
 template: logorb
@@ -374,14 +381,14 @@ jobs and careers.
 template: logorb
 # Merit - Growth
 
-The more you do, the more power you have to potentially do things:
+The more you do, the more power you _may be granted_ to take actions:
 - User
 - Contributor
-- Committer
-- PMC Member
+- **Committer**
+- **PMC Member**
 - PMC Chair / VP
 - ASF Member
-- Director
+- **Director**
 
 ???
 Each step is defined by the merit you are recognized for by that 
@@ -467,13 +474,16 @@ to do some of the work for you.
 template: logorb
 # Open Development - Archiving Everything
 
-- If It Didn't Happen On-List It Didn't Happen
-- Must be public list unless there's a reason
-- Provide time for 
+> If It Didn't Happen On-List It Didn't Happen
+
+- Must be public list unless there's a reason for private list
+- Asynchronous lists provide time for 
   - feedback
   - critique
   - new ideas
   - others to show their work
+
+> Allows newcomers to learn at any time
 
 ???
 Archiving everything means that newcomers can get up to speed with 
@@ -481,13 +491,6 @@ all the information of the project available for them.  Even if your
 documentation doesn't lead new users through this, having it available 
 both for people to find, and especially for people to reference when 
 questions come up is the most important thing.
-
-The right way to work is to:
-
-  - Telegraph iyour ntent
-  - Draft designs openly
-  - Submit work in chunks
-  - Welcome feedback along the way
 
 
 ---
@@ -498,11 +501,18 @@ template: logorb
   - Motivated by boss, by outside technical need, by just being a geek
 - Motivation should be best for project as a whole
 
+The right way to work is to:
+
+- Telegraph your intent
+- Draft designs openly
+- Submit work in chunks
+- Welcome feedback along the way
+
 ???
 Ensuring decisions are made openly - when everyone has the same information 
 and time to read it - is required of Apache projects.
 
-Open source does not always mean open development.
+**Open source does not always mean open development.**
 
 Apache projects always practice open development - it's required.
 
@@ -512,7 +522,11 @@ template: logorb
 
 - Apache License v2.0
 - Maximum user freedom
-- Trust in ASF as corporation to maintain open development using it
+- Trust in ASF as corporation
+  - To maintain open development
+  - To continue to provide source code
+
+> Apache Attic - where quiet projects slumber
 
 ???
 A goal of the ASF is to encourage maximum inbound contributions.
@@ -528,9 +542,8 @@ template: beachbottom
 name: decision
 # Decision Making
 
-.footnote[
 [Take a different way?](#menu) | Continue Onward?
-]
+
 
 ---
 template: logorb
@@ -542,7 +555,7 @@ template: logorb
   - Your perfection may be someone else's "meh"
 
 ???
-There is no perfection - just getting better step by step.  Our goal is 
+**There is no perfection** - just getting better step by step.  Our goal is 
 to serve the public good, so any new features - as long as they don't 
 fail the tests or unduly slow down performance - is a good thing.
 
@@ -560,7 +573,7 @@ template: logorb
 > "Voting is a way to record an **official** consensus"
 
 ???
-There are two quotes about voting - the +1/-1 you've all heard about.
+**Here are two quotes about voting** - the +1/-1 you've all heard about.
 One of these is a good use of voting, the other is... not as good.
 
 You must vote on releases.  In some cases, the vote is the formal 
@@ -616,8 +629,24 @@ template: logorb
 
 Don't be a jerk; avoid the poisonous people.
 
+**How Open Source Projects Survive Poisonous People**
+https://www.youtube.com/watch?v=-F-3E8pyjFo
+
 ???
 You can't overemphasize this message!
+
+
+---
+template: logorb
+# Communication - Conduct
+
+Don't be a jerk; avoid the poisonous people.
+
+**ASF Code of Conduct**
+https://www.apache.org/foundation/policies/conduct
+
+???
+This is how we operate, in all Apache project and foundation spaces.
 
 
 ---
