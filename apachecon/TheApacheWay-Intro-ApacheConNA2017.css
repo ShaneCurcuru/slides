@@ -27,7 +27,14 @@ blockquote > p{
   position: absolute;
   bottom: 3em;
 }
-li p { line-height: 1.25em; }
+/* Fix too small body fonts -sv */
+li, p { 
+  line-height: 1.25em;
+  font-size: 32px;
+}
+/* Change font sizing just for presenter notes */
+div.remark-notes-area p { font-size: 20px !important; }
+.remark-notes-area > p { font-size: 22px !important; }
 .red { color: #fa0000; }
 .large { font-size: 2em; }
 a, a > code {
