@@ -72,6 +72,8 @@ template: fullheader
 ## The Apache Way: Effective Open Source Project Management
 ]
 
+**Tips:** _Press '?' for help; press 'P' for speaker notes._
+
 ---
 template: fullheader
 # The Apache Way
