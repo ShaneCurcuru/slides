@@ -10,9 +10,7 @@ seo:
   type: person
 ---
 
-<div class="alignright">
-{% avatar shanecurcuru size=250 %}
-</div>
+<div class="alignright">{% avatar shanecurcuru size=250 %}</div>
 
 Shane has been involved at the Apache Software Foundation since 1999, and serves as Director and VP of Brand Management, setting [policy for trademarks and branding](http://www.apache.org/foundation/marks/resources) and working with all 200+ Apache projects on community management, trademarks, and branding issues.
 

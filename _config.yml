@@ -2,15 +2,20 @@ theme: retlab
 
 title: Shane's Slides
 description: Open Source Community And Trademark Slides
+author:
+  name: Shane Curcuru
+  twitter: shanecurcuru
 
-# Leave slide decks alone
+repository: ShaneCurcuru/slides
+logo: "/assets/img/headshot.jpg"
+
+# TODO Leave slide decks alone
 exclude: 
-
 
 timezone: America/New_York
 encoding: UTF-8
 lang: en-US
-branch: gh-pages
+branch: master
 
 # Pages to include in header navigation
 nav_pages:
