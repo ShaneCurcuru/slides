@@ -1,23 +1,35 @@
 theme: retlab
 
 title: Shane's Slides
-description: Open Source Community And Branding Expertise
+description: Open Source Community And Trademark Slides
 
+# Leave slide decks alone
+exclude: 
+
+
+timezone: America/New_York
+encoding: UTF-8
 lang: en-US
 branch: gh-pages
 
 # Pages to include in header navigation
 nav_pages:
   - index.html
-  - talks.md
-  - press.md
   - about.md
   - contact.md
 
 # Disqus login information, for comments
 disqus:
-  shortname: DISQUS_USERNAME
+  shortname: shanecurcuru
 
+social:
+  name: Shane Curcuru
+  links:
+    - https://twitter.com/ShaneCurcuru
+    - https://www.linkedin.com/in/ShaneCurcuru
+    - https://plus.google.com/+ShaneCurcuru
+    - https://github.com/ShaneCurcuru
+    
 # Links to include on the contact page
 contact_links:
   - name: Twitter
@@ -26,8 +38,18 @@ contact_links:
   - name: GitHub
     url: https://github.com/ShaneCurcuru
     icon: github
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/ShaneCurcuru
+    icon: linkedin
+  - name: Google
+    url: https://plus.google.com/+shanecurcuru
+    icon: google-plus
+  - name: Keybase
+    url: https://keybase.io/shanecurcuru
+    icon: key
 
 # Front matter defaults
+permalink: "/:year/:month/:title/"
 defaults:
   -
     scope:
@@ -46,7 +68,9 @@ defaults:
 
 # Plugins
 gems:
+  - jemoji
   - jekyll-seo-tag
   - jekyll-avatar
   - jekyll-github-metadata
   - jekyll-feed
+  - jekyll-sitemap

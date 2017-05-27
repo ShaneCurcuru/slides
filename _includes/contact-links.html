@@ -1,0 +1,16 @@
+<ul id="contact-links">
+  {% for link in site.contact_links %}
+    <li>
+      <a href="{{ link.url }}" rel="me" target="_blank" data-proofer-ignore="true">
+        <i class="fa fa-{{ link.icon }} fa fa-4x">&nbsp;</i><br />
+        {{ link.name }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<p class="pgp-key center">
+  <a href="https://www.apache.org/dist/xalan/xalan-j/KEYS">PGP: <code>B29B 58CC 0B09 58F1 24DA  C61A 32EC 1759 30A2 1D55</code></a>
+  <br/>
+  <a href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0xF17FD0F0F4807766">PGP: <code>291F 63F5 5674 C84D 06F4  D9FC F17F D0F0 F480 7766</code></a>
+</p>
