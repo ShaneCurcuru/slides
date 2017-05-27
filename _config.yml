@@ -1,1 +1,52 @@
-theme: jekyll-theme-leap-day
+theme: retlab
+
+title: Shane's Slides
+description: Open Source Community And Branding Expertise
+
+lang: en-US
+branch: gh-pages
+
+# Pages to include in header navigation
+nav_pages:
+  - index.html
+  - talks.md
+  - press.md
+  - about.md
+  - contact.md
+
+# Disqus login information, for comments
+disqus:
+  shortname: DISQUS_USERNAME
+
+# Links to include on the contact page
+contact_links:
+  - name: Twitter
+    url: https://twitter.com/ShaneCurcuru
+    icon: twitter
+  - name: GitHub
+    url: https://github.com/ShaneCurcuru
+    icon: github
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+      comments: false
+
+# Plugins
+gems:
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-github-metadata
+  - jekyll-feed
