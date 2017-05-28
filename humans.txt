@@ -1,8 +1,9 @@
 ---
 layout: nil
 ---
+
 /* THIS WEBSITE */
-Last Updated: {{ site.time | date:"%Y/%m/%d" }}
+Last Updated: {{ site.time | date_to_rfc822 }}
 Standards: HTML5, CSS3
 Components: {% for dependency in site.github.versions %}{{ dependency[0] }}{% if forloop.rindex0 > 0 %}, {% endif %}{% endfor %}
 
