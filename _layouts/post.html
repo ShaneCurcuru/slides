@@ -11,6 +11,9 @@ layout: default
       <div class="post-meta">
         <span class="entry-date">Posted {{ page.date | date: '%B %d, %Y' }}</span> |
         <a class="revision-history" href="{{ site.github.repository_url }}/commits/{{ site.branch }}/{{ page.path }}" target="_blank">View revision history</a>
+        {% if page.conference %}
+          | <span class="entry-date">Presented at: {{ page.conference }}</span>
+        {% endif %}
       </div>
 
       <div class="entrybody">
@@ -18,8 +21,6 @@ layout: default
       </div>
 
       {% include mini-bio.html %}
-
-      {% include improve.html %}
 
       {% unless page.comments == false %}
         {% include comments.html %}

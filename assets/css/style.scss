@@ -3,3 +3,15 @@
 
 $url_base: "{{ site.github.url }}";
 @import "retlab";
+
+.mini-bio {
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 10px !important;
+}
+
+.fa {
+  margin-right: 5px;
+}

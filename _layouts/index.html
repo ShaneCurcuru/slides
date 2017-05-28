@@ -8,10 +8,14 @@ hero: true
   <li class="post">
     <div class="row">
         <div class="col-sm-9">
-            <a href="{{ page.url | absolute_url }}">{{ page.description | smartify }}</a>
+            <a href="{{ page.url | absolute_url }}">{{ page.title | smartify }}</a>
+            <br/>
+            <span class="small">{{ page.description | smartify }}</span>
         </div>
         <div class="col-sm-3 date">
             {{ page.date | date: '%B %d, %Y' }}
+            <br/>
+            <span class="small">{{ page.conference | smartify }}</span>
         </div>
     </div>
   </li>
