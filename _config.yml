@@ -32,7 +32,6 @@ social:
   links:
     - https://twitter.com/ShaneCurcuru
     - https://www.linkedin.com/in/ShaneCurcuru
-    - https://plus.google.com/+ShaneCurcuru
     - https://github.com/ShaneCurcuru
     
 # Links to include on the contact page
@@ -52,6 +51,12 @@ contact_links:
   - name: Keybase
     url: https://keybase.io/shanecurcuru
     icon: key
+  - name: Slideshare
+    url: https://www.slideshare.net/shanecurcuru
+    icon: slideshare
+  - name: Medium
+    url: https://medium.com/@shanecurcuru
+    icon: medium
 
 # Front matter defaults
 permalink: "/:year/:month/:title/"

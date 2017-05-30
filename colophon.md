@@ -17,6 +17,8 @@ Website structure ([fork the code](https://github.com/{{ site.repository }})), l
 - Theme copied from [benbalter/retlab](https://github.com/benbalter/retlab) _(MIT)_
 - Images from [Unsplash](https://unsplash.com/) _(CC-0)_
 - Slide decks using [Remark.js](https://remarkjs.com/) _(MIT)_
+- Slide deck content from [Pamela Chestek](http://chesteklegal.com/) _(CC-BY)_
+- Slide deck design from [SlidesCarnival](http://www.slidescarnival.com) _(CC-BY)_
 
 #### Tools
 
