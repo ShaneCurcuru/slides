@@ -2,15 +2,11 @@
 title: Practical Trademark Law
 description: Practical Trademark Law For FOSS Projects
 conference: ApacheCon Miami
+slides: "http://shaneslides.com/apachecon/PracticalTrademarkLaw-SCurcuru-ApacheConNA2017.html"
+video: "https://www.youtube.com/watch?v=fiNvDG0ZR3E"
 ---
 
 There's a lot of misunderstanding about how trademarks work with open source software - or, indeed, how trademarks work in technology.  I have given this talk a number of times, and it gets more informative :sparkle: every time.
-
-<ul class="fa-ul">
-<span class="lead">Practical Trademark Law For FOSS Projects</span>
-<li><span class="fa-li fa fa-file"></span><a href="http://shaneslides.com/apachecon/PracticalTrademarkLaw-SCurcuru-ApacheConNA2017.html">Slides</a></li>
-<li><span class="fa-li fa fa-youtube"></span><a href="https://www.youtube.com/watch?v=fiNvDG0ZR3E">Video</a></li>
-</ul>
 
 ### Abstract
 

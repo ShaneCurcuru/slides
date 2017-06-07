@@ -2,15 +2,15 @@
 title: The Apache Way
 description: The Apache Way - Effective Open Source Project Management
 conference: ApacheCon Miami
+slides: "http://shaneslides.com/apachecon/TheApacheWay-Intro-ApacheConNA2017.html"
+video: "https://www.youtube.com/watch?v=hpAv54KIgK8"
 ---
 
 For ApacheCon Miami 2017, I built a completely new slide deck about The Apache Way, that focuses directly on actionable information: the behaviors of successful collaborative open source projects.
 
-<ul class="fa-ul">
-<span class="lead">The Apache Way - Effective Open Source Project Management</span>
-<li><span class="fa-li fa fa-file"></span><a href="http://shaneslides.com/apachecon/TheApacheWay-Intro-ApacheConNA2017.html">Slides</a></li>
-<li><span class="fa-li fa fa-youtube"></span><a href="https://www.youtube.com/watch?v=hpAv54KIgK8">Video</a></li>
-</ul>
+<div class="lead bg-info well">
+The Apache Way - Effective Open Source Project Management
+</div>
 
 ### Abstract
 

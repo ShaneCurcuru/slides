@@ -2,15 +2,11 @@
 title: Improving Your Apache Project's Image And Brand
 description: Simple ways to draw in more new contributors
 conference: ApacheCon Seville
+slides: "http://www.slideshare.net/shanecurcuru/improving-your-apache-projects-image-and-brand"
 ---
 
 Wondering how to get new developers - or writers, or testers, or designers - 
 interested in your project?  The simple things really do make a difference!
-
-<ul class="fa-ul">
-<span class="lead">Improving Your Apache Project's Image And Brand</span>
-<li><span class="fa-li fa fa-file"></span><a href="http://www.slideshare.net/shanecurcuru/improving-your-apache-projects-image-and-brand">Slides</a></li>
-</ul>
 
 ### Abstract
 

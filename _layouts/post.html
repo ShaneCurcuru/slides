@@ -9,10 +9,19 @@ layout: default
       <h2 class="title"><a href="{{ page.url | absolute_url }}">{{ page.title | smartify }}</a></h2>
 
       <div class="post-meta">
-        <span class="entry-date">Posted {{ page.date | date: '%B %d, %Y' }}</span> |
-        <a class="revision-history" href="{{ site.github.repository_url }}/commits/{{ site.branch }}/{{ page.path }}" target="_blank">View revision history</a>
+        <span class="entry-date">{{ page.date | date: '%B %d, %Y' }}</span>
         {% if page.conference %}
           | <span class="entry-date">Presented at: {{ page.conference }}</span>
+        {% endif %}
+        {% if page.slides %}
+          | <span class="entry-date">
+              <a href="{{ page.slides }}"><span class="fa fa-file"></span> Slides</a>
+            </span>
+        {% endif %}
+        {% if page.video %}
+        | <span class="entry-date">
+            <a href="{{ page.video }}"><span class="fa fa-youtube"></span> Video</a>
+          </span>
         {% endif %}
       </div>
 

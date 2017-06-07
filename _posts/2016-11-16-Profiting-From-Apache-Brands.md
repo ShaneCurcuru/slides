@@ -2,16 +2,12 @@
 title: Successfully Profiting From Apache Project Brands
 description: How companies can work productively with Apache projects
 conference: ApacheCon Seville
+slides: "http://www.slideshare.net/shanecurcuru/successfully-profiting-from-apache-brands"
 ---
 
 Many companies either bring their projects to the ASF, or build their businesses 
 around Apache projects.  Here's how to do it right, and be productive while 
 still respecting the community.
-
-<ul class="fa-ul">
-<span class="lead">Successfully Profiting From Apache Project Brands</span>
-<li><span class="fa-li fa fa-file"></span><a href="http://www.slideshare.net/shanecurcuru/successfully-profiting-from-apache-brands">Slides</a></li>
-</ul>
 
 ### Abstract
 
