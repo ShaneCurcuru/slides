@@ -432,9 +432,6 @@ The more you do, the more power you _may be granted_ to take actions:
 - ASF Member
   - **Director**
 
-.footnote[
-**Merit**
-]
 
 ???
 Each step is defined by the merit you are recognized for by that 
@@ -853,7 +850,7 @@ primary **development** language.
 ---
 template: fossneed
 name: client
-# Comcast - To Dos
+# Comcast - Call To Action
 
 .footnote[
 [_Take a different way?_](#menu) | _Continue On: Comcast To Dos_
@@ -872,7 +869,7 @@ template: logorb
 
 
 .footnote.small[
-Comcast - What You Can Do
+**Comcast - What You Can Do**
 ]
 
 ???
@@ -899,7 +896,7 @@ template: logorb
   - Highly customized features: keep internal
 
 .footnote.small[
-Comcast - What You Can Do
+**Comcast - What You Can Do**
 ]
 
 ???
@@ -927,7 +924,7 @@ template: logorb
 
 
 .footnote.small[
-Comcast - What You Can Do
+**Comcast - What You Can Do**
 ]
 
 ???
