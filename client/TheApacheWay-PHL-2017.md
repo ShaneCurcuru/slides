@@ -97,11 +97,11 @@ template: fullheader
 template: logorb
 # The Apache Way
 
-> Behaviors and practices developed at the ASF
+> Behaviors and practices developed by 100's of projects at the ASF
 
 > Designed to promote long-lived successful projects
 
-> Focus on stable, independent governance and encouraging new contributors.
+> Focus on stable, independent governance and encouraging new contributors
 
 ???
 This is a brief overview to the comprehensive set of behaviors 
@@ -114,13 +114,13 @@ of projects at the ASF.
 template: logorb
 # The Apache Way
 
-> Behaviors and practices developed at the ASF
+> Behaviors and practices developed by 100's of projects at the ASF
 
 > Designed to promote long-lived successful projects
 
-> Focus on stable, independent governance and encouraging new contributors.
+> Focus on stable, independent governance and encouraging new contributors
 
-> **Required behaviors for Apache projects.**
+> **Required behaviors for Apache projects!**
 
 ???
 These behaviors are **required** of Apache projects - but they will be 
@@ -240,7 +240,7 @@ template: logorb
   - We don't know each other
 - _Except_ through our project
 - Community includes developers, writers, testers, sysadmins, 
-devops... **and users**.
+devops... **and users**
 
 .footnote[
 **Community**
@@ -299,6 +299,10 @@ since we're all also part of the larger ASF community.  We have a code
 of conduct - not because we want to use it, but because we don't want 
 to have to use it, since the great majority of our communities keep 
 discussion polite to start with. 
+
+Remember: your community doesn't work for you.  It needs to be to their
+advantage to contribute to the project too - either in code, or docs, 
+or answering questions on the mailing list. 
 
 
 ---
@@ -394,11 +398,9 @@ name: merit
 template: logorb
 # What You Can Do
 
+> Defined by the value **you** bring to a project
 
-.right-column[
-Defined by the value **you** bring to a project, defined 
-in the **context of that project** by the project community.
-]
+> In the **context of that project** by the project community
 
 > "You gain merit by doing things that a specific community values"
 
@@ -478,7 +480,7 @@ template: logorb
 ## Problem area!
 
 Apache Jakarta was an umbrella project - with many different subprojects and 
-components - and communities.
+components - _and communities_.
 
 The PMC must be a _coherent_ community to be able to **recognize merit** in all contributors.
 
@@ -490,7 +492,7 @@ The PMC must be a _coherent_ community to be able to **recognize merit** in all 
 ???
 A cautionary tale: in the past, we have had successful projects that grew 
 in scope - both technical and social - until they were too big to 
-govern themselves effectively.
+govern themselves effectively - either socially or technically.
 
 When a project grows such that different groups of committers running 
 modules can't evaluate each other's work - or vote on releases - it's 
@@ -537,6 +539,10 @@ You don't need to wait for everyone's feedback - but you do need to recognize th
 sometimes other committers will have better ideas, or will be willing 
 to do some of the work for you.
 
+This is doubly important when your **team** works in open source: remember,
+the rest of the community isn't around the coffeemaker in your office!
+Bring your discussions back to the list!
+
 
 ---
 template: logorb
@@ -545,7 +551,7 @@ template: logorb
 > If It Didn't Happen On-List It Didn't Happen
 
 - Must be public list unless there's a reason
-- Asynchronous lists provide time for 
+- Asynchronous lists provide time for
   - Feedback
   - New ideas
   - Others to show _their_ work
@@ -575,6 +581,7 @@ template: logorb
 
 - Your motives aren't transparent to the community
   - Motivated by your boss, by outside technical need, by just being a geek
+
 - New work should be done for benefit of project as a whole
 
 
@@ -613,6 +620,10 @@ coming up soon is important for open development.  Just dumping complete
 code prevents others from adding their expertise or ideas - some of which 
 may lead to better code than you've developed alone.
 
+The best way to get something done well in open source is either to do 
+**everything** yourself, or to implement something half-way - and wait 
+to see how the rest of the community will improve your code.
+
 ---
 template: logorb
 # Pragmatic License
@@ -636,6 +647,9 @@ this - both from the legal details point of view, and from our brand.
 
 People trust they can just use stuff from Apache without being surprised 
 by any unusual licenses or changes.
+
+Stick with standard licenses, CLAs.  **Don't customize** - customizations, 
+no matter how much your lawyers want them - scare off new contributors.
 
 
 ---
@@ -707,6 +721,8 @@ template: logorb
 # Timelines
 
 - **Minimum** time to make a decision: 72 hours
+
+
 - Allows timeshifted input from community
 
 
@@ -728,6 +744,8 @@ template: logorb
 # Deadlines
 
 - Because **we** don't have any - besides those **we** agree on together
+
+
 - Because our deadlines are "earliest date" something can happen
 
 
@@ -774,6 +792,13 @@ https://www.youtube.com/watch?v=-F-3E8pyjFo
 
 ???
 You can't overemphasize this message!
+
+We all come from different backgrounds, and email loses all the social 
+hints at behavior that we are used to in real life.  Assume the best 
+of people, and when upset more than ever, write your email but 
+**don't send it**.  Give it time.  Unless it's a security issue or 
+a release vote, the community can take the time to defuse poor 
+behavior.
 
 
 ---
