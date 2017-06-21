@@ -53,7 +53,7 @@ background-size: cover
 
 ---
 layout: true
-name: apacheneed
+name: fossneed
 background-image: url(img/love-maldives-57551-43.jpg)
 background-size: cover
 
@@ -104,7 +104,6 @@ template: logorb
 > Focus on stable, independent governance and encouraging new contributors.
 
 ???
-Very high level intro, mention concepts: openness, merit, consensus.
 This is a brief overview to the comprehensive set of behaviors 
 and best practices developed over many years and hundreds 
 of projects at the ASF.
@@ -124,7 +123,7 @@ template: logorb
 > **Required behaviors for Apache projects.**
 
 ???
-These behaviors are required of Apache projects - but they will be 
+These behaviors are **required** of Apache projects - but they will be 
 useful in any distributed project.
 
 
@@ -141,8 +140,13 @@ template: logorb
 ???
 The behaviors of the Apache Way can be used by anyone, but are born 
 out of extensive experience governing the 100's of Apache Software 
-Foundation projects.  Having an independent board overseeing all 
-Apache PMCs ensures that governance stays independent.
+Foundation projects ranging from high performance big data streaming 
+tools to end user applications and everything in between.
+
+Having an independent board overseeing all 
+Apache PMCs ensures that governance stays independent; and having each 
+PMC be in charge of their project as a whole keeps the focus on 
+all users of the software.
 
 
 ---
@@ -151,9 +155,9 @@ template: logorb
 
 - Long history of the Apache Way
 - Many painful lessons learned
-- Improvements and iteration in behaviors
-- Copied by many other groups
-  -  **What Can I Do Now?**
+- Improvements from many sources
+- Copied by other foundations
+  - **What Can I Do Now?**
 
 ???
 But is that really important?  You want to learn the behaviors, right?
@@ -168,34 +172,6 @@ we'll save the whys for after we talk about the whats.
 
 
 ---
-template: fossneed
-name: fossneed
-# How To Work In FOSS
-
-- Simple contribution policies for employees
-- Use OSI-approved licenses (Apache or GPL)
-- Be honest about open source vs. open development
-- Provide non-developer resources to FOSS projects
-
-
-.footnote.small[
-Starting steps for working in FOSS
-]
-
-???
-Apache needs well-behaving technology companies to work well with the 
-many Apache projects whose software you use every day.
-
-If you bring a project to the ASF, plan ahead for branding, community, 
-and leadership issues in the project, and expect the Incubation process.
-
-If you have changes to an existing project, then submit them in an 
-open and iterative fashion, and work with the existing project community.
-
-FOSS foundations want to see your employees engaged in open source.
-
-
----
 template: closing
 # Apache Way
 ## Defining The Behaviors
@@ -206,26 +182,21 @@ template: menu
 name: menu
 # Apache Way: Menu
 
-**What behaviors should we talk about next?**
+What do **you** want to talk about next?
 
 - **[Community](#community)**   _- over Code_
 - **[Merit](#merit)**     _- recognizing your work_
 - **[Open Development](#open)**  _- for **everything**_
 - **[Decision Making](#decision)**  _- consensus & votes_
 - **[Communication](#communication)**  _- how we write_
-
-
-.footnote.small[
-The Apache Way is participatory! 
-
-**You** are part of the community!
-]
+- **[Comcast To-Dos](#client)**  _- what **you** can do_
 
 ???
 Community Over Code also means that You Need To Participate.
 
 Each of these is a set of topics about a kind of behaviors that 
-Apache projects are expected to follow.  **What do you want to talk about?**
+Apache projects are expected to follow.  
+**What do you want to talk about?**
 
 
 ---
@@ -245,7 +216,6 @@ template: logorb
   - We don't live together
   - We don't work together
   - We don't know each other
-
 - _Except_ through our project
 
 .footnote[
@@ -268,7 +238,6 @@ template: logorb
   - We don't live together
   - We don't work together
   - We don't know each other
-
 - _Except_ through our project
 - Community includes developers, writers, testers, sysadmins, 
 devops... **and users**.
@@ -280,6 +249,10 @@ devops... **and users**.
 ???
 The important thing is that the **community** owns the project.  Not you, 
 not me, not your company.  All of us.
+
+Importantly, users are not necessarily customers.  The ways that you may
+be used to connecting with customers is different than effective ways 
+to communicate and get feedback from other users of the product.
 
 
 ---
@@ -357,6 +330,7 @@ helps encourage long-lived participants, across jobs.
 
 
 ---
+exclude: true
 template: logorb
 # Check Affiliations At The Door
 
@@ -464,6 +438,14 @@ The more you do, the more power you _may be granted_ to take actions:
 Each step is defined by the merit you are recognized for by that 
 specific community. Each step means you can get a binding vote on new tasks.
 
+While all committers can directly checkin code to their project(s), 
+PMC members can also vote on new committers and on product releases.
+
+ASF Members don't have any extra abilities with projects; however they 
+can vote for the board of directors.   Directors don't directly affect 
+project technical direction, but do appoint corporate officers, and do 
+provide social and organizational oversight to all Apache projects.
+
 
 ---
 template: logorb
@@ -532,7 +514,6 @@ name: open
 template: logorb
 # Time Shifting
 
-- Yes, we use mailing lists
 - **Asynchronous** communication is critical
   - ...dispersed in space
   - ...dispersed in abilities / expertise
@@ -544,6 +525,8 @@ template: logorb
 ]
 
 ???
+Yes, we use mailing lists!
+
 Remember: we are a dispersed community, each with our own lives and jobs.
 We need to show the work we're doing - and allow feedback - in whatever 
 timeframe works for everyone else on the project.  In many cases the 
@@ -580,8 +563,13 @@ documentation doesn't lead new users through this, having it available
 both for people to find, and especially for people to reference when 
 questions come up is the most important thing.
 
+This means that IRC, Slack, Hipchat, and the like must bring any 
+interesting conversations back to the mailing list, so that the rest of 
+the community can participate in any **decisions**.
+
 
 ---
+exclude: true
 template: logorb
 # Project Motivation
 
@@ -693,7 +681,7 @@ template: logorb
 
 > "Voting is a shortcut to move consensus forward in a timely manner"
 
-> "Voting is a way to record an **official** consensus"
+> "Voting is a way to record an official consensus"
 
 
 .footnote[
@@ -709,7 +697,7 @@ record that a PMC or the board made a decision.  That keeps the decision
 as being an act of the ASF as a foundation, and not just a bunch of 
 individual developers.
 
-Voting to speed consensus... it can be OK in some cases, but where possilbe 
+Voting to speed consensus... it can be OK in some cases, but where possible 
 we prefer to work through to a better consensus. Some projects choose as 
 a whole community to use votes more often, but it's not required.
 
@@ -732,7 +720,8 @@ backgrounds.  For example, some people commit during a dayjob; some people
 only have time on weekends or when the kids are asleep.
 
 Ensuring sufficient time for most community members to comment is 
-required for many major decisions in Apache projects. 
+required for many major decisions in Apache projects.  Note: not needed
+on every change, just significant code changes, releases, or the like.
 
 ---
 template: logorb
@@ -756,6 +745,8 @@ the rest of the community.  This isn't to say a few developers can't
 make progress and even cut a release - but the community may still come 
 along later to make changes.
 
+One exception: security fixes, which must be done responsibly and quickly.
+
 
 ---
 template: treeright
@@ -765,6 +756,7 @@ name: communication
 .footnote[
 [_Take a different way?_](#menu) | _Continue On: Communication_
 ]
+
 
 ---
 template: logorb
@@ -804,6 +796,10 @@ This is how we operate, in all Apache project and foundation spaces.
 FOSS projects and foundations without a code of conduct will not 
 attract as many contributions as ones with a healthy and friendly community.
 
+See the recent GitHub Developer's survey, which showed a large majority 
+of developers - of every background - believed that encouraging diverse 
+contributors was an important thing for projects.
+
 
 ---
 template: logorb
@@ -827,6 +823,101 @@ list in English.
 This doesn't mean it can't be done - it certainly is being done in China
 and elsewhere - just that the ASF can't support non-english as the 
 primary **development** language.
+
+
+---
+template: fossneed
+name: client
+# Comcast - To Dos
+
+.footnote[
+[_Take a different way?_](#menu) | _Continue On: Comcast To Dos_
+]
+
+???
+So what can **you** do as an organization to improve your open source work?
+
+---
+template: logorb
+# Corporate Policies
+
+- Simple contribution policies for FOSS work
+- Use OSI-approved licenses (Apache or GPL)
+- Provide non-developer resources to FOSS projects
+
+
+.footnote.small[
+Comcast - What You Can Do
+]
+
+???
+**Big takeaway:** ensure employees aren't blocked from working in open 
+source - either by legal, management, or worries about IP risk.
+
+If you bring a project to the ASF, plan ahead for branding, community, 
+and leadership issues in the project, and expect the Incubation process.
+
+If you have changes to an existing project, then submit them in an 
+open and iterative fashion, and work with the existing project community.
+
+FOSS foundations want to see your employees engaged in open source.
+
+
+---
+template: logorb
+# Project Planning
+
+- Be honest about open source vs. open development
+- Consider architecture choices in FOSS
+  - Easy to understand modules
+  - Functionality useful for others
+  - Highly customized features: keep internal
+
+.footnote.small[
+Comcast - What You Can Do
+]
+
+???
+"Recognise that your project isn't necessarily about **your** needs - but 
+plan a project that is valuable to many people - and you have a much better 
+chance of building a vibrant community."  - @VMBrasseur
+
+Open sourcing an internal tool is easy.  Attracting a community and getting 
+the benefits of open development take work, and take some time to allow 
+community to grow.  Planning the architecture and how the staff treat 
+users and contributors is key to attracting good contributions.
+
+Have a CONTRIBUTING.md policy - and make sure you task developers 
+to review pull requests or bug reports.  Even if you don't accept 
+some code patch, providing feedback to the submitter goes a long way.
+
+
+---
+template: logorb
+# Employee Growth
+
+- Encourage employees to work in open source
+- Introduce InnerSource concepts across teams
+- Recognize existing FOSS contributors
+
+
+.footnote.small[
+Comcast - What You Can Do
+]
+
+???
+Top talent expects to be able to work on open soruce - whether as part 
+of their dayjob project work, or on the side.  Ensure employees are 
+encouraged to responsibly contribute, and have a culture of submitting 
+fixes upstream.
+
+Ensuring the management culture is fully accepting of open source 
+behaviors goes a long way to getting employees comfortable with it.
+
+InnerSource is a great re-framing of The Apache Way that is valuable 
+to get experience internally, without the license complications, and 
+gives employees the "Ah-ha" moments about sharing maintenance costs 
+and un-duplicating work on purely internal projects.
 
 
 ---
