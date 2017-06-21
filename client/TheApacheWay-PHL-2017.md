@@ -869,7 +869,7 @@ template: logorb
 
 
 .footnote.small[
-**Comcast - What You Can Do**
+**Comcast - Call To Action**
 ]
 
 ???
@@ -896,7 +896,7 @@ template: logorb
   - Highly customized features: keep internal
 
 .footnote.small[
-**Comcast - What You Can Do**
+**Comcast - Call To Action**
 ]
 
 ???
@@ -909,7 +909,7 @@ the benefits of open development take work, and take some time to allow
 community to grow.  Planning the architecture and how the staff treat 
 users and contributors is key to attracting good contributions.
 
-Have a CONTRIBUTING.md policy - and make sure you task developers 
+Have a CONTRIBUTING.md policy - and make sure you task team developers 
 to review pull requests or bug reports.  Even if you don't accept 
 some code patch, providing feedback to the submitter goes a long way.
 
@@ -924,7 +924,7 @@ template: logorb
 
 
 .footnote.small[
-**Comcast - What You Can Do**
+**Comcast - Call To Action**
 ]
 
 ???
@@ -969,6 +969,23 @@ template: thanks
 # Questions!
 
 Thanks for your feedback!
+
+.footnote[
+By: [@ShaneCurcuru](https://twitter.com/shanecurcuru) |
+<a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache v2.0</a> |
+http://shaneslides.com/
+]
+
+
+---
+name: thankyou
+template: thanks
+
+# Thank You
+
+- Thanks to the ASF Membership and the Apache project communities for developing the Apache Way
+- Slides written in [remark.js](https://github.com/gnab/remark) _(MIT)_
+- Background images from [Unsplash](https://unsplash.com/search/miami) _(CC0)_
 
 .footnote[
 By: [@ShaneCurcuru](https://twitter.com/shanecurcuru) |
