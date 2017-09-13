@@ -20,6 +20,12 @@ This website showcases some of the open source presentations I've made at major 
 
 <h2>Punderthings&#8480; Consulting</h2>
 
-Shane's [Punderthings, LLC](http://punderthings.com/) is available for speaking engagements or contracting to help you better understand open source.  [Contact me](/contact) or find me on these social networks:
+Shane's [Punderthings, LLC](http://punderthings.com/) is available for speaking engagements or contracting to help you better understand open source. 
 
+<h2>Choose A Foundation</h2>
+
+Shane's [Choose A Foundation](http://chooseafoundation.com/) website is here to help open source projects take their game to the next level, with advice on joining a FOSS Foundation to improve governance and branding.
+
+[Contact me](/contact) or find me on these social networks:
+ 
 {% include contact-links.html %}
