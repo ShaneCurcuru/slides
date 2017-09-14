@@ -2,11 +2,12 @@
 title: Who Owns That Open Source Brand?
 description: Demystifying trademarks and brands in open source
 conference: OSSummit
-slides: "#tbd"
+slides: "http://shaneslides.com/ossummit/WhoOwnsThatOpenSourceBrand-SCurcuru.key"
 ---
 
 You know your organization runs open source - everywhere.  Do you know 
 who truly controls the governance and brands of these open source projects?
+(Slides in Keynote format)
 
 <div class="lead bg-info well">
 Who Owns That Open Source Brand?
