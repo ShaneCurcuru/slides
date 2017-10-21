@@ -24,7 +24,11 @@ Shane's [Punderthings, LLC](http://punderthings.com/) is available for speaking 
 
 <h2>Choose A Foundation</h2>
 
-Shane's [Choose A Foundation](http://chooseafoundation.com/) website is here to help open source projects take their game to the next level, with advice on joining a FOSS Foundation to improve governance and branding.
+I can help you [Choose A Foundation](http://chooseafoundation.com/) to help open source projects take their game to the next level, with advice on joining a FOSS Foundation to improve governance and branding.
+
+<h2>The Apache Way</h2>
+
+Learn about [The Apache Way](http://theapacheway.com/), the successful methodology used by app 200+ Apache Software Foundation projects to run community-led open source projects.
 
 [Contact me](/contact) or find me on these social networks:
  
