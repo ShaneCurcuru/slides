@@ -58,6 +58,14 @@ contact_links:
     url: https://medium.com/@shanecurcuru
     icon: medium
 
+# Build CFPs as well
+collections:
+  cfps:
+    output: true
+    excerpt: "Shane's other CFP submissions or ideas"
+    label: "Shane CFPs"
+    permalink: /:collection/:path
+
 # Front matter defaults
 permalink: "/:year/:month/:title/"
 defaults:
@@ -75,6 +83,13 @@ defaults:
     values:
       layout: page
       comments: false
+  -
+    scope:
+      path: "cfp"
+      type: cfps
+    values:
+      layout: cfp
+      comments: true
 
 # Plugins
 gems:
