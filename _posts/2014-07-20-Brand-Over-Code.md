@@ -1,6 +1,6 @@
 ---
-title: Why Your Brand Is More Important Code
-description: Telling The Story Of Your Project To The World
+title: Why Your Brand Is More Important Than The Code
+description: Telling the story of your project to the world
 conference: OSCON Ignite
 slides: "http://www.slideshare.net/shanecurcuru/why-your-projects-brand-is-more-important-than-the-code-script"
 video: "https://www.youtube.com/watch?v=b72vvkUYZPk"
@@ -14,7 +14,7 @@ BRAND > CODE - a controversial statement to be sure.  But how useful is your cod
 
 Spend 5 minutes with Shane Igniting the story about how brand can bring more project growth and longevity to your project than the code itself does.  Ensuring you can tell the **story** of your project and what it does to the world is the best way to attract new contributors.
 
-*Also, apologies.*  Unfortunately the conference video system mangled my beautiful slides; and it was a rough day for me - I don't normally say "so" that many times (not sure what I was thinking!)
+*Also, apologies.*  Unfortunately the conference video system mangled my beautiful slides; and it was a rough day for me - I don't normally say "so" so, so many times (so not sure what I was thinking!)
 
 {: .lead }
-Telling the story for your project to the world.
+Telling the story of your project to the world.
