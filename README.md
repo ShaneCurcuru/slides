@@ -3,12 +3,7 @@
 A better place to write and store slide decks for the various open source
 conferences that I speak at. Be sure to look for speaker notes!
 
-Also published at http://ShaneSlides.com
-
-See me and many other Apache experts at [ApacheCon Miami, 16-18 May](http://events.linuxfoundation.org/events/apachecon-north-america).
-
-Wednesday will be a full day of expert [Apache Way talks - with a preview](shaneslides.com/apachecon/TheApacheWay-Track-ApacheConNA2017.html)!
-Each speaker has their own slides; [pull requests welcome](https://github.com/ShaneCurcuru/slides/tree/master/apachecon).
+Please [view this on the web at http://ShaneSlides.com](http://ShaneSlides.com/)
 
 ## Technology
 
@@ -28,22 +23,16 @@ and the Software Freedom Law Conference.
 
 ## About Shane
 
-Shane serves as Vice President of [Brand Management for the
-ASF](https://www.apache.org/foundation/marks/resources), setting policy
-for trademarks and branding across all 200+ Apache projects and
-podlings, and has served as six-time Director. Shane regularly talks
-and blogs about branding and governance issues for open source projects.
-In the mundane world, Shane has worked in the past at Lotus and IBM as an
-Application Architect. Otherwise, Shane is: a father and husband, a
-Member of the ASF, a baker, a BMW driver and punny guy. Oh, and we have
-[cats][1].
+Shane is founder of [Punderthings℠ LLC consultancy](http://punderthings.com/), helping organizations find better ways to engage with the critical open source projects that power modern technology and business.  He blogs and tweets about open source governance and trademark issues, and has [spoken at major technology conferences](http://ShaneSlides.com/) like ApacheCon, OSCON, All Things Open, Community Leadership Summit, and Ignite.
+
+Shane Curcuru serves as VP Brand Management for the ASF, and wrote the trademark and branding policies that cover all 200+ Apache® projects, including assisting projects with defining and policing their trademarks, as well as negoitating agreements with various software vendors using Apache software brands.  Shane is serving a seventh term as an elected Director of the ASF, providing governance oversight, community mentoring, and fiscal review for all Apache projects.
+
+Otherwise, Shane is: a father and husband, a BMW driver and punny guy. Oh, and [we have cats](https://www.instagram.com/shanecurcuru/). Follow [@ShaneCurcuru](https://twitter.com/shanecurcuru) and read about [open source communities](http://CommunityOverCode.com) and see his [FOSS Foundation directory](http://ChooseAFoundation.com).
 
 ## License
 
-All original content Copyright © 2016 Shane Curcuru, licensed under
-the [Apache License v2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Copyright © [Shane Curcuru](http://shanecurcuru.org/) 2017-2018 | A [Punderthings℠ Production](http://punderthings.com/) | Licensed: [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 May include externally developed code licensed under MIT, BSD, or other
 similar licenses compatible with the Apache License v2.0.
 
-[1]: https://photos.google.com/share/AF1QipNrBCxPl7Jn6Tyr-XFNOqb8Vh3Oh1XY2s29lXu3c7kUPb98hd-F9VCkvYphKARpWA?key=MzJEeDlPeU02WDMxSWpYTGdVdnRSRzM4LVNJdlNn
