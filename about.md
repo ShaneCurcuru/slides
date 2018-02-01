@@ -1,6 +1,6 @@
 ---
 title: About
-excerpt: "Shane Curcuru is an Apache Director, VP of Brand Management, open source developer, and Punderthings consultant on community and trademarks."
+excerpt: "Shane Curcuru is an Apache Director and VP of Brand Management at the ASF, and Punderthings℠ consultant FOSS branding topics."
 layout: page
 permalink: /about/
 published: true
@@ -12,11 +12,13 @@ seo:
 
 <div class="alignright">{% avatar shanecurcuru size=250 %}</div>
 
-Shane has been involved at the Apache Software Foundation since 1999, and serves as Director and VP of Brand Management, setting [policy for trademarks and branding](http://www.apache.org/foundation/marks/resources) and working with all 200+ Apache projects on community management, trademarks, and branding issues.
+Shane is founder of [Punderthings℠ LLC consultancy](http://punderthings.com/), helping organizations find better ways to engage with the critical open source projects that power modern technology and business.  He blogs and tweets about open source governance and trademark issues, and has spoken at major technology conferences like ApacheCon, OSCON, All Things Open, Community Leadership Summit, and Ignite.
 
-Otherwise, Shane is: a father and husband, a friend, a geek, a [Member of the ASF](http://whyilovetheasf.com/), a baker, a BMW driver, a punny guy, and lifelong resident within the 495 belt. Oh, and [we have cats](https://www.instagram.com/shanecurcuru/).  Shane regularly blogs and speaks on [open source community](http://communityovercode.com/), governance, and branding topics, and runs the [Punderthings consultancy](http://punderthings.com/).
+Shane Curcuru serves as VP Brand Management for the ASF, and wrote the trademark and branding policies that cover all 200+ Apache® projects, including assisting projects with defining and policing their trademarks, as well as negoitating agreements with various software vendors using Apache software brands.  Shane is serving a seventh term as an elected Director of the ASF, providing governance oversight, community mentoring, and fiscal review for all Apache projects.
 
-This website showcases some of the open source presentations I've made at major conferences, including ApacheCon, OSCON, All Things Open, Community Leadership Summit, and Ignite.
+Otherwise, Shane is: a father and husband, a BMW driver and punny guy. Oh, and [we have cats](https://www.instagram.com/shanecurcuru/). Follow [@ShaneCurcuru](https://twitter.com/shanecurcuru) and read about [open source communities](http://CommunityOverCode.com) and see his [FOSS Foundation directory](http://ChooseAFoundation.com). 
+
+This website showcases some of the open source presentations I've made at major conferences, including ApacheCon / Apache:BigData, OSCON, All Things Open, Community Leadership Summit, Ignite, and the PLI Law conference.
 
 <h2>Punderthings&#8480; Consulting</h2>
 
