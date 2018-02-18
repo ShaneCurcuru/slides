@@ -5,7 +5,7 @@ description: "Demystifying trademarks and brands in open source."
 layout: cfp
 published: true
 icons: true
-submitted: OSCON2018
+submitted: OSCON2018, FOSSBackstage2018
 seo:
   type: person
 conference: OSSummit
