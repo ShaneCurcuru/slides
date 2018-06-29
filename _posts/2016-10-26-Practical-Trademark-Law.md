@@ -3,6 +3,7 @@ title: Practical Trademark Law
 description: What Trademarks Really Mean For FOSS Projects
 conference: All Things Open
 slides: "https://www.slideshare.net/shanecurcuru/practical-trademark-law-for-foss-projects"
+slides: "http://shaneslides.com/ato/PracticalTrademarkLawForFOSSProjects-SCurcuru.pdf"
 ---
 
 There's a lot of misunderstanding about how trademarks work with open source software - or, indeed, how trademarks work in technology.  This was one of the first :star: versions of this talk, and was focused for a general audience, not just Apache projects.  Slides posted include slide notes, which provide a deeper level fo explanation.
