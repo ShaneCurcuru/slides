@@ -106,7 +106,7 @@ High level intro, mention concepts: openness, merit, consensus.
 ---
 template: closing
 # Apache Way
-## Defining The Behaviors
+## History And Behaviors
 
 ---
 template: logorb
@@ -181,15 +181,14 @@ template: logorb
 
 - What do we mean by 'community' here?
   - We don't live together
-  - we don't work together
+  - We don't work together
   - We don't know each other
 - Except _through our project_
 
 ???
 What does community mean here?  Working on an independent open source 
 project is very different than most other human activities.  There are 
-no other ties between project contributors who are widely distributed in location, in time, 
-in experience, and in jobs outside our project itself.
+no other ties between project contributors who are widely distributed in location, in time, in experience, and in jobs outside our project itself.
 **SPACEBAR**
 
 --
@@ -217,7 +216,7 @@ template: logorb
 ???
 There are many ways to say this - No Jerks Allowed, Avoid Poisonous 
 People, be decent, whatever.  The point is, where everyone is a volunteer 
-and most people are doing this as a side task or second effort, ensuring 
+and many people are doing this as a side task or second effort, ensuring 
 that everyone is welcome is the most important factor for a long-lived 
 healthy project.
 
