@@ -23,6 +23,11 @@ layout: default
             <a href="{{ page.video }}"><span class="fa fa-youtube"></span> Video</a>
           </span>
         {% endif %}
+        {% if page.newer %}
+        | <span class="entry-date">
+            <a href="{{ page.newer }}"><span class="fa fa-rocket"></span> Newer Version Of This Talk</a>
+          </span>
+        {% endif %}
       </div>
 
       <div class="entrybody">
