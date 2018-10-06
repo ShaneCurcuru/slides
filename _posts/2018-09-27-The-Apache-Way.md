@@ -1,14 +1,12 @@
 ---
 title: The Apache Way
 description: The Apache Way - Effective Open Source Project Management
-conference: OSS@Comcast
-slides: "http://shaneslides.com/client/TheApacheWay-PHL-2017.html"
-newer: "http://shaneslides.com/2018/09/The-Apache-Way/"
+conference: ApacheCon Montréal
+slides: "http://shaneslides.com/apachecon/TheApacheWay-ApacheConNA2018.html"
+audio: "https://feathercast.apache.org/2018/09/29/the-apache-way-effective-open-source-project-management-shane-curcuru/"
 ---
 
-For a great team building event OSS@Comcast, I updated my Apache Way talk 
-to focus on a few of the key issues their corporate development teams 
-neded to adopt in their journey to broader open source leadership.
+For ApacheCon Montréal 2018, I honed and updated my Apache Way slides to better focus on just the behaviors and techniques that attendees can take home with them to be more effective in their projects.
 
 <div class="lead bg-info well">
 The Apache Way - Effective Open Source Project Management
