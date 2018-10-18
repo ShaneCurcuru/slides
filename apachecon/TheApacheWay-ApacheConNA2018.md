@@ -74,6 +74,9 @@ template: fullheader
 
 Welcome to the ApacheCon Montréal Community track!
 
+**Tips:** _Press '?' for help; press 'P' for speaker notes._
+
+
 ---
 template: fullheader
 # The Apache Way
@@ -487,8 +490,14 @@ and time to read it - is required of Apache projects.
 **Open source does not always mean open development.**
 
 Apache projects always practice open development - it's required.  
-Telegraphing your plans ahead of time gives the rest of the community 
-time to digest it, and provide useful feedback - or to improve your ideas.
+
+- Telegraph your intent: email dev@ with your *ideas* ahead of time.  This allows feedback, encouragement, someone else to point out similar code is already over there, etc.
+
+- Draft designs openly.  Put the rough first draft on the wiki/website/dev@ list, and then do your edits *in public*.  This allows feedback on the architecture as it's being built, and again, gets better ideas.  It also allows a sense of community ownership.
+
+- Submit work in chunks (add: on a regular and frequent basis).  Checkin the shell of the API.  Then checkin each section of implementation.  If you're waiting for your code to look perfect before showing anyone else, you're not really helping the community.  Doing the development in the open allows for... you guessed it, feedback.
+
+- Welcome feedback along the way.  This doesn't mean you need to accept every change request or suggestion.  But it does mean you can take the best ideas from the whole community to add them easily, as the individual bits of work are being done.
 
 ---
 template: logorb
