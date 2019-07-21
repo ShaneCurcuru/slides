@@ -3,10 +3,11 @@ title: History of the Apache Way
 description: Learning from the history of the ASF and reviewing past slides
 ---
 
-Here are some useful slide decks about The Apache Way.  These have 
+This is a brief history of some of the key Apache Way documents and presentations.  These have 
 been presented by some amazing Apache committers and Members at 
 ApacheCon and a variety of other open source conferences in the past 
-15 years.  This is a curated selection of publicly posted slide decks.
+15 years.  This is a curated selection of publicly posted slide decks, 
+as well as pointers to official and unofficial resources.
 
 Note that in the past, these talks were often an overview of history 
 and how the ASF is organized, along with touching on the behavioral 
@@ -25,8 +26,11 @@ diverse community-led project.
 
 For more learning about The Apache Way:
 
-- [Shane's Apache Way - What And Why](http://theapacheway.org/)
-- [Official ASF How It Works - Apache Way](https://www.apache.org/foundation/how-it-works.html)
+- [ASF's official Apache Way Briefing](https://www.apache.org/theapacheway/)
+- [ASF's official Apache Way to Sustainable Open Source Success](https://blogs.apache.org/foundation/entry/the-apache-way-to-sustainable)
+- [Official ASF How It Works - Apache Way pointers](https://www.apache.org/foundation/how-it-works.html)
+- [Apache Community Development listing of Apache slide decks](https://community.apache.org/speakers/slides.html)
+- [Shane's unofficial Apache Way - What And Why](http://theapacheway.org/)
 
 ## Past Presentations About The Apache Way
 
@@ -127,23 +131,22 @@ Foundation has some common support (eg infra, press, trademarks), to help projec
 
 Short but powerfully presented deck about Hortonworks' internal employee 
 training on the Apache Way.  Internal one-hour training session; started 
-with developers & project management, but rolling out throughout company.
+with developers & project management, but rolled out throughout company.
 
 <blockquote class="blockquote-reverse"><p>Apache has ways to train new community members and new communities - like the Incubator</p></blockquote>
 
 Key points: Apache Way; permissive license; why their company chose to work this way;
-how to be an employee & committer both; trademarks and proper use.  Great distillation of Apache Way messages in context of employee teams.
+how to be both an employee and a committer on an Apache project; trademarks and proper use.  Great distillation of Apache Way messages in the context of a software company's employees and teams.
 
 <blockquote><p>The fact that you’re a manager or an architect or a founder at our company doesn’t mean anything inside Apache communities</p></blockquote>
 
-### Writing And Distributing Software The Apache Way
+### [Writing And Distributing Software The Apache Way](http://www.erenkrantz.com/apachecon/OSBC%20-%20No%20Jerks%20Allowed.pdf)
 #### Justin Erenkrantz - OSBC 2010
-http://www.erenkrantz.com/apachecon/OSBC%20-%20No%20Jerks%20Allowed.pdf
 
 - Historical perspective
 - PMCS are each separate merit structures
 - Voting, communication and consensus techniques
-- Define many terms (it was still the early days of explaining the Apache Way)
-- "No jerks allowed" - a key early message
+- Defined many ASF terms (it was still the early days of explaining the Apache Way)
+- "No jerks allowed" - a key early message in ASF community history
   - FOSS communities value group contributors, not lone wolves
-  - Diverse communities that can attract new contributors over time
+  - Diverse communities that can attract new contributors over time are important
