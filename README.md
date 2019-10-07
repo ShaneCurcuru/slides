@@ -11,8 +11,16 @@ After years of using an office suite to craft slides using a custom template
 for every conference, I'm switching to simple Markdown-written slides using
 one of the modern browser-based JS slide tools.
 
-Currently evaluating [remark](https://github.com/gnab/remark),
-[reveal.js](https://github.com/hakimel/reveal.js).
+Using Remark, I usually run a slide deck **locally** (having seen far too 
+many conference wifi networks barf).  Open a command terminal, cd 
+to the /slides/ directory, and then do:
+
+```ruby -run -ehttpd . -p8000```
+or do:
+```python -m http.server 8000```
+
+Then open your browser to http://localhost:8000/apachecon (for example)
+and click on the .html file for the presentation to run.
 
 ## Conferences
 
