@@ -1,61 +1,61 @@
 layout: true
 name: fullheader
-background-image: url(img/david-lezcano-120708-sml.jpg)
+background-image: url(img/david-lezcano-120708-smeu.jpg)
 background-size: cover
 
 ---
 layout: true
 name: flockbottom
-background-image: url(img/shwetha-shankar-137724-smb.jpg)
+background-image: url(img/shwetha-shankar-137724-smeu.jpg)
 background-size: cover
 
 ---
 layout: true
 name: palmsbottom
-background-image: url(img/jeremy-bishop-257105-sm.jpg)
+background-image: url(img/jeremy-bishop-257105-smeu.jpg)
 background-size: cover
 
 ---
 layout: true
 name: treeright
-background-image: url(img/meduana-178155-sm.jpg)
+background-image: url(img/meduana-178155-smeu.jpg)
 background-size: cover
 
 ---
 layout: true
 name: beachbottom
-background-image: url(img/alexandre-perotto-46114-sml.jpg)
+background-image: url(img/alexandre-perotto-46114-smeu.jpg)
 background-size: cover
 
 ---
 layout: true
 name: pineapple
-background-image: url(img/pineapple-supply-co-64690-sm.jpg)
+background-image: url(img/pineapple-supply-co-64690-smeu.jpg)
 background-size: cover
 
 ---
 layout: true
 name: closing
-background-image: url(img/deborah-kunzie-49758-sm.jpg)
+background-image: url(img/deborah-kunzie-49758-smeu.jpg)
 background-size: cover
 
 ---
 layout: true
 name: thanks
-background-image: url(img/stuart-guest-smith-150560-sm.jpg)
+background-image: url(img/stuart-guest-smith-150560-smeu.jpg)
 background-size: cover
 
 ---
 layout: true
 name: menu
-background-image: url(img/lance-asper-153777-sm.jpg)
+background-image: url(img/lance-asper-153777-smeu.jpg)
 background-size: cover
 
 ---
 layout: true
 name: logorb
 class: left
-background-image: url(img/Apache_NA_Logo-b.png)
+background-image: url(img/apacheconeu.png)
 background-repeat: no-repeat
 background-position: 98% bottom
 background-size: 20%
@@ -104,10 +104,12 @@ focusing on stable governance and encouraging new contributors.
 ???
 High level intro, mention concepts: openness, merit, consensus.
 
+
 ---
 template: closing
 # Apache Way
 ## History And Behaviors
+
 
 ---
 template: logorb
@@ -122,6 +124,7 @@ The traditional Apache Way talk leads you through the journey of the
 ASF itself, how it was founded, the history of our communities, 
 and a lot of other stuff from our past and how we built the Way over time.
 
+
 ---
 template: logorb
 # What we AREN'T Talking About
@@ -131,17 +134,15 @@ template: logorb
 - You want actionable information on **What To Do!**
 
 ???
-But is that really important?  You want to learn the behaviors, right?
-Actionable information.  Let's get to the good stuff.
+But how important is that today?  You want to learn the behaviors, right?
+Actionable information.  Let's get to the good stuff.  Anyway, Lars 
+covered Apache history yesterday morning in the "Behind The Scenes" talk.
 
-So this is a new kind of Apache Way talk.
-
-But in a diverse and dispersed world, having the why behind the rule - 
-or the rationale to the policy - is a key way to ensure the community 
-can understand it, know why the policy works that way, and then have an intelligent 
-and focused way that we could work on improvements. 
-
-We'll save the whys for after we talk about the what-to-dos.
+So this is a new kind of Apache Way talk - I want to focus on the 
+specific behaviors and actions that work best with Apache communities.
+Along with the "what to do", I'll provide some of the "Why we do it 
+that way" too, since it's always important to understand the rationale
+behind the Way.
 
 
 ---
@@ -166,6 +167,8 @@ Community Over Code also means that You Need To Participate.
 Each of these is a set of topics about a kind of behaviors that 
 Apache projects are expected to follow.  **What do you want to talk about?**
 
+Note: there's an obvious first topic to cover!
+
 
 ---
 template: flockbottom
@@ -189,7 +192,8 @@ template: logorb
 ???
 What does community mean here?  Working on an independent open source 
 project is very different than most other human activities.  There are 
-no other ties between project contributors who are widely distributed in location, in time, in experience, and in jobs outside our project itself.
+no other ties between project contributors who are widely distributed 
+in location, in time, in experience, and in jobs outside our project itself.
 **SPACEBAR**
 
 --
@@ -199,10 +203,15 @@ devops,... **and users**.
 
 
 ???
+We should focus on an entire project community - all of us working to 
+create or improve our projects in some way, **and** all the end users 
+who come by with questions or bugs or improvements.
 The important thing is that the **community** owns our project.  Not you, 
-not me, not your company.  All of us.
+not me, not your company.  All of us, together.
 
 Having a shared sense of communal ownership keeps our work and goals aligned.
+Being able to become a committer or PMC member with binding input in a 
+project is a clear incentive. 
 
 
 ---
@@ -216,10 +225,12 @@ template: logorb
 
 ???
 There are many ways to say this - No Jerks Allowed, Avoid Poisonous 
-People, be decent, whatever.  The point is, where everyone is a volunteer 
+People, be decent, whatever.  The point is, where everyone unteer 
 and many people are doing this as a side task or second effort, ensuring 
 that everyone is welcome is the most important factor for a long-lived 
-healthy project.
+healthy project.  Our communities rely on many volunteers; ensuring 
+it's a welcoming project for newcomers should be your goal. 
+
 
 ---
 template: logorb
@@ -242,7 +253,7 @@ to have to use it, since the great majority of our communities keep
 discussion polite to start with. 
 
 Plus, when everyone is a volunteer, raising your concerns politely 
-and concisely is more likely to get people to help you.
+and concisely is more likely to get people to help **you**.
 
 
 ---
@@ -252,13 +263,14 @@ template: logorb
 - You are an individual - not an employee
 - No corporate participation at Apache
 - Individuals get recognition
-  - Side effect for corporate teams: each team member participates separately
+  - Side effect for corporate teams: each employee participates separately
   - Side effect for **you**: your merit stays with **you**
 
 ???
 The ASF does not allow direct corporate participation in projects.  
 The ASF recognizes individual contributions.  Merit accrues to individuals, and they 
-are expected to act with their project hat on at times.
+are expected to act appropriately within each project community as 
+an individual, not as an employee.
 
 "Wearing your hat" may be a polite fiction - many employment agreements mean you have 
 to look out for your employer - but it's a key part of how Apache projects work.
@@ -286,6 +298,12 @@ a whole, not your employer.  Sometimes you need to do things as an
 employee; that's fine.  But mark it clearly, and when voting on 
 serious project decisions, wear your project hat.
 
+Yes - this sometimes means as an employee, you may be collaborating 
+on a specific project technology with employees of your corporate 
+competitors.  This is fine - in fact, it's part of why Apache is 
+called the Switzerland of open source; we are the neutral place 
+were everyone can work together on specific technologies.
+
 
 ---
 template: logorb
@@ -310,6 +328,9 @@ and if necessary, correction.  Both at the PMC level and the board level
 we expect people to act for the public good - and the fact we are a 
 501C3 organization, with directors elected from merit - not sponsor 
 dollars - means we can back it up.
+
+It's rare, but the board can and will step in if a commercial company 
+is abusing their influence within an Apache project.
 
 
 ---
@@ -336,7 +357,7 @@ in the **context of that project** by the project community.
 > "You gain merit by doing things that specific community values"
 
 ???
-Meritocracy is a word we use that is often misunderstood - some other 
+Meritocracy is a word we use that is often misunderstood - many other 
 communities see it as having a different connotation than the ASF uses.
 
 Your merit is the value you bring to a project **as judged by that project's community**.
@@ -346,12 +367,15 @@ and it doesn't expire.  It may get stale through inactivity, but it
 stays with you through jobs and careers.  If you come back to a project 
 after being away, you'll still be a committer.
 
+Side note: "Mertocracy" is an overloaded term in the modern age, and 
+we probably should find a new way to explain this term.
+
 
 ---
 template: logorb
 # Merit - Growth
 
-The more you do, the more power you _may be granted_ to take actions:
+The more you do, the more power _you may be granted_ to take actions:
 - User
 - Contributor
 - **Committer**
@@ -362,31 +386,38 @@ The more you do, the more power you _may be granted_ to take actions:
 
 ???
 Each step is defined by the merit you are recognized for by that 
-specific community. Each step means you can get a binding vote on new tasks.
+specific community. Each step means you can get a vote on new tasks.
 
 The key steps are being a committer - changing code yourself - and being 
-a PMC member - voting on releases.  Most of the other levels are about 
-visibility and having a say, but not necessarily having a deciding vote.
+a PMC member - voting on releases or new committers on that project.  
+Most of the other levels are about visibility and having a say, but not 
+necessarily having a deciding vote.
 
 
 ---
 template: logorb
 # Merit - Not Authority
 
-- Leaders vs. managers
-
-> "Merit does not buy you **authority** (community must still agree)"
+- Leaders or managers?
 
 > "Merit gets you **privileges**: commit access, voting on committers"
 
+> "Merit does not buy you **authority** (community must still agree)"
+
+
 ???
 You are still part of the community - it's not a hierarchy; everyone 
-with merit (commit bit) has a say in basic decisions.
+with merit (commit bit) has a chance to influence the consensus 
+in project decisions equally.
 
-Everyone can propose and do new work.  Just because you don't find it 
+Everyone can propose and commit new work.  Just because you don't find it 
 valuable, doesn't mean some other part of the community can't think it's 
 valuable to them.  Merit is about the ability to do new things, not 
 really about stopping the rest of the community from their new work.
+
+Enough merit in a project can gain you **Respect** in the community.
+People will listen to you because they respect and trust your judgement,
+not because you have authority in the project.
 
 
 ---
@@ -395,7 +426,7 @@ template: logorb
 
 ## Problem area: Umbrella projects
 
-Jakarta was an umbrella project - with many different subprojects and 
+Jakarta _was_ an umbrella project - with many different subprojects and 
 components - and communities.
 
 The PMC must be a coherent community to be able to recognize merit in all contributors.
@@ -419,9 +450,8 @@ template: palmsbottom
 name: open
 # Open Development
 
-.footnote[
 [Take a different way?](#menu) | Continue Onward?
-]
+
 
 ---
 template: logorb
@@ -441,9 +471,11 @@ Remember: we are a dispersed community, each with our own lives and jobs.
 We need to show the work we're doing - and allow feedback - in whatever 
 timeframe works for everyone else on the project.
 
-You don't need to wait for everyone's feedback - but you do need to recognize that 
+You don't need to wait for **everyone's** feedback - but you do need to recognize that 
 sometimes other committers will have better ideas, or will be willing 
-to do some of the work for you.
+to do some of the work for you.  That's why formal decisions in Apache 
+projects always have a minimum amount of time that must pass before 
+getting finalized.
 
 
 ---
@@ -452,21 +484,26 @@ template: logorb
 
 > If It Didn't Happen On-List It Didn't Happen
 
-- Must be public list unless there's a reason for private list
 - Asynchronous lists provide time for 
   - feedback
   - critique
   - new ideas
   - others to show their work
+- Must be public list unless there's a reason for private list
 
 > Allows newcomers to learn at any time
 
 ???
 Archiving everything means that newcomers can get up to speed with 
-all the information of the project available for them.  Even if your 
+all the information of the project available for them in an easy to 
+share and search way.  Even if your 
 documentation doesn't lead new users through this, having it available 
 both for people to find, and especially for people to reference when 
 questions come up is the most important thing.
+
+You should default to using a public list - like dev@ or user@ - for 
+almost everything.  There are only a few things, like security bugs 
+or personnel matters - that should be done on private lists.
 
 
 ---
@@ -475,7 +512,7 @@ template: logorb
 
 - Your motives aren't transparent to the community
   - Motivated by boss, by outside technical need, by just being a geek
-- Motivation should be best for project as a whole
+  - How does this decision benefit **the project**
 
 The right way to work is to:
 
@@ -499,6 +536,7 @@ Apache projects always practice open development - it's required.
 - Submit work in chunks (add: on a regular and frequent basis).  Checkin the shell of the API.  Then checkin each section of implementation.  If you're waiting for your code to look perfect before showing anyone else, you're not really helping the community.  Doing the development in the open allows for... you guessed it, feedback.
 
 - Welcome feedback along the way.  This doesn't mean you need to accept every change request or suggestion.  But it does mean you can take the best ideas from the whole community to add them easily, as the individual bits of work are being done.
+
 
 ---
 template: logorb
@@ -543,20 +581,23 @@ template: logorb
 ???
 **There is no perfection** - just getting better step by step.  Our goal is 
 to serve the public good, so any new features - as long as they don't 
-fail the tests or unduly slow down performance - is a good thing.
+fail the tests or unduly slow down performance - are a good thing.
 
 Consensus doesn't mean everyone thinks it's perfect - just that any 
 proposed change is better somehow than we have now.
+
+Building a true consensus is important for major changes.  But for 
+minor changes, going for "Lazy consensus" is fine: providing 
+an opportunity for people to object; if no one does, go ahead.
 
 
 ---
 template: logorb
 # Decision Making - Votes When Needed
 
+> "Voting is a way to record an **official** consensus"
 
 > "Voting is a shortcut to move consensus forward in a timely manner"
-
-> "Voting is a way to record an **official** consensus"
 
 ???
 **Here are two quotes about voting** - the +1/-1 you've all heard about.
@@ -564,12 +605,14 @@ One of these is a good use of voting, the other is... necessary.
 
 You must vote on releases.  In some cases, the vote is the formal 
 record that a PMC or the board made a decision.  That keeps the decision 
-as being an act of the ASF as a foundation, and not just a bunch of 
+an act of the ASF as a foundation, and not just a bunch of 
 individual developers.  Votes are also normally used on new committers/PMC.
 
 Voting to speed consensus... it can be OK in some cases, but where possilbe 
 we prefer to work through to a better consensus. Some projects choose as 
-a whole community to use votes more often, if that works for them.
+a whole community to use votes more often, if that works for them.  As 
+long as the decision process allows the whole project community to 
+have their input, the use of votes or full consensus is up to the project.
 
 
 ---
@@ -585,7 +628,11 @@ backgrounds.  For example, some people commit during a dayjob; some people
 only have time on weekends or when the kids are asleep.
 
 Ensuring sufficient time for most community members to comment is 
-required for many major decisions in Apache projects. 
+required for major decisions in Apache projects. 
+
+One exception is for security issues: serious security breaches can 
+be fixed as soon as possible, to help ensure our users aren't harmed.
+
 
 ---
 template: logorb
@@ -607,9 +654,8 @@ template: treeright
 name: communication
 # Communication
 
-.footnote[
 [Take a different way?](#menu) | Continue Onward?
-]
+
 
 ---
 template: logorb
@@ -628,20 +674,24 @@ You can't overemphasize this message!
 template: logorb
 # Communication - Conduct
 
-Don't be a jerk; avoid the poisonous people.
+Don't be a jerk; avoid the poisonous people...
+ and do something about it.
 
 **ASF Code of Conduct**
 https://www.apache.org/foundation/policies/conduct
 
 ???
-This is how we operate, in all Apache project and foundation spaces.
+This is required for how we work, in all Apache project and foundation spaces.
+The intent of the Code of Conduct is not to be a hammer; it's meant to 
+be a framework we can use to help both individuals and whole communities 
+to see the expected standards of discourse we want on Apache lists.
 
 
 ---
 template: logorb
 # Communication - Kindness
 
-**Be kind** - everyone here is a volunteer.
+**Be kind** - everyone here is a human being, and a **volunteer**.
 
 ???
 Remember: everyone else in the community **here at Apache** is a 
@@ -681,9 +731,8 @@ status of your work periodically to the project in English.
 template: closing
 # Where next?
 
-.footnote[
 [Take a different way?](#menu) | Continue Onward?
-]
+
 
 ---
 template: thanks
