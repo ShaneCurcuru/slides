@@ -755,7 +755,7 @@ template: thanks
 
 .footnote[
 By: [@ShaneCurcuru](https://twitter.com/shanecurcuru) |
-<a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache v2.0</a> |
-https://shanecurcuru.github.io/slides/
+<a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache v2.0</a> | 
+<a href="http://shaneslides.com">http://shaneslides.com</a>
 ]
 
