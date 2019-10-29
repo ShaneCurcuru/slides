@@ -3,7 +3,7 @@ title: The Apache Way
 description: The Apache Way - Effective Open Source Project Management
 conference: OSS@Comcast
 slides: "http://shaneslides.com/client/TheApacheWay-PHL-2017.html"
-newer: "http://shaneslides.com/2018/09/The-Apache-Way/"
+newer: "http://shaneslides.com/2019/10/The-Apache-Way/"
 ---
 
 For a great team building event OSS@Comcast, I updated my Apache Way talk 

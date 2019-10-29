@@ -3,6 +3,7 @@ title: Who Owns That Open Source Brand?
 description: Demystifying trademarks and brands in open source
 conference: OSSummit
 slides: "http://shaneslides.com/ossummit/WhoOwnsThatOpenSourceBrand-SCurcuru.key"
+newer: "http://shaneslides.com/2019/10/Who-Owns-That-OpenSource-Brand/"
 ---
 
 You know your organization runs open source - everywhere.  Do you know 

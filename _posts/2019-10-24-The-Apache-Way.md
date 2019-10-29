@@ -1,13 +1,13 @@
 ---
 title: The Apache Way
 description: The Apache Way - Effective Open Source Project Management
-conference: ApacheCon Montréal
-slides: "http://shaneslides.com/apachecon/TheApacheWay-ApacheConNA2018.html"
-audio: "https://feathercast.apache.org/2018/09/29/the-apache-way-effective-open-source-project-management-shane-curcuru/"
-newer: "http://shaneslides.com/2019/10/The-Apache-Way/"
+conference: ApacheCon Berlin
+slides: "http://shaneslides.com/apachecon/TheApacheWay-ApacheConEU2019.html"
+video: "https://www.youtube.com/watch?v=DxRP4TPjbmQ"
 ---
 
-For ApacheCon Montréal 2018, I honed and updated my Apache Way slides to better focus on just the behaviors and techniques that attendees can take home with them to be more effective in their projects.
+For ApacheCon Berlin 2019, I got great feedback and interaction with 
+the audience - and some surprising questions too!
 
 <div class="lead bg-info well">
 The Apache Way - Effective Open Source Project Management
@@ -16,7 +16,7 @@ The Apache Way - Effective Open Source Project Management
 ### Abstract
 
 The Apache Way is useful for organizations and individuals to be more 
-effective at working in distributed communities.  Open source does not 
+effective at working in distributed communities.  Open source software does not 
 necessarily mean open development - and true community-led open development 
 is where the fun starts in working in FOSS!
 
