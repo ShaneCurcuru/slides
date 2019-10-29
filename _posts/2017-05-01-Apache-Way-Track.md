@@ -2,6 +2,7 @@
 title: Apache Way Track
 description: A full day of curated talks about the Apache Way
 conference: ApacheCon Miami
+feature: true
 ---
 
 Working with other Apache committers and the ApacheCon planning committee,

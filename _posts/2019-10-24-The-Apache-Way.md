@@ -4,6 +4,7 @@ description: The Apache Way - Effective Open Source Project Management
 conference: ApacheCon Berlin
 slides: "http://shaneslides.com/apachecon/TheApacheWay-ApacheConEU2019.html"
 video: "https://www.youtube.com/watch?v=DxRP4TPjbmQ"
+feature: true
 ---
 
 For ApacheCon Berlin 2019, I got great feedback and interaction with 

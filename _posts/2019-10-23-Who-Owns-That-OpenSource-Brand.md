@@ -4,6 +4,7 @@ description: Understanding trademarks and brands in open source
 conference: ApacheCon Berlin
 slides: "http://shaneslides.com/apachecon/WhoOwnsThatFOSSBrand-SCurcuru-2019.pdf"
 video: "https://www.youtube.com/watch?v=K7FFvIq2HCI"
+feature: true
 ---
 
 You know your organization runs open source - everywhere.  Do you know 

@@ -8,7 +8,7 @@ hero: true
   <li class="post">
     <div class="row">
         <div class="col-sm-9">
-            <a href="{{ page.url | absolute_url }}">{{ page.title | smartify }}</a>
+            <a {% if page.feature %}style="font-weight: bolder;"{% endif %} href="{{ page.url | absolute_url }}">{{ page.title | smartify }}</a>
             <br/>
             <span class="small">{{ page.description | smartify }}</span>
         </div>
