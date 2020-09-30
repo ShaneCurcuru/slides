@@ -66,15 +66,13 @@ template: fullheader
 # Coming Up Next
 
 .left-column[
-## Shane Curcuru
 ]
 .right-column[
 ## The Apache Way: Effective Open Source Project Management
+### [@ShaneCurcuru](https://twitter.com/shanecurcuru)
 ]
 
 .footnote-right[Tip: Press '?' for help]
-
-???
 
 
 ---
@@ -83,34 +81,29 @@ template: fullheader
 ## Effective Open Source Project Management
 
 .left-column[
-## Shane Curcuru
 ]
 
 .right-column[
+### [@ShaneCurcuru](https://twitter.com/shanecurcuru)
 ### Vice Chairman
 ### The Apache Software Foundation
-### [@ShaneCurcuru](https://twitter.com/shanecurcuru)
 ]
 
 
 ---
 template: logorb
-# The Apache Way: Introduction
+# The Apache Way Introduction
 
 > The Apache Way is a set or behaviors and practices developed at the ASF
-and designed to promote long-lived successful projects by
-focusing on stable governance and encouraging new contributors.
+and designed to promote **long-lived** successful projects by
+focusing on **stable governance** and encouraging **new contributors**.
 
 > These behaviors are required of all Apache projects.
 
 ???
-High level intro, mention concepts: openness, merit, consensus.
+High level intro, mention concepts: community, openness, merit, consensus.
 
-
----
-template: closing
-# Apache Way
-## History And Behaviors
+These behaviors can serve any open community - but are required at Apache projects.
 
 
 ---
@@ -132,14 +125,14 @@ template: logorb
 # What we AREN'T Talking About
 
 - But I'm not going to do that
-- What does history matter to newcomers?
+- How much does history matter to newcomers?
 - You want actionable information on **What To Do!**
 
 ???
 But how important is that today?  You want to learn the behaviors, right?
 Actionable information.  Let's get to the good stuff.  If you've been following
 along the Community track this year, there are plenty of discussions 
-about the Apache Way, history, and where it came from..
+about the Apache Way, even about teaching Apache Way, and where it came from.
 
 So this is a new kind of Apache Way talk - I want to focus on the 
 specific behaviors and actions that work best with Apache communities.
@@ -151,7 +144,7 @@ behind the Way.
 ---
 template: menu
 name: menu
-# Apache Way: Menu
+# Apache Way Menu
 
 **What behaviors should we talk about next?**
 

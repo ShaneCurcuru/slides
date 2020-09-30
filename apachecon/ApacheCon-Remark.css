@@ -26,6 +26,7 @@ blockquote > p{
 .footnote {
   position: absolute;
   bottom: 2em;
+  left: 2em;
   font-style: italic;
 }
 .footnote-right {
@@ -69,6 +70,11 @@ code {
   text-shadow: 0 0 20px #333;
 }
 .inverse h1, .inverse h2 {
+  color: #f3f3f3;
+  line-height: 0.8em;
+}
+.inverse-header h1, .inverse h2 {
+  text-shadow: 0 0 20px #333;
   color: #f3f3f3;
   line-height: 0.8em;
 }

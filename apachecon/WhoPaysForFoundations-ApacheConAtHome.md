@@ -9,17 +9,10 @@ name: contributions
 background-image: url(img/rawpixel-600782-unsplash-sm.jpg)
 background-size: cover
 
-
----
-layout: true
-name: closing
-background-image: url(img/deborah-kunzie-49758-sm.jpg)
-background-size: cover
-
 ---
 layout: true
 name: thanks
-background-image: url(img/stuart-guest-smith-150560-sm.jpg)
+background-image: url(../client/img/stuart-guest-smith-150560-169.jpg)
 background-size: cover
 
 ---
@@ -37,20 +30,19 @@ template: fullheader
 # Coming Up Next
 
 .left-column[
-## Shane Curcuru
 ]
 .right-column[
-## Who Pays For Open Source?
+## Who Pays For FOSS Foundations?
+**[@ShaneCurcuru](https://twitter.com/shanecurcuru)**
 ]
 
-???
-**Tips:** _Press '?' for help; press 'P' for speaker notes._
+.footnote-right[Tip: Press '?' for help]
 
 
 ---
 template: fullheader
-# Who Pays For Open Source?
-## The Funding Behind FOSS Foundations
+# Who Pays For FOSS Foundations?
+## The Funding Behind Open Source Organizations
 
 .left-column-equal[
 **[@ShaneCurcuru](https://twitter.com/shanecurcuru)**
@@ -63,7 +55,7 @@ _Punderthings Consulting LLC_
 
 ---
 template: logorb
-# Who Pays For Open Source Foundations?
+# Who pays for open source Foundations?
 
 What does that actually mean? 
 - What is **open source**?
@@ -72,30 +64,32 @@ What does that actually mean?
 - How do **Foundations** get funded?
 
 ???
-Talking with 10 people about "FOSS Funding" gives you 15 different topics to cover, so let's define what i'll talk about today.
+Talking with 5 people about "FOSS Funding" gives you 10 different topics to cover, so let's define what we're covering here today.
 
 - First off, some brief definitions
-- The important question: what are the different ways that people contribute to open source - code, services, activities, events, whatever
-- Then we'll talk about how some key FOSS Foundations get funded
+- The important question: what are the **different ways to contribute** to open source - code, services, activities, events, sponsorships
+- Then we'll talk money - how key FOSS Foundations get funded
 
 I expect many of you will end up with more questions to ask after this talk - there are many other areas of "funding" to cover out there, and I'm hoping this overview will make you think a little more about how open source works at scale, especially with larger projects or the many foundations that provide a home to so many important projects out there.
 
 
 ---
 template: logorb
-# What does "Open Source" mean?
+# What does *Open Source* mean?
 
 Publicly available source code offered under an Open Source Initiative listed license. 
 
 .code[https://opensource.org/osd-annotated]
 
 ???
-Let's start with the simplest part first.
+Let's start with the simplest part first.  Open Source is released under an OSD-compatible license, and is available for free under the license.
+
+What's really important is: who's behind that project?  Who are the committers, and how do they manage the project?  How do they get other support, for awareness, events, outreach, or infrastructure?
 
 
 ---
 template: logorb
-# "Who" are we talking about?
+# _Who_ are we talking about?
 
 - Contributing work
   - Users
@@ -132,7 +126,6 @@ template: logorb
 - Fixing bugs
 - Providing support
 - Donating new projects
-
 ]
 
 ???
@@ -148,7 +141,7 @@ template: contributions
 # Most major open source is from companies
 
 ???
-Here's my belief: most of the major open source projects used today are now primarily built and maintained by companies directly paying their employees to contribute.  Let's see what some major projects show.
+Here's my belief: most of the major open source projects used today are now primarily built and maintained by companies directly paying their employees to contribute.  Let's see what data from some major projects show.
 
 
 ---
@@ -163,11 +156,9 @@ The Linux Kernel Report does a thorough analysis of both who's contributing all 
 _SPACEBAR_
 
 --
-
 - In 2018, **85%** of all code was *paid corporate work*
 
 --
-
 -  2016 it was 80%
 -  2015 it was 80%
 -  2013 it was 80%
@@ -182,7 +173,7 @@ The great majority of work done in the Linux kernel is done directly by corporat
 template: logorb
 # Apache software committers
 
-The ASF ran a survey in 2016 about how committers were contributing to their projects.
+Survey: how Apache committers contribute to their projects.
 
 - ~**50%** replied it was as an *Employee (as their job)*
 - ~40% replied as an *Individual (outside regular job)*
@@ -218,7 +209,7 @@ The ratio of sponsored to not sponsored is increasing over time, and my bet is a
 template: logorb
 # Where do projects come from?
 
-Where did today's open source projects get started?
+Where did today's widely-used open source projects get started?
 
 - Passionate hobbyists?
 - Academic or research projects?
@@ -235,9 +226,9 @@ _SPACEBAR_
 This is where opens source foundations like Apache, Eclipse, and Linux Foundation come in: they all have incubation processes to help new projects get started as true open source or open governance projects.
 
 --
-
 - **All of the above**
-- (But mostly: companies)
+
+_But mostly: companies_
 
 ???
 While the long tail of lone developer open source projects may be interesting technically, when we consider open source that makes an impact - is broadly used - we find most come from either corporate spinoff projects, or individual projects that gained **significant** corporate contributions and leadership early.
@@ -265,30 +256,30 @@ template: logorb
   - Company hiring consultant to contribute 
 
 - Funding
-  - Sponsoring foundation or project
+  - Sponsoring Foundation or project directly
 
 ???
 Let's review how you can contribute to projects.
 
 - Committing code (docs, tests, community support, etc) or services for software engineering
-  - That you contribute yourself - as an individual or a paid employee
+  - That you contribute yourself - as an individual **or** a paid employee - funding often opaque to the community
 - Hiring someone to do the above work
 - Or: directly funding FOSS Foundations or projects with cash or sponsorships.
 
 
 ---
 template: logorb
-# Role of FOSS foundations
+# Role of FOSS Foundations
 
-Foundations provide a home for long-lived focused open source projects.
+Foundations can be an independent home for open source projects.
 
-How do they do this?
+Why is this important?
 
 What services do Foundations provide?
 
 ???
 
-For small projects, this is a regular struggle - keeping a project alive over time, ensuring fixes are made, marketing.
+For small projects, this is a regular struggle - keeping a project alive over time, ensuring fixes are made, drawing in new contributors, or keeping the CI/CD pipelines running..
 
 Thus, we have FOSS foundations, like Apache, Linux, Eclipse, Software Freedom Conservancy, and now many others.  
 These foundations can scale up all the non-software engineering a larger project needs - like fundraising, legal, infrastructure, governance and mentoring support. 
@@ -296,14 +287,14 @@ These foundations can scale up all the non-software engineering a larger project
 
 ---
 template: logorb
-# Services foundations can provide
+# Services Foundations provide
 
-Foundations can provide:
+Foundations provide:
 - Governance
 - Mentoring
 - Legal shield
-- Fundraising support
-- Hosting, services, clouds
+- Fundraising
+- Hosting, build pipelines, clouds
 - Respectability / brand management
 - Events
 - Community education / management
@@ -312,14 +303,19 @@ Foundations can provide:
 ???
 We still rely on many volunteers to help, but when it comes to reviewing contracts or doing the accounting on donations, we need hired help.  Accounting volunteers are rare to find in the coding world, and few coders want to carry a beeper for 24x7 support when the server goes down.  All these services we need money for.
 
-Non-profit foundations attract some donations - from individuals or small businesses who want to say thanks for the software we provide.  But the bulk of funding for most software non-profits comes from corporate grants or recurring sponsors.
-
-How do these foundations get their money?  Sponsors (primarily).
+All of these services are hard to provide at scale with volunteers - so Foundations are needed to provide the fiscal organization to pay someone to provide them.
 
 
 ---
 template: fullheader
 # Foundation Services, Sponsors, And Funding
+
+???
+Non-profit foundations attract some donations - from individuals or small businesses who want to say thanks for the software we provide.  But the bulk of funding for most software non-profits comes from corporate grants or recurring sponsors.
+
+How do these foundations get their money?  Primarily recurring corporate sponsorships.
+
+Let's review four key FOSS Foundations, and how they're funded.
 
 
 ---
@@ -331,6 +327,7 @@ template: logorb
 - 45 projects
 - Independent governance
 - Independent branding
+- **501C3** Public Charity
 ]
 
 .right-column-equal[
@@ -358,7 +355,7 @@ Conservancy's six major sponsors are:
 - Red Hat
 - Josh Triplett
 
-.code[Conservancy is a 501C3 Public Charity]
+.footnote[Conservancy is a **501C3** Public Charity]
 
 ???
 Conservancy lists their major sponsors, along with a number of smaller, individual sponsors.
@@ -378,7 +375,7 @@ template: logorb
 ]
 
 ???
-On the left, we see Conservancy's annual gross income for the past few years, primarily from donations.
+On the left, we see Conservancy's annual gross income for the past few years, primarily from donations.  Their income varies, but a rough average for this period is a bit less than $2million annually.
 
 On the right, we can see Conservancy's Net Assets - cash in the bank or investments for their continuing operations.
 
@@ -392,6 +389,7 @@ template: logorb
 - 200+ projects
 - Apache Way governance
 - Apache *Project* branding
+- **501C3** Public Charity
 ]
 
 .right-column-equal[
@@ -423,7 +421,7 @@ Apache's Eight Platinum sponsors are:
 - Facebook
 - Google
 
-.code[The ASF is a 501C3 Public Charity]
+.footnote[The ASF is a **501C3** Public Charity]
 
 ???
 Those are just the platinum sponsors, but they represent about $800K in annual donations, or about half the financial income for the entire ASF.  These sponsors get a thank you and a listing on our webpage, but otherwise have no influence over how the ASF or Apache projects are run.
@@ -445,7 +443,7 @@ Apache's Seven Targeted _(In-Kind/Services)_ Platinum sponsors are:
 - CloudBees
 - JetBrains
 
-.code[The ASF is a 501C3 Public Charity]
+.footnote[The ASF is a 501C3 Public Charity]
 
 ???
 There are more ways to organizationally support Apache than just donating cash.  Each of these organizations is a Targeted Platinum sponsor, meaning they donate the equivalent of a Platinum sponsorship of hosting services, bandwidth, cloud credits, and CI pipelines or testing resources to Apache projects.
@@ -466,7 +464,8 @@ template: logorb
 ]
 
 ???
-Here we can see the ASF's income and assets.  More projects and more services, but similar numbers.
+Here we can see the ASF's income and assets - an average of about $1million annual income, with the singular blip of the Pineapple fund one-time donation in 2017.  More projects and more services that Conservancy, but slightly smaller funding numbers.
+
 Note that all numbers here are taken directly from the 990 tax forms that all US charities file with the IRS.
 
 
@@ -480,6 +479,7 @@ template: logorb
 - Independent governance
 - Various branding
 - Shared releases
+- **501C6** Business League
 ]
 
 .right-column-equal[
@@ -493,6 +493,7 @@ template: logorb
 
 ???
 Eclipse's model is partly focused on their IDE and developer tools, so along with the usual services, they provide strong development process and integration support.  Many projects also follow a shared release schedule, as their projects work together.
+
 
 ---
 template: logorb
@@ -519,12 +520,13 @@ The thirteen Strategic Members of Eclipse are:
 - SAP
 ]
 
-.code[Eclipse is a 501C6 Trade Association]
+.footnote[Eclipse is a 501C6 Business League]
 
 ???
 Eclipse has a mixed model, where there are corporate sponsors just contributing cash, but far more strategic members who contribute both funds as well as designated contributions and employee work.  
 
-Those Strategic Members donate about 3M to Eclipse annually, which again is roughly half of their total financial income which totals between 5M and 6M in recent years.
+Those Strategic Members donate about **3M to Eclipse annually**, which again is roughly half of their total financial income.
+
 
 ---
 template: logorb
@@ -539,7 +541,7 @@ template: logorb
 ]
 
 ???
-Here we can see the Eclipse's income and assets.  More projects and more services, but notably higher funding.  As a 501C6 charity - what the IRS calls a _Business League_ - Eclipse's leading sponsorships are tied to part of their corporate governance structure.
+Here we can see the Eclipse's income and assets - averaging over $4million in annual income.  More projects and more services, but notably higher funding. Eclipse's leading sponsorships are tied to part of their corporate governance structure, and thus are both a larger and more stable source of sponsorship income than Conservancy or Apache have.
 
 
 ---
@@ -549,8 +551,9 @@ template: logorb
 .left-column-equal[
 **Project Overview**
 - 150+ projects
-- Industry/Community governance
+- Industry/Community mixed governance
 - Independent branding
+- **501C6** Business League
 ]
 
 .right-column-equal[
@@ -558,13 +561,15 @@ template: logorb
 - Legal / IP stewardship
 - Infrastructure
 - Development process support
+- Community management
 - Ecosystem development
 - Marketing
 - Conferences
 ]
 
 ???
-The Linux Foundation has a large number of very large projects.  They also operate with an agency model, where Linux Foundation employees provide a wide variety of services to projects - some employees are directly assigned to specific projects.
+The Linux Foundation has a large number projects, several of them giant factors in today's software world.  They also operate with an agency model, where Linux Foundation employees provide a wide variety of services to projects - some employees are directly assigned to specific projects.
+
 
 ---
 template: logorb
@@ -572,7 +577,7 @@ template: logorb
 
 That's a complicated question.
 
-The Linux Foundation, a 501C6 trade association, has over 150 collaborative projects, many with their own governance **and funding models**.
+Many Linux Foundation projects have their **own funding models**.
 
 ???
 
@@ -606,7 +611,7 @@ The fifteen Platinum Corporate Members of the Linux Foundation:
 ???
 Each platinum member/sponsor of the Linux Foundation as a whole reportedly pays about 500K annually, and provides representatives both on the board of the foundation as well as in various technical bodies of collaborative projects.
 
-This list represents over 7M of annual income for the Linux Foundation.
+This list represents **over 7M of annual income** for the Linux Foundation.
 
 
 ---
@@ -642,7 +647,7 @@ The eighteen Platinum member sponsors of the CNCF are:
 
 The Cloud Native Computing Foundation is a subsidiary of the Linux Foundation, and just for the CNCF, they have this list of platinum sponsors, each of which are donating in the range of 250K or more annually to the CNCF.
 
-These are just sponsoring the CNCF, and likely represents at least 4M in annual income, if not more, for the CNCF and Linux Foundation.
+These are just sponsoring the CNCF, and likely represents at least **4M in annual income**, if not more, for the CNCF and Linux Foundation.
 
 
 ---
@@ -672,7 +677,7 @@ The thirteen Premiere Members of Hyperledger are:
 ???
 Each of these premier members for Hyperledger likely provides an approximate 250K annual donation, as well as employees working on it.
 
-This list represents over 3M in annual income for Hyperledger and the LF.
+This list represents over **3M in annual income** for Hyperledger and the LF.
 
 
 ---
@@ -689,19 +694,21 @@ The four Platinum Members of OpenJS are:
 ???
 The OpenJS foundation now hosts a number of key JavaScript projects, like Node.js, jQuery, webpack, Dojo and Electron.
 
-The platinum sponsors listed here contribute 1M in annual income to OpenJS and the LF.
+The platinum sponsors listed here contribute **1M in annual income** to OpenJS and the LF.
 
 
 ---
 template: logorb
 # Who Sponsors The Linux Foundation?
 
-... and the 160 Collaborative Projects at the LF?
+... and the 150+ Collaborative Projects at the LF?
 
 **Answer:** A lot of companies, many repeatedly.
 
 ???
-There are probably a dozen major collaborative projects, each with their own sponsors (and products), and another hundred plus or so smaller projects - still interesting, but with fewer or little direct funding.
+There are probably a dozen **major** collaborative projects, each with their own sponsors (and products), and another hundred plus or so smaller projects - still interesting, but with fewer or little direct funding.
+
+In particular, you'll note there are many software vendors - and non-software companies! - who are sponsoring multiple projects at the LF with cash as well as contributions.
 
 
 ---
@@ -719,7 +726,7 @@ template: logorb
 ???
 Here we can see the LF's income and assets.  Huh.  Those are pretty big numbers - these charts are an order of magnitude higher than the earlier charts.
 
-Anyone surprised at these numbers?  Remember: these figures are from 2018, the most year IRS 990 forms are available for.  As a Business League, the LF doesn't otherwise provide public budget figures.
+Anyone surprised at these numbers?  Remember: these figures are from 2018, the most year IRS 990 forms are available for.  As a Business League, the LF doesn't otherwise provide public budget figures, so we don't know what their 2019 income was, or what the blip in their net assets over 2017 was.
 
 
 ---
@@ -729,27 +736,34 @@ template: logorb
 Community and governance matters too, beyond funding or license.
 
 ???
-Just like you choose which license to use, think about choosing how you invest in open source projects. 
-
-Not just the code - in-kind hosting or cloud support, infrastructure support, documentation, help on the lists, what you promote in your marketing materials - and where you sponsor projects or foundations. 
+Wow - I bet those funding numbers are giving you something to think about going forward, huh?  These four foundations - along with several others - provide valuable fiscal and community hosting to a large percentage of interesting open source projects in the world today.  And remember: actual contributions and community governance are often more important long-term than just cash funding.
 
 When you bring a new project to the ASF or to another foundation, you're making a fundamental choice about more than the license.  You're setting the stage for how the project is going to grow, who's going to want to contribute to it, and where it's long-term direction can end up.  Funding and governance are more important than the license choice.
 
-In particular, funding is not required to get FOSS Foundation services - but in some cases, more funding does get you more concentrated help from open source experts.
+In particular, funding is not required to get FOSS Foundation services - but in some cases, more funding does get you more concentrated help from open source experts.  The large cash differences in the charts earlier are definitely related to the amount of services different foundations can directly provide to their flagship projects.
+
 
 ---
 template: thanks
 name: closingslide
+class: inverse-header
 # Who Pays For Open Source?
+
 # The Data Is Out There
 
 Do your own research
 
 .code[https://projects.propublica.org/nonprofits/] 
 
+_NEW_ FOSS Funding research pointers
+
+.code[https://fossfunding.com/] 
+
+
 Guide to help you chose a foundation
 
 .code[http://chooseafoundation.com/] 
+
 
 ---
 name: last-page
@@ -757,10 +771,11 @@ template: thanks
 
 ## Thank You &amp; Questions!
 
-.footnote[
-[@ShaneCurcuru](https://twitter.com/shanecurcuru) |
-<a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache v2.0</a> | http://shaneslides.com
-]
+
+## [@ShaneCurcuru](https://twitter.com/shanecurcuru)
+.code[http://shaneslides.com]
+
+<a rel="license" class="code" href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache v2.0</a>
 
 
 ---
@@ -801,7 +816,7 @@ While many individual developers may feel unappreciated for their volunteer work
 
 ---
 template: logorb
-# Open Source is a ______
+# Open Source is a ________________
 
 - Sustainable contribution model.
 - Model for broad innovation.
