@@ -72,8 +72,10 @@ template: fullheader
 ## The Apache Way: Effective Open Source Project Management
 ]
 
+.footnote-right[Tip: Press '?' for help]
+
 ???
-**Tips:** _Press '?' for help; press 'P' for speaker notes._
+
 
 ---
 template: fullheader
@@ -135,8 +137,9 @@ template: logorb
 
 ???
 But how important is that today?  You want to learn the behaviors, right?
-Actionable information.  Let's get to the good stuff.  Anyway, Lars 
-covered Apache history yesterday morning in the "Behind The Scenes" talk.
+Actionable information.  Let's get to the good stuff.  If you've been following
+along the Community track this year, there are plenty of discussions 
+about the Apache Way, history, and where it came from..
 
 So this is a new kind of Apache Way talk - I want to focus on the 
 specific behaviors and actions that work best with Apache communities.
@@ -183,7 +186,7 @@ name: community
 template: logorb
 # Community
 
-- What do we mean by 'community' here?
+- What do we mean by _community_ here?
   - We don't live together
   - We don't work together
   - We don't know each other
@@ -241,7 +244,7 @@ template: logorb
   - Diverse communities attract more new contributors over time
   - BDFL not allowed in Apache PMCs
 
-### Be Excellent To Each Other
+## Be Excellent To Each Other
 
 ???
 In the immortal words of Bill and Ted: Be Excellent To Each Other.
@@ -289,7 +292,7 @@ template: logorb
 
 - Not talking about hierarchy
 - Because we don't have one - each project is separate
-- We each volunteer with same powers (and superpowers in a PMC)
+- We each volunteer with same powers
 - Your PMC doesn't care what your dayjob role is
 
 ???
@@ -402,7 +405,7 @@ template: logorb
 
 > "Merit gets you **privileges**: commit access, voting on committers"
 
-> "Merit does not buy you **authority** (community must still agree)"
+> "Merit does not buy you **authority** - community must still agree"
 
 
 ???
@@ -426,10 +429,10 @@ template: logorb
 
 ## Problem area: Umbrella projects
 
-Jakarta _was_ an umbrella project - with many different sub-projects and 
-components - and communities.
+Apache Jakarta _was_ an umbrella project - with many different sub-projects and 
+components and communities - each _slightly different_.
 
-The PMC must be a coherent community to be able to recognize merit in all contributors.
+PMCs must be coherent communities to equitably recognize merit.
 
 ???
 A cautionary tale: in the past, we have had successful projects that grew 
@@ -505,6 +508,8 @@ You should default to using a public list - like dev@ or user@ - for
 almost everything.  There are only a few things, like security bugs 
 or personnel matters - that should be done on private lists.
 
+Archiving things is just another way to enable long-term time-shifting.
+
 
 ---
 template: logorb
@@ -548,7 +553,7 @@ template: logorb
   - To maintain open development
   - To continue to provide source code
 
-> Apache Attic - where quiet projects slumber
+> Apache Attic - where quiet projects slumber forever
 
 ???
 A goal of the ASF is to encourage maximum inbound contributions.
@@ -558,7 +563,9 @@ important and enduring part of the Apache brand.
 
 People trust they can just use stuff from Apache without being surprised 
 by any unusual licenses or changes.  They also trust that Apache will 
-be around in 10 years to provide access to the source code.
+be around in 10 years to provide access to the source code.  The Apache 
+Attic is here to maintain *every* codebase we've ever shipped, to be 
+available read-only as long as the ASF itself is around.
 
 
 ---
@@ -639,7 +646,7 @@ template: logorb
 # Decision Making - No Deadlines
 
 - Because **we** don't have any - besides those **we** agree on together
-- Because our deadlines are "earliest date" something can happen
+- Because our deadlines are *earliest date* something could happen
 
 ???
 The ASF relies on volunteers (from the Apache perspective) to do our 
@@ -659,39 +666,11 @@ name: communication
 
 ---
 template: logorb
-# Communication - Styles
-
-Don't be a jerk; avoid the poisonous people.
-
-**How Open Source Projects Survive Poisonous People**
-https://www.youtube.com/watch?v=-F-3E8pyjFo
-
-???
-You can't overemphasize this message!
-
-
----
-template: logorb
-# Communication - Conduct
-
-Don't be a jerk; avoid the poisonous people...
- and do something about it.
-
-**ASF Code of Conduct**
-https://www.apache.org/foundation/policies/conduct
-
-???
-This is required for how we work, in all Apache project and foundation spaces.
-The intent of the Code of Conduct is not to be a hammer; it's meant to 
-be a framework we can use to help both individuals and whole communities 
-to see the expected standards of discourse we want on Apache lists.
-
-
----
-template: logorb
 # Communication - Kindness
 
-**Be kind** - everyone here is a human being, and a **volunteer**.
+**Be kind.**
+
+Everyone here is a human being, and a **volunteer**.
 
 ???
 Remember: everyone else in the community **here at Apache** is a 
@@ -707,22 +686,59 @@ project participants to vote or help with your ideas.
 
 ---
 template: logorb
+# Communication - Netiquette
+
+**Ask smart questions**.
+
+???
+Netiquette.  Smart questions.  Reproduceable bug reports.  Clearly 
+communicating the what, why, and how of your request.
+
+Asking smart questions means respecting the time of all the other volunteers 
+reading your email - and ensures that they know what action you're requesting
+(bugfix, information, project suggestion) quickly and easily just from 
+what you wrote.
+
+
+---
+template: logorb
+# Communication - Conduct
+
+Don't be a jerk; avoid the poisonous people...
+  and help the community do something about it.
+
+**ASF Code of Conduct**
+https://www.apache.org/foundation/policies/conduct
+
+???
+The ASF has a Foundation-wide code of conduct that is required 
+behavior in all Apache project and foundation spaces.
+
+The intent of the Code of Conduct is not to be a hammer; it's meant to 
+be a framework we can use to help both individuals and whole communities 
+to see the expected standards of discourse we want on Apache lists.
+
+**How Open Source Projects Survive Poisonous People**
+https://www.youtube.com/watch?v=-F-3E8pyjFo
+
+---
+template: logorb
 # Communication - Language
 
 > "The core **development** activity must be in English."
 
-- Because... translation software isn't social
-- The whole community must be able to evaluate each other's work
-- The board needs to be able to provide oversight to all communities
+- Translation software isn't social
+- The whole community must be able to evaluate your work
+- The board provides oversight to **all** communities
 
 ???
 At the current time, it's only practical for the ASF to provide 
-governance and hosting to communities that can operate their dev@ 
-list in English.  
+governance and hosting to communities that can operate their primary 
+dev@ list in English.  
 
 This doesn't mean it can't be done - it certainly is being done in China
 and elsewhere - just that the ASF can't support non-english as the 
-primary **development** language.  User support, translation, outside 
+primary **project planning** language.  User support, translation, outside 
 evangelist work can be in any language, as long as you can report the 
 status of your work periodically to the project in English.
 
@@ -745,6 +761,7 @@ and Shane's http://theapacheway.com website - are open source.
 
 Get involved with documentation - improve the Apache Way!
 
+.code[https://www.apache.org/theapacheway/]
 .code[https://github.com/ShaneCurcuru/slides/] 
 
 ---
