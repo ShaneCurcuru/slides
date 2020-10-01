@@ -6,7 +6,7 @@ slides: "http://shaneslides.com/apachecon/WhoPaysForFoundations-ApacheConAtHome.
 feature: true
 ---
 
-Open source sustainability is more than just individuals figuring out how to make a living off of open source. Have you ever wondered who actually pays for open source at the Foundation scale?
+Open source sustainability is more than just individuals figuring out how to make a living off of open source. Have you ever wondered who actually pays for open source at the Foundation scale?  For more financial research, see my [FOSS Funding listings](https://fossfunding.com/).
 
 <div class="lead bg-info well">
 Who Pays For Open Source Foundations?
