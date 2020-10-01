@@ -66,9 +66,11 @@ What does that actually mean?
 ???
 Talking with 5 people about "FOSS Funding" gives you 10 different topics to cover, so let's define what we're covering here today.
 
-- First off, some brief definitions
-- The important question: what are the **different ways to contribute** to open source - code, services, activities, events, sponsorships
-- Then we'll talk money - how key FOSS Foundations get funded
+First off, some brief definitions
+
+The important question: what are the **different ways to contribute** to open source - code, services, activities, events, sponsorships
+
+Then we'll talk money - how key FOSS Foundations get funded
 
 I expect many of you will end up with more questions to ask after this talk - there are many other areas of "funding" to cover out there, and I'm hoping this overview will make you think a little more about how open source works at scale, especially with larger projects or the many foundations that provide a home to so many important projects out there.
 
@@ -84,7 +86,7 @@ Publicly available source code offered under an Open Source Initiative listed li
 ???
 Let's start with the simplest part first.  Open Source is released under an OSD-compatible license, and is available for free under the license.
 
-What's really important is: who's behind that project?  Who are the committers, and how do they manage the project?  How do they get other support, for awareness, events, outreach, or infrastructure?
+What's really important is: who's behind that project?  Who are the committers, and how do they manage the project?  What kind of governance to they use?  How do they get other support, for awareness, events, outreach, or infrastructure?
 
 
 ---
@@ -113,14 +115,7 @@ template: logorb
 # How do we 'pay' for open source?
 
 .left-column-equal[
-- Sponsoring
-- Events
-- Services
-- Hosting / Clouds
-- Paying employees
-]
-
-.right-column-equal[
+**Effort**
 - Pull requests
 - Submitting bugs
 - Fixing bugs
@@ -128,7 +123,18 @@ template: logorb
 - Donating new projects
 ]
 
+.right-column-equal[
+**Funding**
+- Sponsoring
+- Events
+- Services
+- Hosting / Clouds
+- Paying employees
+]
+
 ???
+Obviously, just using Open Source doesn't cost anything - what we're talking about here is building projects. 
+
 Hopefully we all realize that the 'paying' part - as in money - is only one part of how open source software actually gets created and maintained.  Sure, there are plenty of examples of companies or grant funders providing cash sponsorships for major projects, or running events or providing CI and cloud services to open source projects.
 
 But the more important impact **from the project perspective** are the actual contributions of **work**.  All the code submitted, all the bugs reported - or bugs fixed!  All the help and support offered to other users - who then become contributors in the ecosystem.  While all these contributions aren't necessarily a result of cash payment somewhere, they are certainly related the key way that individual projects grow: by growing their code and community.  The fact that individuals may contribute **as part of their paid dayjob** often obscures which work is "paid" or not.
@@ -358,7 +364,7 @@ Conservancy's six major sponsors are:
 .footnote[Conservancy is a **501C3** Public Charity]
 
 ???
-Conservancy lists their major sponsors, along with a number of smaller, individual sponsors.
+Conservancy lists their major sponsors, along with a number of smaller, individual sponsors.  Conservancy doesn't list sponsorship amounts, but my bet is that the above sponsors provide the bulk of Conservancy's annual income.
 
 
 ---
@@ -724,7 +730,7 @@ template: logorb
 ]
 
 ???
-Here we can see the LF's income and assets.  Huh.  Those are pretty big numbers - these charts are an order of magnitude higher than the earlier charts.
+Here we can see the LF's income and assets.  Huh.  Those are pretty big numbers - these charts are an order of magnitude higher than the earlier charts.  In 2018, LF made $96 million in income, and listed net assets of $25 million.
 
 Anyone surprised at these numbers?  Remember: these figures are from 2018, the most year IRS 990 forms are available for.  As a Business League, the LF doesn't otherwise provide public budget figures, so we don't know what their 2019 income was, or what the blip in their net assets over 2017 was.
 
