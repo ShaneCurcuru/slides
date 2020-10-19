@@ -1,0 +1,133 @@
+/**
+* Custom Stylesheet for remark-based slides for ApacheCon branded events.
+*
+* Forked from MIT-licensed https://github.com/gnab/remark
+*
+* Changes copyright (c) 2020 Shane Curcuru under Apache License v2.0
+*/
+/* Simple > blockquotes to stand out just a little */
+blockquote > p{
+  font-style: italic;
+  padding: 2px 5px 2px 10px;
+}
+.bqcite {
+  font-size: smaller;
+  color: #808080;
+  display: block;
+  padding: 0 5px 2px 10px;
+}
+.bqcite:before {
+  content: "\2014 \2009";
+}
+/* Default Layout, boxes, slide styles */
+.remark-slide-content h1 { font-size: 3em; }
+.remark-slide-content h2 { font-size: 2em; }
+.remark-slide-content h3 { font-size: 1.6em; }
+.footnote {
+  position: absolute;
+  bottom: 2em;
+  left: 2em;
+  font-style: italic;
+}
+.footnote-right {
+  position: absolute;
+  bottom: 2em;
+  left: 25em; /* hacky */
+  font-style: italic;
+}
+/* Fix too small body fonts -sc */
+li, p { 
+  line-height: 1.25em;
+  font-size: 32px;
+}
+/* Change font sizing just for presenter notes */
+div.remark-notes-area p { font-size: 20px !important; }
+.remark-notes-area > p { font-size: 22px !important; }
+.red { color: #fa0000; }
+.large { font-size: 2em; }
+a, a > code {
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+}
+code {
+  background: #e7e8e2;
+  border-radius: 5px;
+}
+.remark-code-line-highlighted {
+  background-color: #373832;
+}
+#slideshow .slide .content code {
+  font-size: 0.8em;
+}
+#slideshow .slide .content pre code {
+  font-size: 0.9em;
+  padding: 15px;
+}
+/* Inverse/reversed background/foreground */
+.inverse {
+  background: #272822;
+  color: #777872;
+  text-shadow: 0 0 20px #333;
+}
+.inverse h1, .inverse h2 {
+  color: #f3f3f3;
+  line-height: 0.8em;
+}
+.inverse-header h1, .inverse h2 {
+  text-shadow: 0 0 20px #333;
+  color: #f3f3f3;
+  line-height: 0.8em;
+}
+#slide-inverse .footnote {
+  bottom: 12px;
+  left: 20px;
+}
+/* Two-column layout and sublayouts */
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right ~ p {
+  clear: both;
+}
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #000;
+}
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}
+/* Idea for two-column layouts */
+.left-column-equal {
+  width: 49%; 
+  float: left; 
+}
+.right-column-equal {
+  width: 49%; 
+  float: right; 
+}
+/* Improve PDF print export https://github.com/gnab/remark/issues/50#issuecomment-223887379 */
+@page {
+  size: 1210px 681px;
+  margin: 0;
+}
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}

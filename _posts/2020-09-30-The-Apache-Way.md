@@ -1,14 +1,12 @@
 ---
 title: The Apache Way
 description: The Apache Way - Effective Open Source Project Management
-conference: ApacheCon Berlin
-slides: "http://shaneslides.com/apachecon/TheApacheWay-ApacheConEU2019.html"
-video: "https://www.youtube.com/watch?v=DxRP4TPjbmQ"
+conference: ApacheCon @Home
+slides: "http://shaneslides.com/apachecon/TheApacheWay-ApacheConAtHome.html"
 feature: true
 ---
 
-For ApacheCon Berlin 2019, I got great feedback and interaction with 
-the audience - and some surprising questions too!
+The great thing about giving an Apache Way talk - [this year online](https://app.hopin.to/events/apachecon-home/reception) with [ApacheCon @Home](https://apachecon.com/acah2020/) - is that there are always great new ideas from the community to add.
 
 <div class="lead bg-info well">
 The Apache Way - Effective Open Source Project Management
