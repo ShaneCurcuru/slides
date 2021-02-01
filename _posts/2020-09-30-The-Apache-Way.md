@@ -3,6 +3,7 @@ title: The Apache Way
 description: The Apache Way - Effective Open Source Project Management
 conference: ApacheCon @Home
 slides: "http://shaneslides.com/apachecon/TheApacheWay-ApacheConAtHome.html"
+video: "https://www.youtube.com/watch?v=rI-4CpV6lP4"
 feature: true
 ---
 
