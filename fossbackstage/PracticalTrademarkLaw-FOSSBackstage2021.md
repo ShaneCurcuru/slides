@@ -85,7 +85,7 @@ template: logorb
 name: practical2
 .left-column[
   ## Practical Advice
-  ### Consistent Marks
+  ### Consistent
   ### Reputation
 ]
 .right-column[
@@ -97,7 +97,7 @@ template: logorb
 name: practical3
 .left-column[
   ## Practical Advice
-  ### Consistent Marks
+  ### Consistent
   ### Reputation
   ### Community Policing
 ]
@@ -110,9 +110,9 @@ template: logorb
 name: practical4
 .left-column[
   ## Practical Advice
-  ### Consistent Marks
+  ### Consistent
   ### Reputation
-  ### Community Policing
+  ### Community
   ### Registration Insurance
 ]
 .right-column[
@@ -124,10 +124,10 @@ template: logorb
 name: practical4
 .left-column[
   ## Practical Advice
-  ### Consistent Marks
+  ### Consistent
   ### Reputation
-  ### Community Policing
-  ### Registration Insurance
+  ### Community
+  ### Registration
   ### Don't Go To Court
 ]
 .right-column[
@@ -253,6 +253,12 @@ template: logorb
   - Download Apache® CouchDB® software here
 - Be **consistent** with the **exact marks**
 - Use proper ™ and ® symbols
+
+???
+Trademark law is a very messy compiler - however there are a bunch of things you can do to improve the strength of your trademarks.
+Treat your product name and logo as a trademark - with respect.  Be consistetn calling it "CouchDB software", use the **exact** name the **exact** same way in major places on your website.  Annotate the first and most prominent uses of your trademarks with ™ or ® symbols - definitely on homepages and landing pages, and preferably in all marketing materials.
+
+The same things all apply to logos, but trademark law tends to treat an **exact** graphic as a trademark - so variations may be technically different trademarks, even though you see them as similar.
 
 ---
 template: logorb
