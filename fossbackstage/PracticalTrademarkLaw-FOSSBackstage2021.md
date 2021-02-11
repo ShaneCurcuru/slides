@@ -77,7 +77,12 @@ name: practical1
   ### Consistent Marks
 ]
 .right-column[
-Use trademarks consistently, and mark™ them®
+
+<br/>
+<br/>
+<br/>
+
+Use trademarks **consistently**, and mark™ them®
 ]
 
 ---
@@ -89,7 +94,12 @@ name: practical2
   ### Reputation
 ]
 .right-column[
-How strong is your organization's reputation in the ecosystem?
+
+<br/>
+<br/>
+<br/>
+
+How strong is your organization's **reputation** in the ecosystem?
 ]
 
 ---
@@ -102,7 +112,12 @@ name: practical3
   ### Community Policing
 ]
 .right-column[
-How organized is your community at reporting infringements?
+
+<br/>
+<br/>
+<br/>
+
+How **organized** is your community at reporting infringements?
 ]
 
 ---
@@ -116,7 +131,12 @@ name: practical4
   ### Registration Insurance
 ]
 .right-column[
-Registrations are like insurance: you don't need one - until you do _(and then it's too late)_.
+
+<br/>
+<br/>
+<br/>
+
+Registrations are like **insurance**: you don't need one - until you do _(and then it's too late)_.
 ]
 
 ---
@@ -131,7 +151,12 @@ name: practical4
   ### Don't Go To Court
 ]
 .right-column[
-If you end up in court, you've already lost too much volunteer energy and money.
+
+<br/>
+<br/>
+<br/>
+
+If you end up in court, you've **already lost** too much volunteer energy and money.
 ]
 
 ---
@@ -286,7 +311,7 @@ template: logorb
   - Apache projects are covered by the ASF policy
 - Have a policy of how you will use FOSS trademarks - just like developer contributor policy!
 
-.footnote.code[https://www.apache.org/foundation/marks/resources]
+.footnote.code[http://modeltrademarkguidelines.org/]
 
 ???
 In the proprietary world, trademarks are strictly assets to be protected. In the open source world, where sharing and collaborating regularly is the watchword, a more nuanced approach to sharing or policing your marks is needed. MAybe a company wants to promote a community-friendly brand for themselves - you need to let people know that!
@@ -323,6 +348,8 @@ template: logorb
 **USPTO:** “Likelihood of confusion exists between trademarks when the marks are so similar and the goods and/or services for which they are used are so related that consumers would mistakenly believe they come from the same source. Each application is decided on its own facts, and no strict mechanical test exists for determining likelihood of confusion.”
 
 If a new user, wanting to download your widgets mistakenly went to another company’s webpage, might they be confused into buying their widgets instead - that could be infringement. But it depends on the overall effect of how they present their trademarks and what their widgets do.
+
+**Remember:** Trademarks are about protecting **consumers** looking for reputable products. You have to see trademarks through a new user's eye.
 
 Are there any ways we know it's OK to use a trademark?
 
@@ -405,8 +432,8 @@ name: registration
 template: logorb
 # Registrations Are Insurance
 
-- Successful application improves your rights
-- Trademark registration fairly simple - in the US
+- Successful grant of registration improves your rights
+- Registration application fairly simple
 - Trademark laws **vary significantly by country** 
   - US is first-to-use; most countries are first-to-file
 - Trademark search is **different** than registration
@@ -447,7 +474,7 @@ International Nice class 9, which we use for software products, technically incl
 template: logorb
 # Registration Prevents Many Problems
 
-- **After** your application is approved, switch ™ to ® 
+- **After** your registration is **granted**, switch ™ to ® 
 - In open source, ® is often enough to deter infringers - both before, and after problems arise
 - Many vendors do trademark searches of registrations _before_ rolling out a new brand - ensures they don’t start conflicting
 - Vendors also respect ® when an open source project complains about misuse & respond quickly
@@ -521,7 +548,12 @@ United States, Canada, India, Australia, 20+ other countries
 
 ## First To Use 
 
-China, EU, Russia, most of the rest of the world 
+China, EU, Russia, most of the rest of the world
+
+???
+Trademark law varies by country.  If the US, Canada, India, Australia is your primary market, then definitely start using the ™ symbol and gain those common law rights.  If your primary market is the EU and rest of the world, then it's all about if you want the hassle of applying for a registration.
+
+Any more detailed advice needs to come from your lawyer; this is a complicated topic, especially in China, where there are a great number of trademark scams and squatters.
 
 ---
 template: pineapple
@@ -592,7 +624,7 @@ name: resources
 - Key resources for understanding trademarks and FOSS 
   - https://opensourcebranding.org/
 - Example trademark policy for open source projects
-  -http://modeltrademarkguidelines.org/
+  - http://modeltrademarkguidelines.org/
 - Legal overview of trademarks and open source
   - http://fossmarks.org/
 - Laundry list of other useful FOSS trademark sites
