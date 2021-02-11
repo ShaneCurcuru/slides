@@ -39,6 +39,12 @@ template: fullheader
 ### Punderthings Consulting
 ### [@ShaneCurcuru](https://twitter.com/shanecurcuru)
 ]
+
+???
+
+Intro: Founder of Punderthings Consulting, where I can help you figure out FOSS organizational and branding-related issues like this talk.
+I'm also currently Vice Chairman of the Apache Software Foundation, and in the past served as Vice President, Brand Management for all Apache projects.
+
 ---
 template: fullheader
 name: intro
