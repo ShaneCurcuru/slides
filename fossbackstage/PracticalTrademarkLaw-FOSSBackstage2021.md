@@ -85,6 +85,17 @@ name: practical1
 Use trademarks **consistently**, and mark™ them®
 ]
 
+???
+This is an important and very simple step to take: treat your trademarks **as trademarks**.
+
+Use them consistently, as adjectives, and mark with appropriate symbols.  In first-to-use countries, this stakes your claim to the trademark even without registration.  But everywhere, this alerts readers and users that **you** believe your product names are trademarks, and should be used with respect.  
+
+Ensuring that any official communications from your organization treat your names as trademarks to be respected is both a big social force, requesting respect from others - and, in first-to-use countries is an important indicator of your common law rights.
+
+Another easy thing to do is to publish a trademark use policy.  There are several examples, including the Model Trademark Guidelines policy that's open source and written to be a drop-in policy for any FOSS project.
+
+Open source means freely giving away the code - but it does **not** mean sharing your name, your marks, and your reputation.
+
 ---
 template: logorb
 name: practical2
@@ -101,6 +112,16 @@ name: practical2
 
 How strong is your organization's **reputation** in the ecosystem?
 ]
+
+???
+
+Most trademark issues are solved with either private negotiation, or public shaming - not in court.  But effectiveness here depends on the reputation your organization has in the world.
+
+Obvious: how well known are you to commercial companies who might try to steal or profit off of your brands?  
+
+Unobvious: how well known are you in developer circles?  Do you have contributors who work at $BigCo and can lobby them internally to help respect your trademark?  While it takes social effort, leveraging contributors who work at an infringer is an important way to prevent or stop infringements.
+
+Apache has a huge reputation - I don't worry about going to court; we have other tools, like exclusion from project management committees.  But smaller organizations in terms of their brand reach and respect need to consider different aspects.   Even so, most commercial entites will understand the impact to them of bad press if they're seen as abusing a poor little FOSS project, so it's still an important tool.
 
 ---
 template: logorb
@@ -119,6 +140,14 @@ name: practical3
 
 How **organized** is your community at reporting infringements?
 ]
+
+???
+
+The difficulty in solving trademark infringements goes up geometrically or exponentially, depending on market.  Early detection is critical in discovering issues with others mis-using your trademarks.
+
+How active and organized is your community?  If some new VC hotshot company started selling management add ons to your product using your trademarks, how long would it take until your **project leadership** heard about the issue and could start taking action?  Just as importantly, do you have the trademark knowledge to understand what the actaul issue is and how to approach it?
+
+Your organizational capacity is a key factor here too: once you hear about an infringement or issue, how long will it take you to respond, and how organized and efficient can you be in that response?  The ASF has a clear process, a volunteer VP Brand Management, and expert counsel on retainer - and it's still an organizational coordination issue to handle all our cases.
 
 ---
 template: logorb
@@ -139,6 +168,16 @@ name: practical4
 Registrations are like **insurance**: you don't need one - until you do _(and then it's too late)_.
 ]
 
+???
+
+Registrations are like an insurance policy that takes a while to put in force.  The main issue is that once you find an infringement, it's too late to start the registration process.
+
+Registrations - _once granted!_ - are a very strong defense of your mark... i**n the country they're registered**.  Once you have a granted registration, it's _very_ hard for anyone else to take it away from you, meaning you can at least preserve your use of the mark in those countries.  However it's not a complete shield: agressive attackers in another country can still try to co-opt your brand.  As an exaemple, China as a first-to-file country has a growing market for trademark squatters and scams; you might buy an iWatch in China, but it's not from Apple, because a squatter filed there first.
+
+If you're serious about defending your trademarks, planning budget and organizational effort to get at least one or two or three registrations in key markets is a very worthwhile effort.  An important focus is the countries where your project is likely to find future contributors to the project.  
+
+But don't stress too much about registrations if you're not big enough / don't have the cash.
+
 ---
 template: logorb
 name: practical4
@@ -158,6 +197,19 @@ name: practical4
 
 If you end up in court, you've **already lost** too much volunteer energy and money.
 ]
+
+???
+
+Raise your hand if your organization has a trademark lawyer on retainer.  OK, now keep your hand raised if you have the budget to pay your lawyer for a week of work.  OK, now keep your hand raised if you also have the volunteer leadership capacity to manage the process of preparing for a lawsuit.  Most of us couldn't do that effectively.
+
+For most of us, if a trademark infringement has gone to court, it's too late.  Trademark lawsuits are complicated, expensive, and not at all a good thing.  Unless you're a Linux Foundation project, you almost certainly have neither the cash nor the organizational capacity to manage a real lawsuit, nor the patience to see it through to conclusion.
+
+The real point here is re-setting your mindset for effective ways to fix infringements:
+- Early detection (your community)
+- Private negotiation - always contact infringers in private first - this allows them to fix the issue while saving face. Many infringements are not intentional, really.
+- Public shaming, based on reputational strength.  If you're an Apache or an Eclipse, you have the reputation to put out a press release calling an infringer a bad actor in the FOSS space - and that will really hurt any software-making company.  Also consider how you can influence developer communities (as we've seen recently with some high-power license change fails in the court of developer opinion)
+- Cease and Desist letters, and other simple threats from your lawyers are also useful, especially in conjunction with public shaming.  Corporate legal departments don't like getting these.
+
 
 ---
 template: fullheader
