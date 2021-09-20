@@ -19,7 +19,7 @@ background-size: cover
 layout: true
 name: logorb
 class: left
-background-image: url(img/achome_banner.png)
+background-image: url(img/apachecon2021.png)
 background-repeat: no-repeat
 background-position: 98% bottom
 background-size: 20%
