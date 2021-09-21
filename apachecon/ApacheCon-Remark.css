@@ -117,6 +117,21 @@ code {
   width: 49%; 
   float: right; 
 }
+/* Hack for columns with lots of entries */
+.left-column-equal-sm {
+  width: 49%; 
+  float: left;
+}
+.right-column-equal-sm {
+  width: 49%; 
+  float: right; 
+}
+div.left-column-equal-sm ul li {
+  font-size: 28px !important;
+}
+div.right-column-equal-sm ul li {
+  font-size: 28px !important;
+}
 /* Improve PDF print export https://github.com/gnab/remark/issues/50#issuecomment-223887379 */
 @page {
   size: 1210px 681px;

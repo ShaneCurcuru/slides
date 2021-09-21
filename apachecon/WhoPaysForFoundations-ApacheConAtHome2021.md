@@ -64,13 +64,11 @@ What does that actually mean?
 - How do **Foundations** get funded?
 
 ???
-Talking with 5 people about "FOSS Funding" gives you 10 different topics to cover, so let's define what we're covering here today.
+Talking with 5 people about "FOSS Funding" gives you 10 different topics to cover, so let's define what we're covering here today.  I may not have all the answers for you, but I want to give everyone a framework of all the different aspects of how to think about the funding behind open source.
 
-First off, some brief definitions
+First, we'll consider the **different ways to contribute** to open source - code, services, activities, events, sponsorships.
 
-The important question: what are the **different ways to contribute** to open source - code, services, activities, events, sponsorships
-
-Then we'll talk money - how key FOSS Foundations get funded
+Then we'll talk money - how key FOSS Foundations get funded - and how much.
 
 I expect many of you will end up with more questions to ask after this talk - there are many other areas of "funding" to cover out there, and I'm hoping this overview will make you think a little more about how open source works at scale, especially with larger projects or the many foundations that provide a home to so many important projects out there.
 
@@ -86,7 +84,7 @@ Publicly available source code offered under an Open Source Initiative listed li
 ???
 Let's start with the simplest part first.  Open Source is released under an OSD-compatible license, and is available for free under the license.
 
-What's really important is: who's behind that project?  Who are the committers, and how do they manage the project?  What kind of governance to they use?  How do they get other support, for awareness, events, outreach, or infrastructure?
+What's really important is: who's behind that project?  Who is the active community, and how do they manage the project?  What kind of governance does the community have for that project?  How do they get other support, for awareness, events, outreach, or infrastructure?
 
 
 ---
@@ -103,9 +101,9 @@ template: logorb
   - Research / Academic institutions
 
 ???
-The who is a just plain complex topic, because every single human on the planet who has a computer is using open source.  Even those of us involved in building, testing, documenting, marketing, selling, and whatever-ing open source do in so many different ways it's hard to quantify.  On the whole, individuals are contributing in a wide variety of ways, although individuals are rarely directly funding open source projects (other than of course with their own valuable time!).
+The who includes **all** of us involved in building, testing, documenting, marketing, selling, and whatever-ing open source - along with the actual code committers.  On the whole, individuals are contributing in any way you can imagine.  And while we don't often think of individual effot as being funded, that changes when you ask yourself: how **valuable** is your **own** time that you spend here?
 
-What most people are curious about is: how much of the work of building and maintaining open source projects is done by individuals, in their free time or as hobbyists?  And how much of this work is funded directly by companies, governments, or academia - either by hiring engineers to work on projects, or by funding FOSS events, services, or other activities.
+What most people are curious about is: how much of the work of building and maintaining open source projects is done by individuals, in their free time or as hobbyists?  Versus how much work is funded directly by companies, governments, or academia - either by hiring engineers to work on projects, or by funding FOSS events, services, or other activities?
 
 The ratios of who does what varies widely depending on the project or industry - but there are clear trends in major projects.
 
@@ -133,13 +131,11 @@ template: logorb
 ]
 
 ???
-Obviously, just using Open Source doesn't cost anything - what we're talking about here is building projects. 
-
-Hopefully we all realize that the 'paying' part - as in money - is only one part of how open source software actually gets created and maintained.  Sure, there are plenty of examples of companies or grant funders providing cash sponsorships for major projects, or running events or providing CI and cloud services to open source projects.
+Hopefully we all realize that the 'paying' part - as in money - is only a small part of how open source software actually gets created and **maintained**.  Sure, there are plenty of examples of companies or grant funders providing cash sponsorships for major projects, or running events or providing CI and cloud services to open source projects.
 
 But the more important impact **from the project perspective** are the actual contributions of **work**.  All the code submitted, all the bugs reported - or bugs fixed!  All the help and support offered to other users - who then become contributors in the ecosystem.  While all these contributions aren't necessarily a result of cash payment somewhere, they are certainly related the key way that individual projects grow: by growing their code and community.  The fact that individuals may contribute **as part of their paid dayjob** often obscures which work is "paid" or not.
 
-I have a theory about which half is important: contributions.
+I have a theory about how much of this work is from individuals versus companies.
 
 
 ---
@@ -148,6 +144,29 @@ template: contributions
 
 ???
 Here's my belief: most of the major open source projects used today are now primarily built and maintained by companies directly paying their employees to contribute.  Let's see what data from some major projects show.
+
+
+---
+template: logorb
+# Direct or indirect contributions?
+
+- Direct contributions
+  - Code, cloud credits, services
+  - Committed by corporate employees or individuals
+
+- Indirect contributions
+  - Company hiring consultant to contribute all of the above 
+
+- Funding
+  - Sponsoring Foundation or project directly
+
+???
+Let's review how organizations usually contribute to projects.
+
+- Committing code (docs, tests, community support, etc) 
+  - When you contribute work as an individual, it's often opaque to the community if you're doing this in "free time", or if you're doing this as paid work
+- Hiring someone to do the above work
+- Or: directly funding FOSS Foundations or projects with cash or sponsorships.
 
 
 ---
@@ -190,7 +209,7 @@ Survey: how Apache committers contribute to their projects.
 ???
 Let's look at the ASF - which has over 200 Apache project communities.  In 2016 we ran a survey.
 
-The ASF ran a similar survey this year, which also shows a high percentage of work on our projects is directly paid.
+The ASF ran a similar survey last year, which also shows a high percentage of work on our projects is directly paid.
 
 
 ---
@@ -248,29 +267,6 @@ template: contributions
 So, what do you think of my thesis now?
 
 At least half of contributions to major projects are effectively funded, by companies paying their staff, or by integrators or agencies doing paid work for clients.
-
-
----
-template: logorb
-# Direct or indirect contributions?
-
-- Direct contributions
-  - Code, cloud credits, services
-  - Committed by corporate employees or individuals
-
-- Indirect contributions
-  - Company hiring consultant to contribute 
-
-- Funding
-  - Sponsoring Foundation or project directly
-
-???
-Let's review how you can contribute to projects.
-
-- Committing code (docs, tests, community support, etc) or services for software engineering
-  - That you contribute yourself - as an individual **or** a paid employee - funding often opaque to the community
-- Hiring someone to do the above work
-- Or: directly funding FOSS Foundations or projects with cash or sponsorships.
 
 
 ---
@@ -352,8 +348,6 @@ Conservancy offers basic fiscal sponsorship services, along with some legal and 
 template: logorb
 # Conservancy - Sponsors
 
-Conservancy's six major sponsors are:
-
 - Amateur Radio Digital Communications
 - Code Weavers
 - Google
@@ -418,17 +412,22 @@ The ASF hosts well over 200 Apache project communities.  While each project is m
 template: logorb
 # Apache - Sponsors
 
-Apache's Nine Platinum sponsors are:
+Apache's nine Platinum sponsors are:
 
+.left-column-equal[
 - yahoo!
 - Amazon Web Services
 - Tencent Cloud
 - Pineapple Fund
 - Huawei
+]
+
+.right-column-equal[
 - Namebase
 - Facebook
 - Google
 - Microsoft
+]
 
 .footnote[The ASF is a **501C3** Public Charity]
 
@@ -444,18 +443,21 @@ template: logorb
 
 Apache's Targeted _(In-Kind/Services)_ Platinum sponsors are:
 
+.left-column-equal[
 - DLAPiper
 - JFrog
 - Verizon Media
 - Microsoft
 - Sonatype Nexus
+]
+
+.right-column-equal[
 - OSU Open Source Lab
 - CloudBees
 - Amazon Web Services
 - JetBrains
 - Leaseweb
-
-.footnote[The ASF is a **501C3** Public Charity]
+]
 
 ???
 There are more ways to organizationally support Apache than just donating cash.  Each of these organizations is a Targeted Platinum sponsor, meaning they donate the equivalent of a Platinum sponsorship of hosting services, bandwidth, cloud credits, and CI pipelines or testing resources to Apache projects.
@@ -511,9 +513,7 @@ Eclipse's model is partly focused on their IDE and developer tools, so along wit
 template: logorb
 # Eclipse - Sponsors
 
-The fifteen Strategic Members of Eclipse are:
-
-.left-column-equal[
+.left-column-equal-sm[
 - CEA List 
 - Daimler TSS
 - DLR
@@ -523,7 +523,7 @@ The fifteen Strategic Members of Eclipse are:
 - IBM
 ]
 
-.right-column-equal[
+.right-column-equal-sm[
 - IOTA Foundation
 - Microsoft
 - OBEO
@@ -611,7 +611,7 @@ template: logorb
 
 The fifteen Platinum Corporate Members of the Linux Foundation:
 
-.left-column-equal[
+.left-column-equal-sm[
 - AT&T
 - Ericsson
 - Facebook Open Source
@@ -621,7 +621,7 @@ The fifteen Platinum Corporate Members of the Linux Foundation:
 - Intel
 - Microsoft
 ]
-.right-column-equal[
+.right-column-equal-sm[
 - NEC
 - Oracle
 - Qualcomm
@@ -643,7 +643,7 @@ template: logorb
 
 The twenty-three Platinum member sponsors of the CNCF are:
 
-.left-column-equal[
+.left-column-equal-sm[
 - Alibaba Cloud
 - AWS
 - Apple
@@ -657,7 +657,7 @@ The twenty-three Platinum member sponsors of the CNCF are:
 - IBM Cloud
 - Intel
 ]
-.right-column-equal[
+.right-column-equal-sm[
 - JD.Com
 - Kasten by Veeam
 - Microsoft Azure
@@ -680,9 +680,9 @@ These are just sponsoring the CNCF, and likely represents at least **4M in annua
 
 ---
 template: logorb
-# Hyperledger Foundation - Sponsors
+# Hyperledger - Sponsors
 
-The thirteen Premiere Members of Hyperledger are:
+The thirteen Premiere Members of Hyperledger Foundation are:
 
 .left-column-equal[
 - Accenture
@@ -704,9 +704,9 @@ This list represents nearly **2M in annual income** for Hyperledger and the LF.
 
 ---
 template: logorb
-# OpenJS / Node.js Foundation - Sponsors
+# OpenJS / Node.js - Sponsors
 
-The four Platinum Members of OpenJS are:
+The four Platinum Members of OpenJS Foundation are:
 
 - Google
 - IBM
@@ -723,7 +723,7 @@ The platinum sponsors listed here contribute **1M in annual income** to OpenJS a
 template: logorb
 # Who Sponsors The Linux Foundation?
 
-... and the 150+ Collaborative Projects at the LF?
+... and the 100's of Collaborative Projects at the LF?
 
 **Answer:** A lot of companies, many repeatedly.
 
@@ -746,9 +746,9 @@ template: logorb
 ]
 
 ???
-Here we can see the LF's income and assets.  Huh.  Those are pretty big numbers - these charts are an order of magnitude higher than the earlier charts.  In 2018, LF made $96 million in income, and listed net assets of $25 million.
+Here we can see the LF's income and assets.  Huh.  Those are pretty big numbers - these charts are an order of magnitude higher than the earlier charts.  In 2019, LF made an estimated $124 million in income, and listed net assets of $58 million.
 
-Anyone surprised at these numbers?  Remember: these figures are from 2018, the most year IRS 990 forms are available for.  As a Business League, the LF doesn't otherwise provide public budget figures, so we don't know what their 2019 income was, or what the blip in their net assets over 2017 was.
+Anyone surprised at these numbers?  Remember: these figures are from 2019 and are estimated, since their IRS 990 tax form isn't yet published.  As a Business League, the LF doesn't otherwise provide public budget figures, so we don't know what their 2020 income was, or what the blip in their net assets over 2017 was.
 
 
 ---
