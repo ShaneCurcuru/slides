@@ -171,6 +171,42 @@ Let's review how organizations usually contribute to projects.
 
 ---
 template: logorb
+# Apache software committers
+
+Survey: how Apache committers contribute to their projects.
+
+- ~**50%** replied it was as an *Employee (as their job)*
+- ~40% replied as an *Individual (outside regular job)*
+- ~10% were *Retired, students, other*
+
+.code[https://s.apache.org/2016dsurvey]
+
+???
+Let's look at the ASF - which has over 200 Apache project communities.  In 2016 we ran a survey, showing ust over half of all committers were committing work as a paid job.
+
+The ASF ran a similar survey last year, which also shows a high percentage of work on our projects is directly paid.
+
+
+---
+template: logorb
+# Drupal commits and sponsors
+
+Drupal regularly updates their contribution reports - in 2020:
+
+- **69%** of code was *Wholly sponsored work*
+- 16% was *Work that's a mix or not credited*
+- 15% was *Purely volunteer work*
+
+.code[https://dri.es/who-sponsors-drupal-development-2020]
+
+???
+Drupals' credit system uses commit logs to show not just who wrote the code, but if the contributor was sponsored or paid to do make that commit by a company or other entity.  That counts either software vendor employees, or consultants and integrators working for major Drupal users.
+
+Since Drupal does such a detailed job of tracking nearly all commits this way, we can see a clear trend that the ratio of sponsored to not sponsored is increasing over time.
+
+
+---
+template: logorb
 # Linux kernel development
 
 The Linux Kernel Report tracks which companies are sponsoring work.
@@ -196,42 +232,6 @@ The great majority of work done in the Linux kernel is done directly by corporat
 
 ---
 template: logorb
-# Apache software committers
-
-Survey: how Apache committers contribute to their projects.
-
-- ~**50%** replied it was as an *Employee (as their job)*
-- ~40% replied as an *Individual (outside regular job)*
-- ~10% were *Retired, students, other*
-
-.code[https://s.apache.org/2016dsurvey]
-
-???
-Let's look at the ASF - which has over 200 Apache project communities.  In 2016 we ran a survey.
-
-The ASF ran a similar survey last year, which also shows a high percentage of work on our projects is directly paid.
-
-
----
-template: logorb
-# Drupal commits and sponsors
-
-Drupal regularly updates their contribution reports - in 2020:
-
-- **69%** of code was *Wholly sponsored work*
-- 16% was *Work that's a mix or not credited*
-- 15% was *Purely volunteer work*
-
-.code[https://dri.es/who-sponsors-drupal-development-2020]
-
-???
-Drupals' credit system uses commit logs to show not just who wrote the code, but if the contributor was sponsored or paid to do make that commit by a company or other entity.  That counts either software vendor employees, or consultants or integrators working for end users.
-
-The ratio of sponsored to not sponsored is increasing over time, and my bet is a similar ratio is in most of the widely-used software products in business today.
-
-
----
-template: logorb
 # Where do projects come from?
 
 Where did today's widely-used open source projects get started?
@@ -242,7 +242,7 @@ Where did today's widely-used open source projects get started?
 - Single company projects being donated?
 
 ???
-How do projects start being open sourced?  The answer is: all of these places
+Another important question is: How do projects start being open sourced?  The answer is: all of these places.
 
 While plenty of FOSS projects you may use came from individual developers, many of the key bits of technology used in business today came from... business.
 
@@ -273,18 +273,15 @@ At least half of contributions to major projects are effectively funded, by comp
 template: logorb
 # Role of FOSS Foundations
 
-Foundations can be an independent home for open source projects.
-
-Why is this important?
+Foundations serve as an independent home for multiple projects.
 
 What services do Foundations provide?
 
 ???
 
-For small projects, this is a regular struggle - keeping a project alive over time, ensuring fixes are made, drawing in new contributors, or keeping the CI/CD pipelines running..
+As your project grows, how do you keep up with all those other tasks around maintaining a community, a website, dealing with endless streams of bugs or user questions?  How do you draw in new contributors to help out with the growing chores around popular projects?
 
-Thus, we have FOSS foundations, like Apache, Linux, Eclipse, Software Freedom Conservancy, and now many others.  
-These foundations can scale up all the non-software engineering a larger project needs - like fundraising, legal, infrastructure, governance and mentoring support. 
+This is whereFOSS foundations, like Apache, Linux, Eclipse, Software Freedom Conservancy, and others shine - these foundations help provide the playbook and expertise for scaling up all the non-software engineering a larger project needs - like fundraising, legal, infrastructure, governance and mentoring support. 
 
 
 ---
@@ -303,9 +300,9 @@ Foundations provide:
 - Marketing / ecosystem development
 
 ???
-We still rely on many volunteers to help, but when it comes to reviewing contracts or doing the accounting on donations, we need hired help.  Accounting volunteers are rare to find in the coding world, and few coders want to carry a beeper for 24x7 support when the server goes down.  All these services we need money for.
+We still rely on many volunteers to help, but when it comes to reviewing contracts or doing the accounting on donations, we need hired help.  Accounting volunteers are rare to find in the coding world, and few coders want to carry a beeper for 24x7 support when the server goes down.  All these services we typically need funds to hire the right expertise.
 
-All of these services are hard to provide at scale with volunteers - so Foundations are needed to provide the fiscal organization to pay someone to provide them.
+All of these services are hard to provide at scale with volunteers - so Foundations are needed to provide the fiscal organization to pay someone to provide them, along with the governance to ensure services match what your project needs.
 
 
 ---
@@ -313,7 +310,7 @@ template: fullheader
 # Foundation Services, Sponsors, And Funding
 
 ???
-Non-profit foundations attract some donations - from individuals or small businesses who want to say thanks for the software we provide.  But the bulk of funding for most software non-profits comes from corporate grants or recurring sponsors.
+Non-profit do often foundations attract some donations - from individuals or small businesses who want to say thanks for the software we provide.  But the bulk of funding for most software non-profits comes from corporate grants or recurring sponsors.  And several of the larger software foundations, like Eclipse and Linux, are actually Business Leagues - they may be non-profits, but are not charities, and contributions aren't deductible.
 
 How do these foundations get their money?  Primarily recurring corporate sponsorships.
 
@@ -341,7 +338,7 @@ template: logorb
 ]
 
 ???
-Conservancy offers basic fiscal sponsorship services, along with some legal and IP support.  Additional services may be available resources permitting when projects make requests.
+Conservancy offers basic fiscal sponsorship services, along with some legal and IP support.  Additional services are available with Conservancy staff has the capacity to help, although it's primarily up to projects there to request the help.  Projects at Conservancy have their own independent governance.
 
 
 ---
@@ -380,6 +377,8 @@ template: logorb
 On the left, we see Conservancy's annual gross income for the past few years, primarily from donations.  Their income varies, but a rough average for this period is a bit less than $2million annually.
 
 On the right, we can see Conservancy's Net Assets - cash in the bank or investments for their continuing operations.
+
+Conservancy publishes financial filings: https://sfconservancy.org/about/filings/
 
 
 ---
@@ -482,6 +481,7 @@ Here we can see the ASF's income and assets - an average of about $1million annu
 
 Note that all numbers here are taken directly from the 990 tax forms that all US charities file with the IRS.
 
+The ASF publishes detailed financial records: https://www.apache.org/foundation/records/
 
 ---
 template: logorb
@@ -506,7 +506,7 @@ template: logorb
 ]
 
 ???
-Eclipse's model is partly focused on their IDE and developer tools, so along with the usual services, they provide strong development process and integration support.  Many projects also follow a shared release schedule, as their projects work together.
+Eclipse's model is partly focused on their IDE and developer tools, so along with the usual services, they provide strong development process and integration support.  Many projects also follow a shared release schedule, as many of their projects work together.
 
 
 ---
@@ -566,6 +566,8 @@ template: logorb
 ???
 Here we can see the Eclipse's income and assets - averaging over $4million in annual income.  More projects and more services, but notably higher funding. Eclipse's leading sponsorships are tied to part of their corporate governance structure, and thus are both a larger and more stable source of sponsorship income than Conservancy or Apache have.
 
+Remember that Eclipse is a Business League, as well as being linked corporations in the US, Canada, and Belgium, so the overall assets listed here are not a concern; they are only the US organization.
+
 
 ---
 template: logorb
@@ -591,7 +593,7 @@ template: logorb
 ]
 
 ???
-The Linux Foundation has a large number projects, several of them giant factors in today's software world.  They also operate with an agency model, where Linux Foundation employees provide a wide variety of services to projects - some employees are directly assigned to specific projects.
+The Linux Foundation has hundreds of projects, several of them giant factors in today's software world.  They also operate with an agency model, where dozens of Linux Foundation employees provide a wide variety of services to projects - many employees are directly assigned to specific projects.
 
 
 ---
@@ -682,7 +684,7 @@ These are just sponsoring the CNCF, and likely represents at least **4M in annua
 template: logorb
 # Hyperledger - Sponsors
 
-The thirteen Premiere Members of Hyperledger Foundation are:
+The seven Premiere Members of Hyperledger Foundation are:
 
 .left-column-equal[
 - Accenture
