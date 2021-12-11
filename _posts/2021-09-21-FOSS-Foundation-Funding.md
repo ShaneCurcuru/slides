@@ -3,6 +3,7 @@ title: Who pays for FOSS foundations?
 description: Exploring funding sources around FOSS Foundations
 conference: ApacheCon @Home
 slides: "http://shaneslides.com/apachecon/WhoPaysForFoundations-ApacheConAtHome2021.html"
+video: "https://www.youtube.com/watch?v=BlSqVMzdj6w&list=PLU2OcwpQkYCwZfTRhACzyM6QT1qPijPFw&index=167"
 feature: true
 ---
 
