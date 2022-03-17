@@ -701,6 +701,7 @@ template: logorb
 - [Groupon tries to claim GNOME for desktops](https://arstechnica.com/tech-policy/2014/11/gnome-open-source-project-fights-groupon-over-gnome-trademark/) - a corporation doubling down on their mistake (2014)
 - [Arduino vs. Ardunino](https://heathermeeker.com/2015/03/31/arduino-trademark-dispute/) - two projects using different aspects of one name (2015)
 - [SOFTWARE FREEDOM * trademarks](https://communityovercode.com/2017/11/legal-issues-software-freedom/) - a pointless legal action (2017)
+- [Twitch streamers and OBS fight StreamLabs](https://techcrunch.com/2021/11/17/streamlabs-obs-name-controversy-pokimane/) - a community of users helps open source project win (2021)
 - [Elasticsearch and AWS](https://www.elastic.co/blog/elastic-and-amazon-reach-agreement-on-trademark-infringement-lawsuit) - Elastic win (2022)
 
 ???
