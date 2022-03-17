@@ -709,12 +709,14 @@ Listing just a few of the major trademark conflicts that have reached the news.
 
 ---
 template: logorb
+name: otherquestions
 # Other Trademark Questions
 
 - JAVA - what does it mean for Java EE to be run at Eclipse?
 - How does the GPL protect the names and trademarks around software?
 - Does it matter if fans sell t-shirts with your logo?
 - Who owns JQUERY or Tux the penguin?
+- What trademark rights do FOSS licenses grant?
 
 ???
 Trademarks can be about more than just the software download - services, certifications, tests, benchmarks - they can all have trademark issues around them.
@@ -729,7 +731,7 @@ template: fullheader
 ---
 template: logorb
 name: resources
-# FOSS Trademark Resources
+# Practical Trademark Resources
 
 - Key resources for understanding trademarks and FOSS 
   - https://opensourcebranding.org/
@@ -739,8 +741,20 @@ name: resources
   - http://fossmarks.org/
 - Laundry list of other useful FOSS trademark sites
   - http://www.apache.org/foundation/marks/resources#other
+
+---
+template: logorb
+name: legalresources
+# Legal Trademark Resources
+
+- Trademark Law: An Open-Source Casebook
+  - https://www.tmcasebook.org/
 - Google Trademark Law Casebook
   - https://google.github.io/opencasebook/trademarks/
+- USPTO - searching, goods & services manual 
+  - https://www.uspto.gov/trademarks
+- EUIPO - trademark search in EU 
+  - https://euipo.europa.eu/eSearch/
   
 ---
 template: pineapple
