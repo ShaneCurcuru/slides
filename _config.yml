@@ -5,7 +5,7 @@ author:
   name: Shane Curcuru
   twitter: shanecurcuru
 
-theme: retlab
+theme: benbalter/retlab
 repository: ShaneCurcuru/slides
 logo: "/assets/img/headshot.jpg"
 
