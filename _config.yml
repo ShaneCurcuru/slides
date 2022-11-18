@@ -93,7 +93,7 @@ defaults:
       comments: true
 
 # Plugins
-gems:
+plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-avatar
